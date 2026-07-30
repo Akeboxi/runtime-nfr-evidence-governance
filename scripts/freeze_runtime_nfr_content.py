@@ -17,7 +17,7 @@ OUTPUT = (
     ROOT
     / "checkpoints"
     / "runtime_nfr_v3_academic"
-    / "content_freeze_candidate_v6"
+    / "content_freeze_candidate_v7"
 )
 
 EXPLICIT_FILES = [
@@ -42,7 +42,7 @@ TREE_ROOTS = [
     "checkpoints/runtime_nfr_v3_academic/phase2_analysis_v1",
     "checkpoints/runtime_nfr_v3_academic/phase3_content_analysis_v1",
     "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v3",
-    "checkpoints/runtime_nfr_v3_academic/submission_candidate_v9",
+    "checkpoints/runtime_nfr_v3_academic/submission_candidate_v10",
 ]
 
 ALLOWED_SUFFIXES = {
@@ -109,9 +109,9 @@ def main() -> None:
 
     required_audits = {
         "submission": ROOT
-        / "checkpoints/runtime_nfr_v3_academic/submission_candidate_v9/submission_audit.json",
+        / "checkpoints/runtime_nfr_v3_academic/submission_candidate_v10/submission_audit.json",
         "markdown_numeric": ROOT
-        / "checkpoints/runtime_nfr_v3_academic/submission_candidate_v9/manuscript_markdown_audit.json",
+        / "checkpoints/runtime_nfr_v3_academic/submission_candidate_v10/manuscript_markdown_audit.json",
         "formal": ROOT
         / "checkpoints/runtime_nfr_v3_academic/formal_audit/formal_audit.json",
         "legacy_integrity": ROOT
@@ -129,7 +129,7 @@ def main() -> None:
         raise RuntimeError(f"Cannot freeze while an audit is failing: {audit_status}")
 
     manifest = {
-        "protocol": "runtime-nfr-content-freeze-candidate/6",
+        "protocol": "runtime-nfr-content-freeze-candidate/7",
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "status": "content_frozen_layout_deferred",
         "scope": {
@@ -142,6 +142,9 @@ def main() -> None:
             "funding": "none",
             "conflicts_of_interest": "none_declared",
             "code_publication": "private_repository_verified_public_after_acceptance",
+            "language_optimization": (
+                "research-writing_academic-humanizer_statistical-reporting-reviewed"
+            ),
             "submission_system": "deferred",
         },
         "frozen_invariants": {
@@ -165,7 +168,7 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    report = f"""# Runtime NFR 内容冻结候选 v6
+    report = f"""# Runtime NFR 内容冻结候选 v7
 
 状态：`content_frozen_layout_deferred`
 

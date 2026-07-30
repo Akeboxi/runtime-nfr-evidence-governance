@@ -56,11 +56,11 @@ def audit(
         "8,668 张候选边界",
         f"{governance[3]['cards']:,} 张（{governance[3]['proportion']:.1%}）",
         f"{round2['threshold_plausibility']['median']:.0f}/5",
-        f"仅 {round2['threshold_plausibility']['card_median_at_least_4']}/48 张卡",
+        f"只有 {round2['threshold_plausibility']['card_median_at_least_4']}/48 张卡",
         "48/48 张卡的治理适当性中位数均不低于 4",
         f"{manual['control_ratings']}/{manual['control_ratings']} 个逐对照判断",
         f"{manual['pair_ratings']}/{manual['pair_ratings']} 个组级判断通过",
-        f"{external['cards']:,}/{external['cards']:,} 张卡均进入",
+        f"{external['cards']:,}/{external['cards']:,} 张卡路由至",
         f"PR-AUC 为 {prediction['app_logistic']['pr_auc']:.4f}",
         f"PR-AUC 最高（{prediction['app_hgb']['pr_auc']:.4f}）",
         (
@@ -77,7 +77,7 @@ def audit(
         "240/240 个逐对照判断",
         "80/80 个组级判断通过",
         "PR-AUC 为 0.7878",
-        "人工核查仅支持匹配实现与证据重建一致",
+        "人工核查的验证职责限定为匹配实现与证据重建一致",
     ]
     word_checks = (
         {claim: claim in word_text for claim in word_required}
@@ -98,14 +98,14 @@ def audit(
             )
         ),
         "manual_audit_noncausal_boundary": (
-            "不构成因果效应、阈值正确性或正式 SLO 验证" in manuscript
+            "因果效应、阈值正确性和正式 SLO 不属于该审计终点" in manuscript
         ),
         "zero_variance_no_kappa_alpha": (
             "不计算或解释 κ 或 α" in manuscript
         ),
         "external_validity_only": "`validity_only`" in manuscript,
         "topology_negative_result_bounded": (
-            "不能推广为拓扑无用或 GNN 普遍无效" in manuscript
+            "其结论限定为当前静态、不完整表示" in manuscript
         ),
     }
     all_checks = {
@@ -120,7 +120,7 @@ def audit(
         for value in group.values()
     ]
     result = {
-        "protocol": "runtime-nfr-v3-manuscript-numeric-audit/1",
+        "protocol": "runtime-nfr-v3-manuscript-numeric-audit/2",
         "sources": {
             "paper_tables": {
                 "path": str(paper_tables_path.resolve()),

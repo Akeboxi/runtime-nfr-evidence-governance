@@ -1,0 +1,53 @@
+{
+  "protocol": "runtime-nfr-v3-manuscript-numeric-audit/2",
+  "sources": {
+    "paper_tables": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\paper_tables\\paper_tables.json",
+      "sha256": "fc40c0a3cf2288b0c78a873f5b0b8770f51ad4d0bcd8836e2788816de3a85d55"
+    },
+    "representative_cases": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\paper_artifacts\\representative_cases.json",
+      "sha256": "630b8ef1047f31982c91d4515060d4039e85d3d5d3dbd3f57c792fbb8c1dc12b"
+    },
+    "manuscript": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\docs\\manuscript\\runtime_nfr\\RUNTIME_NFR_MANUSCRIPT.md",
+      "sha256": "64ffcacd1b67c915680abb298219d708552510464a72b1a87ad4ceae9b068bbb"
+    },
+    "word": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\docs\\manuscript\\runtime_nfr\\Runtime_NFR_JOS_submission_draft.docx",
+      "status": "deferred_until_content_freeze"
+    }
+  },
+  "checks": {
+    "markdown_claims": {
+      "8,668 张候选边界": true,
+      "4,242 张（48.9%）": true,
+      "2/5": true,
+      "只有 7/48 张卡": true,
+      "48/48 张卡的治理适当性中位数均不低于 4": true,
+      "240/240 个逐对照判断": true,
+      "80/80 个组级判断通过": true,
+      "1,250/1,250 张卡路由至": true,
+      "PR-AUC 为 0.7878": true,
+      "PR-AUC 最高（0.7943）": true,
+      "冻结边界案例的 \\(R_t=9.997107\\)": true
+    },
+    "word_claims": {},
+    "figures": {
+      "figure_01_": true,
+      "figure_02_": true,
+      "figure_03_": true,
+      "figure_04_": true,
+      "figure_05_": true,
+      "figure_06_": true
+    },
+    "claim_boundaries": {
+      "no_formal_slo_approval_claim": true,
+      "manual_audit_noncausal_boundary": true,
+      "zero_variance_no_kappa_alpha": true,
+      "external_validity_only": true,
+      "topology_negative_result_bounded": true
+    }
+  },
+  "pass": true
+}

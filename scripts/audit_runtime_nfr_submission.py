@@ -202,7 +202,7 @@ def audit(
     }
 
     return {
-        "protocol": "runtime-nfr-submission-audit/7",
+        "protocol": "runtime-nfr-submission-audit/8",
         "pass": all(checks.values()),
         "checks": checks,
         "reference_audit": {
@@ -272,7 +272,7 @@ def main() -> None:
         "--output",
         type=Path,
         default=Path(
-            "checkpoints/runtime_nfr_v3_academic/" "submission_candidate_v9/submission_audit.json"
+            "checkpoints/runtime_nfr_v3_academic/" "submission_candidate_v10/submission_audit.json"
         ),
     )
     args = parser.parse_args()

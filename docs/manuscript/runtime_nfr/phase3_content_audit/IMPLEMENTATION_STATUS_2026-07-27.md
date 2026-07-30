@@ -74,6 +74,17 @@
      根历史上传安全快照；GitHub API 返回 `visibility=PRIVATE`，首次远端
      提交与本地均为 `25b4eb0d44cdf5b460a2d472f7d8cc1b8ea8e07d`。
 
+9. **中文语言与论证优化（2026-07-30）**
+   - 使用 `research-writing-skill` 按“问题—缺口—解法—证据—意义”
+     重组摘要、引言、贡献和结论。
+   - 使用 `academic-humanizer` 压缩工作汇报式过程描述，清理连续否定和
+     自我削弱式表达，同时保留必要的验证职责与有效性边界。
+   - 当前环境没有 `nature-statistics`，统计表述使用
+     `statistical-analysis` 规范复核；分母、区间、评价终点和外推范围
+     均保持明确。
+   - 本轮没有新增实验、数据、阈值、规则、引用或图表，也没有生成
+     DOCX/PDF；详细记录见 `LANGUAGE_OPTIMIZATION_AUDIT_2026-07-30.md`。
+
 ## 尚待完成但不属于科学内容优化
 
 - 论文接收后将代码仓库转为公开，补充许可证、版本化归档与持久标识符。
