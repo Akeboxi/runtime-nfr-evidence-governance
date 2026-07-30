@@ -1,0 +1,17 @@
+title,year,stable_id,mechanism,decision,reason
+AlertGuardian: Intelligent Alert Life-Cycle Management for Large-scale Cloud Systems,2025,10.1109/ASE63991.2025.00009,alert lifecycle and SRE acceptance,include,newest human-acceptance analogue
+A Holistic Framework for Automated Configuration Recommendation for Cloud Service Monitoring,2026,arXiv:2603.12268,graph-based monitor configuration recommendation,include,newest monitor-configuration neighbour
+A Reliable Extrapolative Capacity Estimation Method for Complex Distributed Web Services,2024,10.1109/DSA63982.2024.00046,self-consistency reliability filter without ground truth,include,closest evidence-reliability primitive
+Load Testing for Machine Learning Model Serving Systems at Scale,2026,unverified preprint,capacity search under supplied SLO,exclude,assumes SLO constraints and metadata not stable
+An Adaptive Toolbox for Computing Throttling Rate Limits in Web APIs,2026,IEEE TSC 2026,statistical API rate-limit selection,exclude,formal SLA setting and different normative object
+Adaptive Stopping Rule for Performance Measurements,2023,10.1145/3624062.3624202,measurement sufficiency stopping,already cited,[58]
+Intelligent Monitoring Framework for Cloud Services: A Data-Driven Approach,2024,10.1145/3639477.3639753,monitor recommendation,already cited,[50]
+REFORM: Increase alerts value using data driven approach,2023,10.1109/IC2E59103.2023.00028,alert actionability and coverage,already cited,[51]
+Dynamic Alert Suppression Policy for Noise Reduction in AIOps,2024,10.1145/3639477.3639752,dynamic alert suppression,already cited,[54]
+Metric Criticality Identification for Cloud Microservices,2025,arXiv:2501.03547,metric criticality recommendation,exclude,preprint and mechanism subsumed by monitor-recommendation row
+Demystifying deep learning in predictive monitoring for cloud-native SLOs,2023,10.1109/CLOUD60044.2023.00013,predicting an existing SLO,already cited,[57]
+TraceArk: Towards Actionable Performance Anomaly Alerting for Online Service Systems,2023,10.1109/ICSE-SEIP58684.2023.00029,actionable anomaly alerting,already cited,[52]
+Alert Suppression with Fine-Grained and Coarse-Grained Feedback based Active Learning,2024,10.1145/3703323.3703724,expert-validated suppression policy,already cited,[53]
+Diffusing High-level SLO in Microservice Pipelines,2024,10.1109/SOSE62363.2024.00008,diffusing an existing high-level SLO,already cited,[56]
+Explaining Performance Issues of Cloud Applications From Logs Using Rule Induction and Dempster-Shafer Theory,2026,IEEE Access 2026,rule validation for root-cause explanation,exclude,diagnosis rather than candidate NFR governance
+Discovering Runtime Requirements from User Interactions: Ideas and Preliminary Studies,2023,10.1109/RE57278.2023.00043,runtime goal discovery from interactions,already cited,[49]

@@ -1,0 +1,32 @@
+{
+  "dataset_name": "RCAEval RE1-OB",
+  "dataset_version": "Zenodo record 14590730, RE1-OB.zip",
+  "source_url": "https://zenodo.org/records/14590730",
+  "license": "CC BY 4.0",
+  "frozen_sha256": "4a709297e0a829f0f2ee8a7792a6d74da32d663c600565b7fffc860963b840c4",
+  "frozen_at": "2026-07-23",
+  "time_range_start": "2023-05-27T15:16:28Z",
+  "time_range_end": "2023-12-12T11:25:34Z",
+  "intended_role": "external_test_only",
+  "used_for_rule_threshold_feature_or_model_selection": false,
+  "independent_run_count": 125,
+  "service_level_sli_available": true,
+  "estimated_adapter_effort_days": 1,
+  "history_window_minutes_available": 35,
+  "early_input_minutes_available": 5,
+  "future_window_minutes_available": 6,
+  "reference_slo_completeness": "absent",
+  "timestamp_granularity": "1 second",
+  "request_count_available": false,
+  "latency_available": true,
+  "error_count_available": false,
+  "topology_available": false,
+  "adapter_version": "runtime-nfr-v3-rcaeval-re1-ob/1",
+  "construct_mapping_notes": "使用服务级延迟指标复现统一事件接口与证据不足拒绝操作化流程；不缩短冻结的 24 小时历史窗口。",
+  "known_limitations": [
+    "所有案例都没有冻结协议要求的 24 小时历史窗口。",
+    "许多案例在故障前后各只有约 6 分钟，不能执行内部 5+15 分钟预测协议。",
+    "缺少请求计数、完整错误计数和正式 SLO。",
+    "发布表未独立说明延迟单位；适配器显式记录秒到毫秒的假设，禁止跨数据集比较数值阈值。"
+  ]
+}

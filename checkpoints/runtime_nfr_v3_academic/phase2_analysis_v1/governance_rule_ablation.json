@@ -1,0 +1,95 @@
+{
+  "analysis_id": "A02",
+  "claim_limit": "All alternatives are counterfactual audits. They neither modify the frozen rule nor identify an optimal cutoff or priority.",
+  "population": 8668,
+  "primary_priority": [
+    "history",
+    "resolution",
+    "tail"
+  ],
+  "scenarios": {
+    "drop_history": {
+      "changed_cards": 1054,
+      "counterfactual_audit": true,
+      "status_counts": {
+        "candidate_for_stakeholder_review": 4851,
+        "insufficient_evidence": 0,
+        "needs_context_review": 1082,
+        "threshold_unresolved": 2735
+      }
+    },
+    "drop_resolution": {
+      "changed_cards": 2424,
+      "counterfactual_audit": true,
+      "status_counts": {
+        "candidate_for_stakeholder_review": 6666,
+        "insufficient_evidence": 1054,
+        "needs_context_review": 948,
+        "threshold_unresolved": 0
+      }
+    },
+    "drop_tail": {
+      "changed_cards": 948,
+      "counterfactual_audit": true,
+      "status_counts": {
+        "candidate_for_stakeholder_review": 5190,
+        "insufficient_evidence": 1054,
+        "needs_context_review": 0,
+        "threshold_unresolved": 2424
+      }
+    },
+    "swap_history_resolution": {
+      "changed_cards": 311,
+      "counterfactual_audit": true,
+      "status_counts": {
+        "candidate_for_stakeholder_review": 4242,
+        "insufficient_evidence": 743,
+        "needs_context_review": 948,
+        "threshold_unresolved": 2735
+      }
+    },
+    "swap_resolution_tail": {
+      "changed_cards": 0,
+      "counterfactual_audit": true,
+      "status_counts": {
+        "candidate_for_stakeholder_review": 4242,
+        "insufficient_evidence": 1054,
+        "needs_context_review": 948,
+        "threshold_unresolved": 2424
+      }
+    },
+    "tail_cutoff_10.5": {
+      "changed_cards": 19,
+      "counterfactual_audit": true,
+      "status_counts": {
+        "candidate_for_stakeholder_review": 4261,
+        "insufficient_evidence": 1054,
+        "needs_context_review": 929,
+        "threshold_unresolved": 2424
+      }
+    },
+    "tail_cutoff_9.5": {
+      "changed_cards": 9,
+      "counterfactual_audit": true,
+      "status_counts": {
+        "candidate_for_stakeholder_review": 4233,
+        "insufficient_evidence": 1054,
+        "needs_context_review": 957,
+        "threshold_unresolved": 2424
+      }
+    }
+  },
+  "trigger_counts": {
+    "history": 1054,
+    "resolution": 2735,
+    "tail": 1082
+  },
+  "trigger_intersections": {
+    "history": 609,
+    "history+resolution": 311,
+    "history+tail": 134,
+    "none": 4242,
+    "resolution": 2424,
+    "tail": 948
+  }
+}

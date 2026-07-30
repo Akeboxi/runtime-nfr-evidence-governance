@@ -1,0 +1,197 @@
+{
+  "analyses": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08"
+  ],
+  "output_files": [
+    {
+      "bytes": 34510,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\expert_paired_analysis.csv",
+      "sha256": "51726871779a000eeded546e46b2fdef03d6e220f1efde276f6a1c2d750d547d"
+    },
+    {
+      "bytes": 3813,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\expert_paired_analysis.json",
+      "sha256": "f7e15d4e9ea284a15a2a75cc7dec8ccfcaaa71846972567e6202c9a000e675f3"
+    },
+    {
+      "bytes": 512,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\expert_paired_analysis.md",
+      "sha256": "127244bf9dc88eab7c97225e0ad6f39fd9babe3b2a0fcd0565c5418a80a52986"
+    },
+    {
+      "bytes": 4502,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\expert_paired_per_card.csv",
+      "sha256": "ed6829c7b9b9c72b14c9b2d4ad7351c858830d53ef99ac9b0fd3bf913f87cf74"
+    },
+    {
+      "bytes": 2960,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\external_protocol_compatibility.json",
+      "sha256": "d2ce7000990d1d3a56c8a62e5974c0c5be7cae871808f01c43f64d683afcf464"
+    },
+    {
+      "bytes": 615,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\external_protocol_compatibility.md",
+      "sha256": "3f3e1b419082c6507e83120a8ac231671ec6a0ea7d34d146acd4171ab4e4f76b"
+    },
+    {
+      "bytes": 3165,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\governance_rule_ablation.csv",
+      "sha256": "70d0b17c1ca3271af6e6a4c3df219cc43c04a698cd69db984e3f1e00f92e39c8"
+    },
+    {
+      "bytes": 2677,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\governance_rule_ablation.json",
+      "sha256": "8ec9aa9bb6da788396ad9485d256b012bace83a3d4feead71991ef0bf345b269"
+    },
+    {
+      "bytes": 887,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\governance_rule_ablation.md",
+      "sha256": "da7bd532fd402c8e7ba74c353666e3da06d97fe3f11a708a5ce73b04c23208a8"
+    },
+    {
+      "bytes": 10316,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\governance_strata_and_workload.json",
+      "sha256": "f1d77ddadd474f7b1c669e1b4ddf6f143a03ffb8274aa0ad95c07ed88f547187"
+    },
+    {
+      "bytes": 653,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\governance_strata_and_workload.md",
+      "sha256": "7af5dcc82033ae664a44a9cecc60a3f861432249b7d1824b6c0917a3f8b718f9"
+    },
+    {
+      "bytes": 2001,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\manual_audit_sampling_coverage.json",
+      "sha256": "20c239918874550446da3928618d75e313796b7b343b11b1784590c25a96d363"
+    },
+    {
+      "bytes": 763,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\manual_audit_sampling_coverage.md",
+      "sha256": "3cdffc3492c197b881209bd5e9447de2abc40df8a884d2ba594d5e7fb70e31c8"
+    },
+    {
+      "bytes": 49787,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\prediction_stability_and_calibration.json",
+      "sha256": "0348f8c9e78644f34e1962387a778b6ec33a84b363b3a62c76fd3718ef581d41"
+    },
+    {
+      "bytes": 814,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\prediction_stability_and_calibration.md",
+      "sha256": "f4a0cbaf27d7f729b66b89f238c138017f09b566860385b873c7f9f4f0dad060"
+    },
+    {
+      "bytes": 1675747,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\threshold_only_comparison.csv",
+      "sha256": "0a3555992c429b9ae4938f49af4fad7b91d56ac7d0c314782886179a41a5ef96"
+    },
+    {
+      "bytes": 1038,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\threshold_only_comparison.json",
+      "sha256": "400df18430d4fd1d16b8de1b72c68240fe1fcd1aa51b8aff9ef65d8afd782d0e"
+    },
+    {
+      "bytes": 545,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\threshold_only_comparison.md",
+      "sha256": "13a1a65294d0bbd073ef635e6d27393a7364e4b8cab8757d74654ec1693d4420"
+    },
+    {
+      "bytes": 6033,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\topology_negative_result_scope.json",
+      "sha256": "d74c0870639a9cb203b2095b79b8eaecec5f015c0fc97c1a2db8473a45069ce7"
+    },
+    {
+      "bytes": 602,
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\topology_negative_result_scope.md",
+      "sha256": "c1dbf4d75debb709c8a7bfd440f71ea7eeaef754cfe63fe86fc6f4fb5a057829"
+    }
+  ],
+  "prohibited_actions": {
+    "expert_sample_changed": false,
+    "external_history_shortened": false,
+    "locked_test_reused": false,
+    "model_retrained": false,
+    "new_gnn_run": false,
+    "rules_changed": false,
+    "thresholds_changed": false
+  },
+  "protocol": "runtime-nfr-phase2-read-only-analysis/1",
+  "source_files": [
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v2\\topology_gate\\topology_evidence.json",
+      "sha256_after": "c220223783fbc838062b8e1aeb23478b218917075028f0ee144aadb25fad2b41",
+      "sha256_before": "c220223783fbc838062b8e1aeb23478b218917075028f0ee144aadb25fad2b41"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v2\\topology_gate\\topology_gate_report.json",
+      "sha256_after": "4e92e077081686a0df2564f77d9b5ac51b7fd832c9f43303a0734909c21b5b6d",
+      "sha256_before": "4e92e077081686a0df2564f77d9b5ac51b7fd832c9f43303a0734909c21b5b6d"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\expert_review_round2\\per_card_results.csv",
+      "sha256_after": "77dcb8d5568b194ca7449c92ef0ca44fcbc7f8c97dd6e45f1676cdc1310e7f2b",
+      "sha256_before": "77dcb8d5568b194ca7449c92ef0ca44fcbc7f8c97dd6e45f1676cdc1310e7f2b"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\expert_review_round2\\ratings_normalized.csv",
+      "sha256_after": "a216c0709466f2951a3149d6137480e11dbbd7ada45299bece8b1a1f3934adf6",
+      "sha256_before": "a216c0709466f2951a3149d6137480e11dbbd7ada45299bece8b1a1f3934adf6"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\expert_review_round2\\summary.json",
+      "sha256_after": "8c36fd721f470948b4319dd3d26bc0e41b98450b59fdbfd8c0f0ed0d0debe9d4",
+      "sha256_before": "8c36fd721f470948b4319dd3d26bc0e41b98450b59fdbfd8c0f0ed0d0debe9d4"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\external_dataset\\rcaeval_re1_ob\\adapter_audit.json",
+      "sha256_after": "85a42809fc7ff4b4271381e2915cbf5be3a13c418b10c1927c62fe3283cc9d7a",
+      "sha256_before": "85a42809fc7ff4b4271381e2915cbf5be3a13c418b10c1927c62fe3283cc9d7a"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\external_dataset\\rcaeval_re1_ob\\governance_cards.json",
+      "sha256_after": "9ecdd0940553b5bf75115fab861e7f06a33038b78bf6d8dd722e1501c6041203",
+      "sha256_before": "9ecdd0940553b5bf75115fab861e7f06a33038b78bf6d8dd722e1501c6041203"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\feature_ablation\\feature_schema.json",
+      "sha256_after": "11504a70cf8f24e306357ba9913d113d4cd438984c4a99aae420d1bdc550fa82",
+      "sha256_before": "11504a70cf8f24e306357ba9913d113d4cd438984c4a99aae420d1bdc550fa82"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\feature_ablation\\oof_predictions.csv.gz",
+      "sha256_after": "4582a7676de3dfae8038b6b69d1f8f79cdb17b11aff6d26fac13f56fa0f8ceaa",
+      "sha256_before": "4582a7676de3dfae8038b6b69d1f8f79cdb17b11aff6d26fac13f56fa0f8ceaa"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\formal_audit\\formal_audit.json",
+      "sha256_after": "ec7f97ed59bf85ea0f8690e32e819e39b78f884f411c4e44748e559581e20418",
+      "sha256_before": "ec7f97ed59bf85ea0f8690e32e819e39b78f884f411c4e44748e559581e20418"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\governance_cards\\academic_governance_cards.json",
+      "sha256_after": "fb4af8ed20cf7e801a38754821175fd883099c86d953718c66a3ff92bc2b9009",
+      "sha256_before": "fb4af8ed20cf7e801a38754821175fd883099c86d953718c66a3ff92bc2b9009"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\manual_audit_evidence_complete\\private\\PRIVATE_CONTROL_EVIDENCE.csv",
+      "sha256_after": "6726211809b843668be0e17e1c9f493566b765046e7d3e4d0a1df5bca275b97e",
+      "sha256_before": "6726211809b843668be0e17e1c9f493566b765046e7d3e4d0a1df5bca275b97e"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\manual_audit_evidence_complete\\private\\PRIVATE_PAIR_EVIDENCE.csv",
+      "sha256_after": "16f9907ca37f37031a27c574a6cf79f8511c11081d3930867f6459cd339bdfb1",
+      "sha256_before": "16f9907ca37f37031a27c574a6cf79f8511c11081d3930867f6459cd339bdfb1"
+    },
+    {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\manual_audit_results\\manual_audit_summary.json",
+      "sha256_after": "a4f1e95819626a809fc43138dafab2d80fc71363cca8118d8a657c448a59d74d",
+      "sha256_before": "a4f1e95819626a809fc43138dafab2d80fc71363cca8118d8a657c448a59d74d"
+    }
+  ],
+  "source_files_unchanged": true
+}

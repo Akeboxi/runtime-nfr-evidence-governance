@@ -1,0 +1,132 @@
+{
+  "analysis_id": "A04",
+  "by_cohort": {
+    "generalization": {
+      "governance_high_4_or_5_count": 71,
+      "median_delta": 3.0,
+      "negative_delta_count": 0,
+      "positive_delta_count": 71,
+      "q1_delta": 1.75,
+      "q3_delta": 3.0,
+      "rows": 72,
+      "threshold_low_1_or_2_count": 41,
+      "zero_delta_count": 1
+    },
+    "remediation": {
+      "governance_high_4_or_5_count": 72,
+      "median_delta": 3.0,
+      "negative_delta_count": 0,
+      "positive_delta_count": 72,
+      "q1_delta": 2.75,
+      "q3_delta": 3.0,
+      "rows": 72,
+      "threshold_low_1_or_2_count": 65,
+      "zero_delta_count": 0
+    }
+  },
+  "by_reviewer": {
+    "rev_r2_01": {
+      "governance_high_4_or_5_count": 48,
+      "median_delta": 3.0,
+      "negative_delta_count": 0,
+      "positive_delta_count": 48,
+      "q1_delta": 3.0,
+      "q3_delta": 3.0,
+      "rows": 48,
+      "threshold_low_1_or_2_count": 39,
+      "zero_delta_count": 0
+    },
+    "rev_r2_02": {
+      "governance_high_4_or_5_count": 47,
+      "median_delta": 4.0,
+      "negative_delta_count": 0,
+      "positive_delta_count": 47,
+      "q1_delta": 3.0,
+      "q3_delta": 4.0,
+      "rows": 48,
+      "threshold_low_1_or_2_count": 41,
+      "zero_delta_count": 1
+    },
+    "rev_r2_03": {
+      "governance_high_4_or_5_count": 48,
+      "median_delta": 2.0,
+      "negative_delta_count": 0,
+      "positive_delta_count": 48,
+      "q1_delta": 2.0,
+      "q3_delta": 3.0,
+      "rows": 48,
+      "threshold_low_1_or_2_count": 26,
+      "zero_delta_count": 0
+    }
+  },
+  "by_status": {
+    "candidate_for_stakeholder_review": {
+      "governance_high_4_or_5_count": 20,
+      "median_delta": 1.0,
+      "negative_delta_count": 0,
+      "positive_delta_count": 20,
+      "q1_delta": 1.0,
+      "q3_delta": 1.0,
+      "rows": 21,
+      "threshold_low_1_or_2_count": 1,
+      "zero_delta_count": 1
+    },
+    "insufficient_evidence": {
+      "governance_high_4_or_5_count": 39,
+      "median_delta": 3.0,
+      "negative_delta_count": 0,
+      "positive_delta_count": 39,
+      "q1_delta": 2.0,
+      "q3_delta": 3.0,
+      "rows": 39,
+      "threshold_low_1_or_2_count": 29,
+      "zero_delta_count": 0
+    },
+    "needs_context_review": {
+      "governance_high_4_or_5_count": 18,
+      "median_delta": 2.5,
+      "negative_delta_count": 0,
+      "positive_delta_count": 18,
+      "q1_delta": 2.0,
+      "q3_delta": 3.0,
+      "rows": 18,
+      "threshold_low_1_or_2_count": 10,
+      "zero_delta_count": 0
+    },
+    "threshold_unresolved": {
+      "governance_high_4_or_5_count": 66,
+      "median_delta": 3.0,
+      "negative_delta_count": 0,
+      "positive_delta_count": 66,
+      "q1_delta": 3.0,
+      "q3_delta": 4.0,
+      "rows": 66,
+      "threshold_low_1_or_2_count": 66,
+      "zero_delta_count": 0
+    }
+  },
+  "interpretation": "Ratings distinguish low raw-threshold plausibility from high governance appropriateness. Negative/near-zero alpha on several compressed dimensions is reported and not reinterpreted as reliability.",
+  "overall_paired": {
+    "governance_high_4_or_5_count": 143,
+    "median_delta": 3.0,
+    "negative_delta_count": 0,
+    "positive_delta_count": 143,
+    "q1_delta": 2.0,
+    "q3_delta": 3.0,
+    "rows": 144,
+    "threshold_low_1_or_2_count": 106,
+    "zero_delta_count": 1
+  },
+  "population": {
+    "cards": 48,
+    "ratings": 144,
+    "reviewers": 3
+  },
+  "reported_ordinal_alpha": {
+    "evidence_flag_correctness": -0.02142223957945877,
+    "governance_appropriateness": -0.25392512077294693,
+    "overall_revision_value": -0.16894682572235897,
+    "runtime_actionability": -0.30344213063156933,
+    "threshold_plausibility": 0.4491285653561875
+  }
+}

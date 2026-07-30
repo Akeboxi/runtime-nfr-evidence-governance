@@ -1,0 +1,83 @@
+{
+  "protocol": "runtime-nfr-submission-audit/6",
+  "pass": true,
+  "checks": {
+    "references_are_1_through_69": true,
+    "all_references_are_cited": true,
+    "no_undefined_citations": true,
+    "status_counts_match_frozen_values": true,
+    "status_count_total_is_8668": true,
+    "threshold_only_hidden_is_4426": true,
+    "threshold_only_hidden_share_is_0_511": true,
+    "prediction_population_is_frozen": true,
+    "topology_population_is_frozen": true,
+    "topology_mapping_boundary_is_present": true,
+    "prediction_construct_proximity_is_present": true,
+    "candidate_formula_matches_frozen_code": true,
+    "governance_gates_match_frozen_code": true,
+    "stale_tail_formula_is_absent": true,
+    "analysis_inputs_unchanged": true,
+    "figure_protocol_is_v3": true,
+    "figure_layout_is_175mm": true,
+    "figure_minimum_font_is_7pt": true,
+    "closure_report_has_w01_to_w11": true,
+    "closure_report_has_no_failed_status": true,
+    "primary_dataset_is_public_and_versioned": true,
+    "independent_protocol_dataset_is_public_and_versioned": true,
+    "restricted_internal_data_conflict_is_absent": true,
+    "author_order_and_affiliation_are_present": true,
+    "funding_and_conflict_disclosures_are_present": true,
+    "code_publication_commitment_is_present": true,
+    "no_hard_forbidden_claims": true
+  },
+  "reference_audit": {
+    "reference_count": 69,
+    "cited_count": 69,
+    "uncited": [],
+    "undefined": []
+  },
+  "forbidden_claim_hits": {},
+  "frozen_values": {
+    "governance_status_counts": {
+      "candidate_for_stakeholder_review": 4242,
+      "insufficient_evidence": 1054,
+      "needs_context_review": 948,
+      "threshold_unresolved": 2424
+    },
+    "prediction_population": {
+      "event_app_pairs_per_model": 2226,
+      "events": 209,
+      "folds": 5,
+      "models": 6,
+      "rows": 13356
+    },
+    "topology_events": 394,
+    "topology_hashes": 22
+  },
+  "files": {
+    "manuscript": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\docs\\manuscript\\runtime_nfr\\RUNTIME_NFR_MANUSCRIPT.md",
+      "sha256": "8ad9bcd0e469f5c281d7ec598f49e9e36ae451887231acaefb460ef19cbefb09"
+    },
+    "closure_report": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\docs\\manuscript\\runtime_nfr\\phase2_revision\\PHASE2_CLOSURE_REPORT.md",
+      "sha256": "5727a7e9891eefeaf1811be663604befd9debf44bf179436de7889633b964a21"
+    },
+    "analysis_manifest": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase2_analysis_v1\\ANALYSIS_MANIFEST.json",
+      "sha256": "24031d5a025b71e0505fb553fd3b366c4119b2685ffc5ea3e9d62c3071eb72df"
+    },
+    "figure_manifest": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\phase3_figures_jos_v3\\FIGURE_MANIFEST.json",
+      "sha256": "15e262c69daf9e6d1281aae9aa8f3ff71999efeb03db5d8e4108465d36cd6b40"
+    },
+    "candidate_source": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\src\\data\\runtime_nfr_dataset.py",
+      "sha256": "cb02d8b46e8a6204c60e2b0fdddc4433329daf4bc6bec3331f4d8cb14252b482"
+    },
+    "governance_source": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\src\\data\\runtime_nfr_v3_academic.py",
+      "sha256": "2a839318b67cc7427fc2ea95fadace0b238c0a25b4ac046c4b22fbb7888488a7"
+    }
+  }
+}

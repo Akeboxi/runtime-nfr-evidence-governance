@@ -1,0 +1,41 @@
+{
+  "protocol": "runtime-nfr-v3-formal-audit/2",
+  "checks": {
+    "round2": {
+      "exactly_144_rows": true,
+      "exactly_three_reviewers": true,
+      "exactly_48_cards": true,
+      "each_reviewer_has_48_cards": true,
+      "six_source_files_hash_match": true
+    },
+    "thresholds": {
+      "same_card_count": true,
+      "same_parent_card_set": true,
+      "raw_threshold_exactly_preserved": true
+    },
+    "external": {
+      "train_validation_test_disjoint": true,
+      "not_used_for_selection": true,
+      "accepted_role_explicit": true
+    },
+    "oof": {
+      "all_six_models_present": true,
+      "each_model_event_app_once": true,
+      "same_event_app_set_all_models": true,
+      "locked_test_not_used": true,
+      "forbidden_inputs_absent": true
+    },
+    "temporal": {
+      "all_label_windows_nonoverlapping_after_input": true,
+      "all_boundary_windows_end_before_input_end": true,
+      "events_audited": 394
+    },
+    "integrity": {
+      "legacy_v1_v2_integrity_pass": true,
+      "formal_results_match_frozen_hashes": true
+    }
+  },
+  "formal_result_baseline": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\formal_audit\\formal_result_hashes_baseline_v2_manual_audit.json",
+  "formal_result_baseline_created_now": false,
+  "pass": true
+}

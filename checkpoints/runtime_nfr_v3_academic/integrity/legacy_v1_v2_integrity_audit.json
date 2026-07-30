@@ -1,0 +1,11 @@
+{
+  "protocol": "runtime-nfr-v3-legacy-integrity/1",
+  "baseline": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\integrity\\legacy_v1_v2_integrity_baseline.json",
+  "baseline_created_now": false,
+  "current_file_count": 55,
+  "current_tree_sha256": "344c4b0e266b747298d20cec24b059435fa11e11640f270a6e5fdf9acd011d82",
+  "added": [],
+  "removed": [],
+  "changed": [],
+  "pass": true
+}

@@ -1,0 +1,33 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# Local tools and credentials
+.codex/
+.claude/
+.agents/
+*.pem
+*.key
+
+# Raw data and non-curated outputs
+dataset/
+mock_data/
+test_data/
+logs/
+
+# Office and temporary artifacts
+*.doc
+*.docx
+*.pdf
+*.xlsx
+*.tmp
+*.log
+
+# Future checkpoints are ignored by default. The curated files already present
+# in this snapshot are force-added once and remain versioned.
+checkpoints/

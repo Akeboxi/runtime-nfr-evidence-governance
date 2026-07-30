@@ -1,0 +1,43 @@
+﻿row_type,scenario,key,count
+trigger,primary,history,1054
+trigger,primary,resolution,2735
+trigger,primary,tail,1082
+intersection,primary,history,609
+intersection,primary,history+resolution,311
+intersection,primary,history+tail,134
+intersection,primary,none,4242
+intersection,primary,resolution,2424
+intersection,primary,tail,948
+transition,drop_history,insufficient_evidence -> threshold_unresolved,311
+transition,drop_history,insufficient_evidence -> needs_context_review,134
+transition,drop_history,insufficient_evidence -> candidate_for_stakeholder_review,609
+transition,drop_history,threshold_unresolved -> threshold_unresolved,2424
+transition,drop_history,needs_context_review -> needs_context_review,948
+transition,drop_history,candidate_for_stakeholder_review -> candidate_for_stakeholder_review,4242
+transition,drop_resolution,insufficient_evidence -> insufficient_evidence,1054
+transition,drop_resolution,threshold_unresolved -> candidate_for_stakeholder_review,2424
+transition,drop_resolution,needs_context_review -> needs_context_review,948
+transition,drop_resolution,candidate_for_stakeholder_review -> candidate_for_stakeholder_review,4242
+transition,drop_tail,insufficient_evidence -> insufficient_evidence,1054
+transition,drop_tail,threshold_unresolved -> threshold_unresolved,2424
+transition,drop_tail,needs_context_review -> candidate_for_stakeholder_review,948
+transition,drop_tail,candidate_for_stakeholder_review -> candidate_for_stakeholder_review,4242
+transition,swap_history_resolution,insufficient_evidence -> insufficient_evidence,743
+transition,swap_history_resolution,insufficient_evidence -> threshold_unresolved,311
+transition,swap_history_resolution,threshold_unresolved -> threshold_unresolved,2424
+transition,swap_history_resolution,needs_context_review -> needs_context_review,948
+transition,swap_history_resolution,candidate_for_stakeholder_review -> candidate_for_stakeholder_review,4242
+transition,swap_resolution_tail,insufficient_evidence -> insufficient_evidence,1054
+transition,swap_resolution_tail,threshold_unresolved -> threshold_unresolved,2424
+transition,swap_resolution_tail,needs_context_review -> needs_context_review,948
+transition,swap_resolution_tail,candidate_for_stakeholder_review -> candidate_for_stakeholder_review,4242
+transition,tail_cutoff_9.5,insufficient_evidence -> insufficient_evidence,1054
+transition,tail_cutoff_9.5,threshold_unresolved -> threshold_unresolved,2424
+transition,tail_cutoff_9.5,needs_context_review -> needs_context_review,948
+transition,tail_cutoff_9.5,candidate_for_stakeholder_review -> needs_context_review,9
+transition,tail_cutoff_9.5,candidate_for_stakeholder_review -> candidate_for_stakeholder_review,4233
+transition,tail_cutoff_10.5,insufficient_evidence -> insufficient_evidence,1054
+transition,tail_cutoff_10.5,threshold_unresolved -> threshold_unresolved,2424
+transition,tail_cutoff_10.5,needs_context_review -> needs_context_review,929
+transition,tail_cutoff_10.5,needs_context_review -> candidate_for_stakeholder_review,19
+transition,tail_cutoff_10.5,candidate_for_stakeholder_review -> candidate_for_stakeholder_review,4242
