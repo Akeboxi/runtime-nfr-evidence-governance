@@ -179,13 +179,14 @@ def audit(
         "author_order_and_affiliation_are_present": all(
             phrase in body
             for phrase in (
-                "**作者：** 谢华澄，张宇，吕嘉琪，杜庆峰*",
+                "**作者：** 谢华澄，杜庆峰*",
                 "**单位：** 同济大学计算机科学与技术学院",
-                "**英文署名：** Xie Hua Cheng, Zhang Yu, Lv Jia Qi, Du Qing Feng*",
+                "**英文署名：** Xie Hua Cheng, Du Qing Feng*",
                 (
                     "**英文单位：** School of Computer Science and Technology, "
                     "Tongji University, Shanghai 201804, China"
                 ),
+                "**第一作者邮箱：** 2411505@tongji.edu.cn",
                 "**通信作者：** 杜庆峰（Du Qing Feng，Du_cloud@tongji.edu.cn）",
             )
         ),
@@ -212,7 +213,7 @@ def audit(
     }
 
     return {
-        "protocol": "runtime-nfr-submission-audit/9",
+        "protocol": "runtime-nfr-submission-audit/10",
         "pass": all(checks.values()),
         "checks": checks,
         "reference_audit": {
@@ -282,7 +283,7 @@ def main() -> None:
         "--output",
         type=Path,
         default=Path(
-            "checkpoints/runtime_nfr_v3_academic/" "submission_candidate_v11/submission_audit.json"
+            "checkpoints/runtime_nfr_v3_academic/" "submission_candidate_v12/submission_audit.json"
         ),
     )
     args = parser.parse_args()

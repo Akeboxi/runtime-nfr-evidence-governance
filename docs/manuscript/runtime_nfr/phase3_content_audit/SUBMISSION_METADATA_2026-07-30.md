@@ -24,23 +24,20 @@
 
 | 顺序 | 中文名 | 英文名 | 角色 | 单位 | 邮箱 |
 | ---: | --- | --- | --- | --- | --- |
-| 1 | 谢华澄 | Xie Hua Cheng | 第一作者 | 同济大学计算机科学与技术学院 | `AUTHOR_INPUT_NEEDED` |
-| 2 | 张宇 | Zhang Yu | 作者 | 同济大学计算机科学与技术学院 | `AUTHOR_INPUT_NEEDED` |
-| 3 | 吕嘉琪 | Lv Jia Qi | 作者 | 同济大学计算机科学与技术学院 | `AUTHOR_INPUT_NEEDED` |
-| 4 | 杜庆峰 | Du Qing Feng | 通信作者 | 同济大学计算机科学与技术学院 | `Du_cloud@tongji.edu.cn` |
+| 1 | 谢华澄 | Xie Hua Cheng | 第一作者 | 同济大学计算机科学与技术学院 | `2411505@tongji.edu.cn` |
+| 2 | 杜庆峰 | Du Qing Feng | 通信作者 | 同济大学计算机科学与技术学院 | `Du_cloud@tongji.edu.cn` |
 
 英文单位：School of Computer Science and Technology, Tongji University,
 Shanghai 201804, China
 
 ## 可能由系统强制要求、目前尚缺的字段
 
-- `AUTHOR_INPUT_NEEDED`：第一、第二、第三作者电子邮箱；
-- `AUTHOR_INPUT_NEEDED`：各作者手机号或固定电话（仅在系统强制时填写）；
+- `AUTHOR_INPUT_NEEDED`：两位作者手机号或固定电话（仅在系统强制时填写）；
 - `AUTHOR_INPUT_NEEDED`：各作者 ORCID（仅在系统强制时填写；不得臆造）；
 - `AUTHOR_INPUT_NEEDED`：作者贡献分项；
 - `AUTHOR_INPUT_NEEDED`：通信地址和邮编的最终核对；
 - `AUTHOR_INPUT_NEEDED`：推荐/回避审稿人（仅在系统要求时由通信作者决定）；
-- `AUTHOR_INPUT_NEEDED`：投稿声明官方表格及四位作者签字。
+- `AUTHOR_INPUT_NEEDED`：投稿声明官方表格及两位作者签字。
 
 ## 上传文件清单
 
@@ -48,7 +45,7 @@ Shanghai 201804, China
 
 - [ ] 当前冻结 Markdown 派生的版本化 DOCX；
 - [ ] Word 前台导出的最终 PDF；
-- [ ] 官方格式投稿声明及四位作者签字；
+- [ ] 官方格式投稿声明及两位作者签字；
 - [ ] 投稿系统要求的附加材料（若有）。
 
 7 月 27 日及更早生成的 DOCX/PDF 与当前 v0.7 正文哈希不一致，禁止上传。

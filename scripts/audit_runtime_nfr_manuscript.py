@@ -120,7 +120,7 @@ def audit(
         for value in group.values()
     ]
     result = {
-        "protocol": "runtime-nfr-v3-manuscript-numeric-audit/3",
+        "protocol": "runtime-nfr-v3-manuscript-numeric-audit/4",
         "sources": {
             "paper_tables": {
                 "path": str(paper_tables_path.resolve()),

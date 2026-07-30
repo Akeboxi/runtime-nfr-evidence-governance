@@ -17,7 +17,7 @@ OUTPUT = (
     ROOT
     / "checkpoints"
     / "runtime_nfr_v3_academic"
-    / "content_freeze_candidate_v8"
+    / "content_freeze_candidate_v10"
 )
 
 EXPLICIT_FILES = [
@@ -44,7 +44,7 @@ TREE_ROOTS = [
     "checkpoints/runtime_nfr_v3_academic/phase2_analysis_v1",
     "checkpoints/runtime_nfr_v3_academic/phase3_content_analysis_v1",
     "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v3",
-    "checkpoints/runtime_nfr_v3_academic/submission_candidate_v11",
+    "checkpoints/runtime_nfr_v3_academic/submission_candidate_v12",
 ]
 
 ALLOWED_SUFFIXES = {
@@ -111,9 +111,9 @@ def main() -> None:
 
     required_audits = {
         "submission": ROOT
-        / "checkpoints/runtime_nfr_v3_academic/submission_candidate_v11/submission_audit.json",
+        / "checkpoints/runtime_nfr_v3_academic/submission_candidate_v12/submission_audit.json",
         "markdown_numeric": ROOT
-        / "checkpoints/runtime_nfr_v3_academic/submission_candidate_v11/manuscript_markdown_audit.json",
+        / "checkpoints/runtime_nfr_v3_academic/submission_candidate_v12/manuscript_markdown_audit.json",
         "formal": ROOT
         / "checkpoints/runtime_nfr_v3_academic/formal_audit/formal_audit.json",
         "legacy_integrity": ROOT
@@ -131,16 +131,16 @@ def main() -> None:
         raise RuntimeError(f"Cannot freeze while an audit is failing: {audit_status}")
 
     manifest = {
-        "protocol": "runtime-nfr-content-freeze-candidate/8",
+        "protocol": "runtime-nfr-content-freeze-candidate/10",
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
-        "status": "content_frozen_layout_deferred",
+        "status": "content_frozen_layout_verified",
         "scope": {
             "unique_content_source": (
                 "docs/manuscript/runtime_nfr/RUNTIME_NFR_MANUSCRIPT.md"
             ),
-            "docx": "deferred",
-            "pdf": "deferred",
-            "author_metadata": "chinese_and_romanized_metadata_confirmed",
+            "docx": "generated_and_verified_not_in_manifest",
+            "pdf": "generated_and_verified_not_in_manifest",
+            "author_metadata": "two_authors_and_emails_confirmed",
             "funding": "none",
             "conflicts_of_interest": "none_declared",
             "code_publication": "private_repository_verified_public_after_acceptance",
@@ -173,13 +173,13 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    report = f"""# Runtime NFR 内容冻结候选 v8
+    report = f"""# Runtime NFR 内容冻结候选 v10
 
-状态：`content_frozen_layout_deferred`
+状态：`content_frozen_layout_verified`
 
 本清单冻结 Markdown 唯一正文源、阶段二/三分析制品、六图的 SVG/PNG
-及灰度 QA、审计结果和复现代码。它不包含 DOCX 或 PDF，也不代表已经
-完成投稿系统字段。
+及灰度 QA、审计结果和复现代码。DOCX 与 PDF 已生成并完成版面验收，
+但作为版本化派生物不纳入本内容清单；投稿系统字段仍待预演。
 
 ## 冻结结果
 
@@ -188,21 +188,17 @@ def main() -> None:
 - 四状态：1,054 / 2,424 / 948 / 4,242，总计 8,668
 - threshold-only 隐藏证据或动作信息：4,426
 - 参考文献：69 条，编号连续且均有正文落点
-- 图：6 幅；当前仅 SVG/PNG 与灰度 QA
+- 图：6 幅，包含 SVG/PNG 与灰度 QA
 - Runtime NFR 回归测试：41 项通过
 - 正式结果、历史完整性、投稿源和 Markdown 数字审计：全部通过
+- DOCX 双向数字审计、无障碍审计和 24 页 PDF 版面验收：通过
 
-## 尚未纳入冻结
+## 尚未完成
 
-- 中英文作者顺序、单位、通信作者、基金和利益冲突：已确认并纳入冻结
-- 代码公开时序：当前版本私有保存，论文接收后公开
-- 私有仓库：已上传并通过 GitHub API 核验为 `PRIVATE`
-- 最终定向审稿：三视角 V2、Claim–Experiment v4 与统计报告复核已完成
-- 作者联审：联审包已生成，四位作者逐项确认和签字仍待完成
-- 投稿声明：内容草案已生成，仍需转入期刊官方格式并由四位作者签字
+- 作者联审：联审包已更新为两位作者，逐项确认和签字仍待完成
+- 投稿声明：内容草案已更新，仍需转入期刊官方格式并由两位作者签字
+- 投稿系统：字段试填、上传预演和正式提交尚未执行
 - 代码许可证、最终版本化归档和持久标识符：论文接收后公开时补入
-- DOCX 与 PDF：按计划在内容冻结后生成，当前未生成
-- Markdown—DOCX 双向数字审计、175 mm 版心和投稿系统预演：排版阶段执行
 - CPU、内存和完整墙钟时间：历史未采集，保持 `not_recorded`
 
 后续若正文、分析或图片发生任何变动，必须重跑 41 项测试、四类审计并

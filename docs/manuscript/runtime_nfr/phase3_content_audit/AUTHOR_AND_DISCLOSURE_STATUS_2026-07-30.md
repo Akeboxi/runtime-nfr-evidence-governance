@@ -7,10 +7,9 @@
 | 字段 | 当前值 |
 | --- | --- |
 | 第一作者 | 谢华澄 |
-| 第二作者 | 张宇 |
-| 第三作者 | 吕嘉琪 |
 | 通信作者 | 杜庆峰 |
-| 英文署名 | Xie Hua Cheng；Zhang Yu；Lv Jia Qi；Du Qing Feng |
+| 英文署名 | Xie Hua Cheng；Du Qing Feng |
+| 第一作者邮箱 | `2411505@tongji.edu.cn` |
 | 通信邮箱 | `Du_cloud@tongji.edu.cn` |
 | 单位 | 同济大学计算机科学与技术学院 |
 | 英文单位 | School of Computer Science and Technology, Tongji University, Shanghai 201804, China |
@@ -22,7 +21,7 @@
 | 首次快照提交 | `25b4eb0d44cdf5b460a2d472f7d8cc1b8ea8e07d` |
 | 代码公开时间 | 当前版本已保存于仅作者可访问的私有仓库；论文接收后公开 |
 
-正文作者顺序据此固定为：谢华澄、张宇、吕嘉琪、杜庆峰；杜庆峰以
+正文作者顺序据此更新为：谢华澄、杜庆峰；杜庆峰以
 星号标记为通信作者。
 
 ## 接收与公开阶段仍需完成

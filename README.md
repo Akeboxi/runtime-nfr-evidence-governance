@@ -14,7 +14,7 @@ Private review snapshot for the manuscript:
 - Manuscript source:
   `docs/manuscript/runtime_nfr/RUNTIME_NFR_MANUSCRIPT.md`.
 - Content-freeze manifest:
-  `checkpoints/runtime_nfr_v3_academic/content_freeze_candidate_v8/CONTENT_FREEZE_MANIFEST.json`.
+  `checkpoints/runtime_nfr_v3_academic/content_freeze_candidate_v10/CONTENT_FREEZE_MANIFEST.json`.
 
 This repository has a new root history. It intentionally does not inherit the
 development repository's earlier commits.
@@ -25,10 +25,11 @@ development repository's earlier commits.
 - analysis, audit, figure-generation and freeze scripts;
 - 41 Runtime NFR regression tests;
 - the Markdown manuscript and claim-boundary/audit records;
-- the versioned v8 content-freeze evidence listed by the freeze manifest,
+- the versioned v10 content-freeze evidence listed by the freeze manifest,
   including final claim/evidence review, three-perspective referee reports,
   statistical reporting audit, author-review package and submission-statement
-  content draft.
+  content draft;
+- the v6 layout QA report (the DOCX/PDF derivatives themselves remain local).
 
 ## Excluded
 
@@ -44,8 +45,8 @@ At snapshot creation:
 
 ```text
 41 passed
-submission audit /9: pass
-Markdown numeric audit /3: pass
+submission audit /10: pass
+Markdown numeric audit /4: pass
 formal result audit: pass
 legacy integrity audit: pass
 ```

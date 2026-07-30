@@ -2,17 +2,18 @@
 title: 缺少显式 SLO 的云原生运行时非功能需求操作化：候选边界的有效性审计与证据感知治理
 english_title: Operationalizing Runtime Non-functional Requirements without Explicit SLOs: Validity Auditing and Evidence-aware Governance of Candidate Boundaries
 venue: 软件学报“智能化需求工程”专刊
-version: v0.7-final-review-polished
+version: v0.8-author-list-updated
 date: 2026-07-30
 numeric_source: checkpoints/runtime_nfr_v3_academic/paper_tables/paper_tables.json
 ---
 
 # 缺少显式 SLO 的云原生运行时非功能需求操作化：候选边界的有效性审计与证据感知治理
 
-**作者：** 谢华澄，张宇，吕嘉琪，杜庆峰*  
+**作者：** 谢华澄，杜庆峰*  
 **单位：** 同济大学计算机科学与技术学院  
-**英文署名：** Xie Hua Cheng, Zhang Yu, Lv Jia Qi, Du Qing Feng*  
+**英文署名：** Xie Hua Cheng, Du Qing Feng*  
 **英文单位：** School of Computer Science and Technology, Tongji University, Shanghai 201804, China  
+**第一作者邮箱：** 2411505@tongji.edu.cn  
 **通信作者：** 杜庆峰（Du Qing Feng，Du_cloud@tongji.edu.cn）
 
 ## 摘要

@@ -60,14 +60,15 @@ Markdown 仍是唯一正文源。
      实验、数字、规则和主张均未改变。
 
 8. **作者与披露信息（2026-07-30）**
-   - 作者顺序确认为谢华澄、张宇、吕嘉琪、杜庆峰；谢华澄为第一作者，
+   - 作者顺序更新为谢华澄、杜庆峰；谢华澄为第一作者，
      杜庆峰为通信作者。
    - 单位确认为同济大学计算机科学与技术学院，通信邮箱为
      `Du_cloud@tongji.edu.cn`。
    - 基金项目为无；全体作者声明不存在与本研究相关的利益冲突。
    - 作者确认研究自有代码及派生制品可公开，不受保密或商业公开限制。
-   - 英文署名确认为 Xie Hua Cheng、Zhang Yu、Lv Jia Qi、Du Qing Feng；
-     英文单位采用 School of Computer Science and Technology, Tongji
+   - 英文署名更新为 Xie Hua Cheng、Du Qing Feng；第一作者邮箱为
+     `2411505@tongji.edu.cn`；英文单位采用
+     School of Computer Science and Technology, Tongji
      University, Shanghai 201804, China。
    - 代码共享时序确认为当前版本先保存于仅作者可访问的私有仓库，论文
      接收后公开。
@@ -107,7 +108,7 @@ Markdown 仍是唯一正文源。
 - 论文接收后将代码仓库转为公开，补充许可证、版本化归档与持久标识符。
 - 8 月 11 日后从冻结 Markdown 生成新版本 DOCX，执行 175 mm 实际版心、
   Markdown—DOCX 双向数字审计，再由 Word 前台导出 PDF。
-- 四位作者联审并签署官方投稿声明；补齐系统强制要求的作者邮箱、
+- 两位作者联审并签署官方投稿声明；补齐系统强制要求的
   ORCID/电话（如适用）和作者贡献。
 - 投稿系统试填、上传预演和正式投稿。
 

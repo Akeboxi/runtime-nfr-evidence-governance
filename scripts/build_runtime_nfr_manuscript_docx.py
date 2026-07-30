@@ -217,7 +217,7 @@ def _configure_document(document: Document) -> None:
     caption.paragraph_format.first_line_indent = Cm(0)
 
     header = section.header.paragraphs[0]
-    header.text = "《软件学报》“智能化需求工程”专刊投稿稿（作者信息待填）"
+    header.text = "《软件学报》“智能化需求工程”专刊投稿稿"
     header.alignment = WD_ALIGN_PARAGRAPH.CENTER
     _set_run_font(header.runs[0], "宋体", 8)
     header.runs[0].font.color.rgb = RGBColor(89, 89, 89)
@@ -275,6 +275,9 @@ def build_docx(markdown_path: Path, output_path: Path, figure_width_mm: float = 
         if (
             line.startswith("**作者：")
             or line.startswith("**单位：")
+            or line.startswith("**英文署名：")
+            or line.startswith("**英文单位：")
+            or line.startswith("**第一作者邮箱：")
             or line.startswith("**通信作者：")
         ):
             paragraph = document.add_paragraph()
@@ -300,7 +303,12 @@ def build_docx(markdown_path: Path, output_path: Path, figure_width_mm: float = 
             paragraph.paragraph_format.right_indent = Cm(-overhang_cm)
             paragraph.paragraph_format.keep_with_next = True
             run = paragraph.add_run()
-            run.add_picture(str(image_path), width=Cm(figure_width_mm / 10.0))
+            inline_shape = run.add_picture(
+                str(image_path), width=Cm(figure_width_mm / 10.0)
+            )
+            image_alt = image_match.group(1).strip() or image_path.stem
+            inline_shape._inline.docPr.set("descr", image_alt)
+            inline_shape._inline.docPr.set("title", image_alt)
             index += 1
             continue
 
