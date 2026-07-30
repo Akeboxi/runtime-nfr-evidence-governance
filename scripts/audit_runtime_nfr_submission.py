@@ -198,11 +198,21 @@ def audit(
             and "已保存在仅作者可访问的私有代码仓库" in body
             and "论文接收后公开代码与可复现派生制品" in body
         ),
+        "prediction_baselines_are_defined": (
+            "类别先验取各训练折的阳性率" in body
+            and "persistence 取故障前早期窗口中延迟与错误越界比例均值的较大者"
+            in body
+        ),
+        "public_data_scope_is_consistent": (
+            "本研究不使用保密、专有或内部原始数据" in body
+            and "公开的 AIOps Challenge 2025 Dataset" in body
+            and "公开的 RCAEval RE1-OB" in body
+        ),
         "no_hard_forbidden_claims": not forbidden_hits,
     }
 
     return {
-        "protocol": "runtime-nfr-submission-audit/8",
+        "protocol": "runtime-nfr-submission-audit/9",
         "pass": all(checks.values()),
         "checks": checks,
         "reference_audit": {
@@ -272,7 +282,7 @@ def main() -> None:
         "--output",
         type=Path,
         default=Path(
-            "checkpoints/runtime_nfr_v3_academic/" "submission_candidate_v10/submission_audit.json"
+            "checkpoints/runtime_nfr_v3_academic/" "submission_candidate_v11/submission_audit.json"
         ),
     )
     args = parser.parse_args()

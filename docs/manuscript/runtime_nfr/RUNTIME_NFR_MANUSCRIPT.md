@@ -2,7 +2,7 @@
 title: 缺少显式 SLO 的云原生运行时非功能需求操作化：候选边界的有效性审计与证据感知治理
 english_title: Operationalizing Runtime Non-functional Requirements without Explicit SLOs: Validity Auditing and Evidence-aware Governance of Candidate Boundaries
 venue: 软件学报“智能化需求工程”专刊
-version: v0.6-launch-event-language-optimized
+version: v0.7-final-review-polished
 date: 2026-07-30
 numeric_source: checkpoints/runtime_nfr_v3_academic/paper_tables/paper_tables.json
 ---
@@ -17,15 +17,15 @@ numeric_source: checkpoints/runtime_nfr_v3_academic/paper_tables/paper_tables.js
 
 ## 摘要
 
-云原生团队通常拥有丰富遥测，却未必具有经利益相关者确认的服务级目标（SLO）。在这种条件下，关键不是从历史数据中再生成一个数值，而是判断该数值是否具备进入需求决策的证据。本文提出证据感知的运行时非功能需求（NFR）候选治理方法：从事件前遥测生成可追溯候选边界，并依据历史充分性、测量分辨率和长尾上下文，将候选路由至补证、未解析、上下文审查或利益相关者确认。对 8,668 张冻结候选卡的分析表明，最小 threshold-only 输出虽然保留全部数值，却会隐藏 4,426 张（51.1%）卡的证据状态和责任路由；删除历史、分辨率和长尾门禁分别改变 1,054、2,424 和 948 张卡的处置。第二轮三名独立专家对 48 张卡形成 144 个配对判断：阈值合理性中位数为 2/5，治理适当性在 143/144 个配对中更高，且 48/48 张卡的治理适当性中位数不低于 4。人工证据重建进一步支持实现一致性，独立协议数据集则验证了冻结拒绝路径的可执行性；滚动预测消融用于界定候选信号的下游使用范围。本文将候选生成、证据审计、显式拒绝和人工批准权连接为可复核的需求工程责任链，使“何时可以转交、何时必须停止”成为方法的明确输出。
+云原生团队通常拥有丰富遥测，却未必具有经利益相关者确认的服务级目标（SLO）。在这种条件下，关键不是从历史数据中再生成一个数值，而是判断该数值是否具备进入需求决策的证据。本文提出证据感知的运行时非功能需求（NFR）候选治理方法：从事件前遥测生成可追溯候选边界，并依据历史充分性、测量分辨率和长尾上下文，将候选路由至补证、未解析、上下文审查或利益相关者确认。对 8,668 张冻结候选卡的分析表明，最小 threshold-only 输出虽然保留全部数值，却会隐藏 4,426 张（51.1%）卡的证据状态和责任路由；删除历史、分辨率和长尾门禁分别改变 1,054、2,424 和 948 张卡的处置。第二轮三名独立专家对 48 张卡形成 144 个配对判断：阈值合理性中位数为 2/5，治理适当性在 143/144 个配对中更高，且 48/48 张卡的治理适当性中位数不低于 4。人工证据重建进一步支持实现一致性，独立协议数据集表明冻结拒绝路径在输入条件不满足时仍能执行；滚动预测消融用于界定候选信号的下游使用范围。本文将候选生成、证据审计、显式拒绝和人工批准权连接为可复核的需求工程责任链，使“何时可以转交、何时必须停止”成为方法的明确输出。
 
 **关键词：** 非功能需求；服务级目标；运行时需求；证据治理；云原生；人在回路；可追溯性
 
 ## Abstract
 
-Cloud-native systems often accumulate abundant telemetry while lacking stakeholder-approved service-level objectives (SLOs). Turning historical quantiles directly into SLOs conflates how a system happened to behave with how it ought to behave. We present an evidence-aware method for governing candidate runtime non-functional requirements (NFRs). It generates traceable candidate boundaries from pre-event telemetry and routes them, according to history sufficiency, measurement resolution, and tail context, to evidence collection, unresolved-threshold handling, context review, or stakeholder review. We freeze 8,668 candidate cards. A minimal threshold-only output retains every number but hides the evidence state and responsibility route for 4,426 cards (51.1%). Removing the history, resolution, and tail gates changes the disposition of 1,054, 2,424, and 948 cards, respectively, showing that each rule participates in the routing mechanism. In a second independent review, three experts provide 144 paired judgments on 48 cards: median threshold plausibility is 2/5, whereas governance appropriateness is higher in 143/144 pairs and reaches a card-level median of at least 4 for all 48 cards. Manual evidence reconstruction, refusal on an independent protocol-audit dataset, and rolling-time prediction ablations further delimit implementation, transfer, and downstream-use boundaries; they do not establish threshold correctness or formal SLO approval. The contribution is an auditable requirements-engineering responsibility chain connecting candidate generation, evidence auditing, explicit refusal, and retained human approval authority.
+Cloud-native systems often accumulate abundant telemetry but lack stakeholder-approved service-level objectives (SLOs). Historical quantiles describe observed behavior, whereas SLOs prescribe intended service behavior. We present an evidence-aware method for governing candidate runtime non-functional requirements (NFRs). The method generates traceable candidate boundaries from pre-event telemetry and routes them according to history sufficiency, measurement resolution, and tail context. The four destinations are evidence collection, unresolved-threshold handling, context review, and stakeholder review. Across 8,668 frozen candidate cards, a threshold-only output retains every value but omits evidence states and responsibility routes for 4,426 cards (51.1%). Removing the history, resolution, and tail gates changes the dispositions of 1,054, 2,424, and 948 cards, respectively. In a second-round independent review, three experts provided 144 paired judgments on 48 cards. Median threshold plausibility was 2/5, while governance appropriateness was higher in 143/144 pairs and reached a card-level median of at least 4 for all cards. Manual evidence reconstruction supported implementation consistency, and an independent protocol-audit dataset exercised the frozen refusal path. Rolling-time prediction ablations delimited downstream use; none of these analyses established threshold correctness or formal SLO approval. The contribution is an auditable requirements-engineering responsibility chain connecting candidate generation, evidence auditing, explicit refusal, and retained human approval authority.
 
-**Keywords:** non-functional requirements; service-level objectives; requirements at runtime; evidence governance; cloud-native systems; human in the loop
+**Keywords:** non-functional requirements; service-level objectives; requirements at runtime; evidence governance; cloud-native systems; human-in-the-loop governance; traceability
 
 ## 1 引言
 
@@ -40,7 +40,7 @@ Cloud-native systems often accumulate abundant telemetry while lacking stakehold
 - **RQ3：** 独立专家是否认可接受确认、拒绝操作化、补充证据或上下文审查等治理处置？
 - **RQ4：** 候选治理链在实现一致性、独立协议数据集、下游使用与表示扩展四类边界上的可信范围如何界定？
 
-本文作出三项贡献。第一，提出“候选边界—证据审计—治理分流—人工确认”的需求工程责任链，以可执行卡片协议保留候选的来源、证据状态和目标批准权。第二，在同一组冻结卡片上，通过 threshold-only 对照、规则反事实和边界敏感性量化治理层新增的信息与责任去向，并以两轮独立专家评审验证“阈值合理性”与“治理适当性”可以被稳定区分。第三，建立失败保持的边界审计，将实现重建、独立数据拒绝、下游信号和表示扩展分别置于明确的验证职责中，使方法的可信范围能够被复核，而不依赖事后调整阈值或选择性呈现结果。
+本文作出三项贡献。第一，提出“候选边界—证据审计—治理分流—人工确认”的需求工程责任链，以可执行卡片协议保留候选的来源、证据状态和目标批准权。第二，在同一组冻结卡片上，通过 threshold-only 对照、规则反事实和边界敏感性量化治理层新增的信息与责任去向，并以两轮独立专家评审提供“阈值合理性”与“治理适当性”可被区分的配对证据。第三，建立失败保持的边界审计，将实现重建、独立数据拒绝、下游信号和表示扩展分别置于明确的验证职责中，使方法的可信范围能够被复核，而不依赖事后调整阈值或选择性呈现结果。
 
 ![证据感知候选治理机制及代表性需求卡](../../../checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v3/figure_01_evidence_aware_governance.png)
 
@@ -162,7 +162,7 @@ R_t = \frac{Q_{0.95}(L)-m}{s},
 
 ### 3.7 预测消融
 
-下游任务使用五折滚动时间 OOF，比较六个预先固定的模型：类别先验、persistence、App-only Logistic、App-only HGB、App+基础设施 Logistic、App+基础设施+冻结拓扑 Logistic。主指标为适合类别不平衡任务的 PR-AUC[35-36]，另将 Brier 和 ECE 作为与排序性能分离的概率校准指标[37]，并报告 Recall@3 和 NDCG@3。模型差值以事件为聚类单位执行 2,000 次配对 bootstrap，避免把同一事件内多个应用当作独立样本。`fault_type`、事件持续时间、结果目标和 `impact_score` 等运行时不可知字段禁止进入特征。
+下游任务使用五折滚动时间 OOF，比较六个预先固定的模型：类别先验、persistence、App-only Logistic、App-only HGB、App+基础设施 Logistic、App+基础设施+冻结拓扑 Logistic。类别先验取各训练折的阳性率；persistence 取故障前早期窗口中延迟与错误越界比例均值的较大者。主指标为适合类别不平衡任务的 PR-AUC[35-36]，另将 Brier 和 ECE 作为与排序性能分离的概率校准指标[37]，并报告 Recall@3 和 NDCG@3。模型差值以事件为聚类单位执行 2,000 次配对 bootstrap，避免把同一事件内多个应用当作独立样本。`fault_type`、事件持续时间、结果目标和 `impact_score` 等运行时不可知字段禁止进入特征。
 
 五个测试折按时间依次覆盖 2025-06-09—06-11、06-11—06-13、06-13—06-17、06-17—06-19 和 06-19—06-21；折级、服务级和十等宽校准箱均从 OOF 预测生成。应用特征中有 14 个 `exceedance` 字段使用冻结候选边界构造，但只读取故障前窗口。它们不是结果后泄漏，却与越界标签在构造上接近，因此预测只能检验“候选边界附近是否存在故障前应用信号”，不能作为标签构念的独立验证。滚动时间与数据切分对时间序列评价结论的影响参照严格评价协议[63-64]处理。
 
@@ -313,7 +313,7 @@ App-only Logistic 构成最简约的线性配置。加入基础设施后，相�
 
 ### 5.2 专家认可的对象是什么
 
-第二轮 48/48 张卡达到治理适当性中位数不低于 4，同时阈值合理性中位数为 2。两项结果共同确认了方法的责任分工：专家认可证据标记和治理处置，历史阈值仍由利益相关者决定是否进入正式目标。该分工与 SLO 应反映用户和产品目标的原则一致[11-12]。实践中，候选卡可作为利益相关者访谈的起点，集中展示当前测量、证据缺口和待决责任，再由业务、产品和 SRE 共同确认目标。
+第二轮 48/48 张卡达到治理适当性中位数不低于 4，同时阈值合理性中位数为 2。两项结果共同支持方法的责任分工：专家认可证据标记和治理处置，历史阈值仍由利益相关者决定是否进入正式目标。该分工与 SLO 应反映用户和产品目标的原则一致[11-12]。实践中，候选卡可作为利益相关者访谈的起点，集中展示当前测量、证据缺口和待决责任，再由业务、产品和 SRE 共同确认目标。
 
 ### 5.3 拒绝路径与简约表示的价值
 
@@ -337,7 +337,7 @@ App-only Logistic 构成最简约的线性配置。加入基础设施后，相�
 
 **统计结论效度。** 同一事件内应用相关，因此 bootstrap 以事件聚类。滚动时间 OOF 保留时间顺序，折级和服务级结果同时呈现漂移与异质性；数据切分仍可能改变时间序列评价结论[63-64]。模型、主指标和决策门槛在分析前冻结，所有预定配对差值及其区间均完整报告。PR-AUC 与概率校准回答不同问题[35-37]，排序性能不替代部署校准。
 
-**外部效度。** 主要数据来自公开的 AIOps Challenge 2025 Dataset[68]，其代表性集中于单一 Hipster Shop 应用和受控故障注入的云原生微服务场景。不同组织、生产负载、遥测栈和自然故障条件下的可迁移性，需要由后续多组织数据进一步检验。公开的 RCAEval RE1-OB[44,69] 没有正式 SLO 且历史不足，因此本文将其用于独立审计接口适配和拒绝治理；1,250/1,250 张卡进入拒绝路径，证明冻结门禁在输入不满足条件时仍保持有效。具有连续历史、正式目标和利益相关者决策记录的数据，将用于进一步检验充分证据条件下的跨系统适用性。
+**外部效度。** 主要数据来自公开的 AIOps Challenge 2025 Dataset[68]，其代表性集中于单一 Hipster Shop 应用和受控故障注入的云原生微服务场景。不同组织、生产负载、遥测栈和自然故障条件下的可迁移性，需要由后续多组织数据进一步检验。公开的 RCAEval RE1-OB[44,69] 没有正式 SLO 且历史不足，因此本文将其用于独立审计接口适配和拒绝治理；1,250/1,250 张卡进入拒绝路径，表明冻结门禁在输入不满足条件时仍保持有效。具有连续历史、正式目标和利益相关者决策记录的数据，将用于进一步检验充分证据条件下的跨系统适用性。
 
 **测量效度。** 指标缺失、采样、聚合、时钟和标签语义可能改变候选阈值；遥测规范、测量不确定性和数据质量框架均不能消除未观测信息[14-17,26-29]。虽然卡片记录覆盖、样本和来源，仍不能恢复未采集的用户侧体验。零错误基线尤其可能由分辨率不足造成，本文将其标为未解析而不是零目标。
 

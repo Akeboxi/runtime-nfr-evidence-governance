@@ -1,0 +1,261 @@
+{
+  "protocol": "runtime-nfr-v3-paper-tables/1",
+  "sources": {
+    "round1": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v2\\expert_review\\summary.json",
+      "sha256": "c45839f84dc700c4801794f7753a03c8770edaea38d35b9dcf66db8b15affb3b"
+    },
+    "governance": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\governance_cards\\governance_summary.json",
+      "sha256": "e2ac87e22498ee12365fc7974ce31941d1149e7487e7fd5897a3cd0c99b4b39c"
+    },
+    "round2": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\expert_review_round2\\summary.json",
+      "sha256": "8c36fd721f470948b4319dd3d26bc0e41b98450b59fdbfd8c0f0ed0d0debe9d4"
+    },
+    "external_audit": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\external_dataset\\audit.json",
+      "sha256": "cd7771f06a4204290c93013a319cf82c135f39fbe73f85f3629c941cc2be9a8f"
+    },
+    "external_governance": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\external_dataset\\rcaeval_re1_ob\\governance_summary.json",
+      "sha256": "764c51fbe5edf570c51f521a76aa37326f94b4b1095ab8ffff120a15682114f5"
+    },
+    "feature_ablation": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\feature_ablation\\summary.json",
+      "sha256": "3dd72598af45ba272ce8c177fd7907e08aef0a74ec467785ffa53b084d92d1cb"
+    },
+    "topology": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v2\\topology_gate\\topology_gate_report.json",
+      "sha256": "4e92e077081686a0df2564f77d9b5ac51b7fd832c9f43303a0734909c21b5b6d"
+    },
+    "validity": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v2\\validity_audit\\validity_audit.json",
+      "sha256": "09e9339c9ee10b27d539fd9ef5c23dbb370f9548eadad5c69e1c03dc3022e034"
+    },
+    "manual_audit": {
+      "path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\manual_audit_results\\manual_audit_summary.json",
+      "sha256": "a4f1e95819626a809fc43138dafab2d80fc71363cca8118d8a657c448a59d74d"
+    }
+  },
+  "tables": {
+    "rq1_governance_distribution": [
+      {
+        "governance_status": "insufficient_evidence",
+        "cards": 1054,
+        "proportion": 0.12159667743424088
+      },
+      {
+        "governance_status": "threshold_unresolved",
+        "cards": 2424,
+        "proportion": 0.2796492847254269
+      },
+      {
+        "governance_status": "needs_context_review",
+        "cards": 948,
+        "proportion": 0.10936778957083526
+      },
+      {
+        "governance_status": "candidate_for_stakeholder_review",
+        "cards": 4242,
+        "proportion": 0.489386248269497
+      }
+    ],
+    "round1_expert_review": [
+      {
+        "dimension": "clarity",
+        "median": 5.0,
+        "iqr": 0.0,
+        "low_score_rate_1_or_2": 0.0,
+        "ordinal_alpha": -0.059259259259259345
+      },
+      {
+        "dimension": "measurability",
+        "median": 5.0,
+        "iqr": 0.0,
+        "low_score_rate_1_or_2": 0.0,
+        "ordinal_alpha": -0.059259259259259345
+      },
+      {
+        "dimension": "traceability",
+        "median": 5.0,
+        "iqr": 0.0,
+        "low_score_rate_1_or_2": 0.0,
+        "ordinal_alpha": -0.059259259259259345
+      },
+      {
+        "dimension": "threshold_plausibility",
+        "median": 3.0,
+        "iqr": 2.0,
+        "low_score_rate_1_or_2": 0.3125,
+        "ordinal_alpha": 0.7684840718694885
+      },
+      {
+        "dimension": "runtime_actionability",
+        "median": 5.0,
+        "iqr": 1.0,
+        "low_score_rate_1_or_2": 0.041666666666666664,
+        "ordinal_alpha": 0.07973449312013914
+      }
+    ],
+    "round2_expert_review": [
+      {
+        "dimension": "threshold_plausibility",
+        "median": 2.0,
+        "iqr": 2.0,
+        "low_score_rate_1_or_2": 0.7361111111111112,
+        "ordinal_alpha": 0.4491285653561875,
+        "card_median_at_least_4": 7
+      },
+      {
+        "dimension": "runtime_actionability",
+        "median": 4.0,
+        "iqr": 1.0,
+        "low_score_rate_1_or_2": 0.1875,
+        "ordinal_alpha": -0.30344213063156933,
+        "card_median_at_least_4": 48
+      },
+      {
+        "dimension": "evidence_flag_correctness",
+        "median": 5.0,
+        "iqr": 0.0,
+        "low_score_rate_1_or_2": 0.006944444444444444,
+        "ordinal_alpha": -0.02142223957945877,
+        "card_median_at_least_4": 48
+      },
+      {
+        "dimension": "governance_appropriateness",
+        "median": 5.0,
+        "iqr": 0.0,
+        "low_score_rate_1_or_2": 0.006944444444444444,
+        "ordinal_alpha": -0.25392512077294693,
+        "card_median_at_least_4": 48
+      },
+      {
+        "dimension": "overall_revision_value",
+        "median": 5.0,
+        "iqr": 1.0,
+        "low_score_rate_1_or_2": 0.0,
+        "ordinal_alpha": -0.16894682572235897,
+        "card_median_at_least_4": 48
+      }
+    ],
+    "external_validation": {
+      "dataset": "RCAEval RE1-OB",
+      "decision": "validity_only",
+      "prediction_protocol_compatible": false,
+      "cards": 1250,
+      "status_counts": {
+        "insufficient_evidence": 1250,
+        "threshold_unresolved": 0,
+        "needs_context_review": 0,
+        "candidate_for_stakeholder_review": 0
+      },
+      "history_window_shortened": false,
+      "threshold_correctness_claim_allowed": false
+    },
+    "prediction_ablation": [
+      {
+        "model": "category_prior",
+        "pr_auc": 0.1619079214983084,
+        "brier": 0.1435110120871417,
+        "ece": 0.00762294645625361,
+        "recall_at_3": 0.46841384035628636,
+        "ndcg_at_3": 0.23321692773741412,
+        "hit_at_1": 0.4244604316546763,
+        "severity_mae": 107032.11284526148,
+        "severity_spearman": 0.1514257397870458
+      },
+      {
+        "model": "persistence",
+        "pr_auc": 0.6944979962677463,
+        "brier": 0.07698113178574922,
+        "ece": 0.05211141004636281,
+        "recall_at_3": 0.6351490236382323,
+        "ndcg_at_3": 0.4622145735773996,
+        "hit_at_1": 0.7482014388489209,
+        "severity_mae": 107032.11284526148,
+        "severity_spearman": 0.1514257397870458
+      },
+      {
+        "model": "app_logistic",
+        "pr_auc": 0.7878423229961027,
+        "brier": 0.1026608423772109,
+        "ece": 0.13752989502007237,
+        "recall_at_3": 0.710859883521754,
+        "ndcg_at_3": 0.5943082552264425,
+        "hit_at_1": 0.7841726618705036,
+        "severity_mae": 67840.93476042176,
+        "severity_spearman": 0.5875791587680319
+      },
+      {
+        "model": "app_hgb",
+        "pr_auc": 0.7943279841816913,
+        "brier": 0.07969458096470033,
+        "ece": 0.06266200784728149,
+        "recall_at_3": 0.6771154504967455,
+        "ndcg_at_3": 0.5545837506760617,
+        "hit_at_1": 0.7985611510791367,
+        "severity_mae": 67840.93476042176,
+        "severity_spearman": 0.5875791587680319
+      },
+      {
+        "model": "app_infra_logistic",
+        "pr_auc": 0.7701399209195099,
+        "brier": 0.10673182233071328,
+        "ece": 0.1095537929368744,
+        "recall_at_3": 0.6813120931825968,
+        "ndcg_at_3": 0.5667214406571507,
+        "hit_at_1": 0.7913669064748201,
+        "severity_mae": 64049.98845028629,
+        "severity_spearman": 0.6044703251967132
+      },
+      {
+        "model": "app_infra_topology_logistic",
+        "pr_auc": 0.7692057597449388,
+        "brier": 0.10398577157473265,
+        "ece": 0.10422032472317067,
+        "recall_at_3": 0.7042651593011306,
+        "ndcg_at_3": 0.5757724674993056,
+        "hit_at_1": 0.7913669064748201,
+        "severity_mae": 62628.52369094572,
+        "severity_spearman": 0.6146627034741882
+      }
+    ],
+    "manual_audit": {
+      "reviewers": 4,
+      "controls_per_reviewer": 60,
+      "pairs_per_reviewer": 20,
+      "control_ratings": 240,
+      "pair_ratings": 80,
+      "control_conclusions": {
+        "通过": 240
+      },
+      "pair_conclusions": {
+        "通过": 80
+      },
+      "unanimity": {
+        "control_items_unanimous": 60,
+        "control_items_total": 60,
+        "pair_items_unanimous": 20,
+        "pair_items_total": 20,
+        "chance_corrected_agreement": "not_computed_constant_verdicts"
+      },
+      "chance_corrected_agreement": "not_computed_constant_verdicts",
+      "claim_boundary": "The audit supports consistency of matching implementation and evidence reconstruction; it does not establish causal effects, threshold correctness, or formal SLO approval."
+    }
+  },
+  "claims": {
+    "round1_core_cards_supportive": 48,
+    "round1_threshold_plausibility_median": 3.0,
+    "round2_primary_cards": 48,
+    "round2_primary_rate": 1.0,
+    "round2_threshold_cards_median_at_least_4": 7,
+    "external_decision": "validity_only",
+    "topology_gate_pass": false,
+    "construct_validity_gate_pass": false,
+    "selected_route": "A",
+    "manual_audit_complete": true
+  },
+  "manual_numeric_transcription_allowed": false
+}

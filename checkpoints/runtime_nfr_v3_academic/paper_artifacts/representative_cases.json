@@ -1,0 +1,70 @@
+{
+  "protocol": "runtime-nfr-v3-paper-artifacts/1",
+  "selection": "deterministic representative cases from frozen cards; the stakeholder-review candidate is the frozen latency boundary case nearest tail ratio 9.997",
+  "cases": {
+    "insufficient_evidence": {
+      "card_id": "acad-7f59b1867c5702ce",
+      "service": "emailservice",
+      "sli": "error_ratio",
+      "unit": "ratio",
+      "raw_threshold": 0.0,
+      "valid_samples": 360,
+      "history_coverage": 0.25,
+      "evidence_status": "insufficient_evidence",
+      "governance_flags": [
+        "history_coverage_below_0_5",
+        "valid_samples_below_720",
+        "zero_error_baseline"
+      ],
+      "recommended_next_action": "collect_more_history_before_operationalization",
+      "latency_tail_ratio": null,
+      "parent_card_id": "nfr-9c99694bfcf781da"
+    },
+    "threshold_unresolved": {
+      "card_id": "acad-26554400da8c7bc7",
+      "service": "recommendationservice",
+      "sli": "error_ratio",
+      "unit": "ratio",
+      "raw_threshold": 0.0,
+      "valid_samples": 1439,
+      "history_coverage": 0.9993055555555556,
+      "evidence_status": "threshold_unresolved",
+      "governance_flags": [
+        "zero_error_baseline"
+      ],
+      "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+      "latency_tail_ratio": null,
+      "parent_card_id": "nfr-f6f507319f22d376"
+    },
+    "needs_context_review": {
+      "card_id": "acad-c1056e8d7c661015",
+      "service": "cartservice",
+      "sli": "latency",
+      "unit": "ms",
+      "raw_threshold": 3423.196999999997,
+      "valid_samples": 1379,
+      "history_coverage": 0.9576388888888889,
+      "evidence_status": "needs_context_review",
+      "governance_flags": [
+        "latency_tail_ratio_at_least_10"
+      ],
+      "recommended_next_action": "review_workload_mix_and_tail_distribution",
+      "latency_tail_ratio": 10.034534359559226,
+      "parent_card_id": "nfr-96cbf1e543b6145e"
+    },
+    "candidate_for_stakeholder_review": {
+      "card_id": "acad-bd8386099e5b9a4d",
+      "service": "cartservice",
+      "sli": "latency",
+      "unit": "ms",
+      "raw_threshold": 3428.5809999999983,
+      "valid_samples": 1283,
+      "history_coverage": 0.8909722222222223,
+      "evidence_status": "candidate_for_stakeholder_review",
+      "governance_flags": [],
+      "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+      "latency_tail_ratio": 9.997107319616061,
+      "parent_card_id": "nfr-9b920e11d4ac63f8"
+    }
+  }
+}
