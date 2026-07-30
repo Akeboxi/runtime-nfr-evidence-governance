@@ -195,14 +195,14 @@ def audit(
         ),
         "code_publication_commitment_is_present": (
             "不受保密或商业公开限制" in body
-            and "仅作者可访问的私有代码仓库" in body
+            and "已保存在仅作者可访问的私有代码仓库" in body
             and "论文接收后公开代码与可复现派生制品" in body
         ),
         "no_hard_forbidden_claims": not forbidden_hits,
     }
 
     return {
-        "protocol": "runtime-nfr-submission-audit/6",
+        "protocol": "runtime-nfr-submission-audit/7",
         "pass": all(checks.values()),
         "checks": checks,
         "reference_audit": {
@@ -272,7 +272,7 @@ def main() -> None:
         "--output",
         type=Path,
         default=Path(
-            "checkpoints/runtime_nfr_v3_academic/" "submission_candidate_v8/submission_audit.json"
+            "checkpoints/runtime_nfr_v3_academic/" "submission_candidate_v9/submission_audit.json"
         ),
     )
     args = parser.parse_args()

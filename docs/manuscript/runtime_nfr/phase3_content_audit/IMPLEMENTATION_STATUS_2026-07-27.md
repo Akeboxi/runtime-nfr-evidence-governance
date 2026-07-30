@@ -69,10 +69,13 @@
      University, Shanghai 201804, China。
    - 代码共享时序确认为当前版本先保存于仅作者可访问的私有仓库，论文
      接收后公开。
+   - 已创建私有仓库
+     `https://github.com/Akeboxi/runtime-nfr-evidence-governance`，以全新
+     根历史上传安全快照；GitHub API 返回 `visibility=PRIVATE`，首次远端
+     提交与本地均为 `25b4eb0d44cdf5b460a2d472f7d8cc1b8ea8e07d`。
 
 ## 尚待完成但不属于科学内容优化
 
-- GitHub CLI 完成账号授权后创建私有仓库并上传当前安全快照。
 - 论文接收后将代码仓库转为公开，补充许可证、版本化归档与持久标识符。
 - 8 月 11 日后从冻结 Markdown 生成新版本 DOCX，执行 175 mm 实际版心、
   Markdown—DOCX 双向数字审计，再由 Word 前台导出 PDF。
