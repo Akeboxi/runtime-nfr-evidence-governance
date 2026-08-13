@@ -1,0 +1,116 @@
+{
+  "analysis": "blinded-human-routing/v1",
+  "complete_evaluators": [
+    "E01",
+    "E02",
+    "E03"
+  ],
+  "cards": 32,
+  "expert_card_judgments": 96,
+  "primary": {
+    "name": "blinded routing agreement",
+    "agreements": 58,
+    "rate": 0.6041666666666666,
+    "card_cluster_bootstrap_95_ci": [
+      0.5,
+      0.7083333333333334
+    ],
+    "bootstrap_reps": 10000,
+    "bootstrap_seed": 20260814,
+    "note": "The point estimate uses 96 expert-card judgments; uncertainty resamples the 32 cards and retains all evaluator judgments within each sampled card."
+  },
+  "card_majority": {
+    "cards_matching_protocol": 19,
+    "rate": 0.59375
+  },
+  "inter_rater": {
+    "krippendorff_alpha_nominal": 0.30212566427008447,
+    "fleiss_kappa": 0.294779618630822,
+    "note": "The four disposition routes are treated as nominal, not ordinal categories."
+  },
+  "confidence_when_agreeing": {
+    "n": 58,
+    "median": 5.0,
+    "q1": 4.0,
+    "q3": 5.0
+  },
+  "confidence_when_disagreeing": {
+    "n": 38,
+    "median": 5.0,
+    "q1": 4.0,
+    "q3": 5.0
+  },
+  "stage1_duration_seconds": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null
+  },
+  "post_reveal_decisions": {
+    "unchanged": 58,
+    "changed_to_protocol": 38
+  },
+  "post_reveal_final_agreement": {
+    "agreements": 96,
+    "judgments": 96,
+    "rate": 1.0,
+    "initial_disagreements_changed_to_protocol": 38,
+    "initial_disagreements": 38,
+    "interpretation_boundary": "Post-reveal choices were made after the frozen protocol disposition was explicitly shown; they describe stated adoption under disclosure, not independent blinded reproducibility or causal persuasion."
+  },
+  "supplementary_availability": {
+    "per_card_timing_available": false,
+    "post_reveal_stage_available": true
+  },
+  "per_reviewer": [
+    {
+      "evaluator_id": "E01",
+      "agreements": 19,
+      "judgments": 32,
+      "agreement_rate": 0.59375,
+      "choice_A": 6,
+      "choice_B": 0,
+      "choice_C": 6,
+      "choice_D": 20
+    },
+    {
+      "evaluator_id": "E02",
+      "agreements": 11,
+      "judgments": 32,
+      "agreement_rate": 0.34375,
+      "choice_A": 5,
+      "choice_B": 0,
+      "choice_C": 11,
+      "choice_D": 16
+    },
+    {
+      "evaluator_id": "E03",
+      "agreements": 28,
+      "judgments": 32,
+      "agreement_rate": 0.875,
+      "choice_A": 12,
+      "choice_B": 8,
+      "choice_C": 8,
+      "choice_D": 4
+    }
+  ],
+  "per_difficulty": [
+    {
+      "difficulty": "obvious",
+      "cards": 16,
+      "expert_card_judgments": 48,
+      "agreements": 35,
+      "agreement_rate": 0.7291666666666666,
+      "majority_matching_cards": 10
+    },
+    {
+      "difficulty": "boundary",
+      "cards": 16,
+      "expert_card_judgments": 48,
+      "agreements": 23,
+      "agreement_rate": 0.4791666666666667,
+      "majority_matching_cards": 9
+    }
+  ],
+  "claim_boundary": "Descriptive agreement with the frozen protocol on a purposefully balanced card sample; no population approval rate, threshold correctness, workflow utility, or causal effect is inferred."
+}

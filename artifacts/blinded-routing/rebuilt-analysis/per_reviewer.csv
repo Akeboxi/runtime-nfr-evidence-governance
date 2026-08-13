@@ -1,0 +1,4 @@
+﻿evaluator_id,agreements,judgments,agreement_rate,choice_A,choice_B,choice_C,choice_D
+E01,19,32,0.59375,6,0,6,20
+E02,11,32,0.34375,5,0,11,16
+E03,28,32,0.875,12,8,8,4

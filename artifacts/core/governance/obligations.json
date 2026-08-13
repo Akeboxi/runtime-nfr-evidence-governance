@@ -1,0 +1,38 @@
+[
+  {
+    "category": "semantic",
+    "obligation": "descriptive candidate and normative target remain separate"
+  },
+  {
+    "category": "semantic",
+    "obligation": "insufficient evidence may stop or defer routing"
+  },
+  {
+    "category": "semantic",
+    "obligation": "handoff for confirmation is not approval"
+  },
+  {
+    "category": "semantic",
+    "obligation": "formal approval remains with the target owner"
+  },
+  {
+    "category": "execution",
+    "obligation": "incomplete provenance hard-fails before formal-card construction"
+  },
+  {
+    "category": "execution",
+    "obligation": "the current implementation assigns one primary route and retains all secondary triggers"
+  },
+  {
+    "category": "execution",
+    "obligation": "validation cannot feed back into candidate values, formulas, state conditions, or frozen rules"
+  },
+  {
+    "category": "evaluation-accountability",
+    "obligation": "each conclusion binds direct evidence, alternatives, and unsupported scope"
+  },
+  {
+    "category": "evaluation-accountability",
+    "obligation": "expert, reconstruction, refusal, prediction, and topology evidence are not interchangeable"
+  }
+]

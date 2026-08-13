@@ -1,0 +1,127 @@
+{
+  "protocol": "blinded-human-routing-anonymous-supplement/1",
+  "cards": 32,
+  "evaluators": 3,
+  "stage1_judgments": 96,
+  "post_reveal_records": 96,
+  "recorded_code_inconsistencies": 1,
+  "privacy_scan_passed": true,
+  "excluded": [
+    "evaluator registry and identities",
+    "source-card, parent-card, and source-event mappings",
+    "all stage-1 and stage-2 free text",
+    "emails, signatures, credentials, and absolute paths"
+  ],
+  "files": [
+    {
+      "path": "analysis/confusion_matrix.csv",
+      "bytes": 104,
+      "sha256": "82A67442AB3DEF09768CCB148A3520342AB462CF7125647BF8E61C88C57B7A9E"
+    },
+    {
+      "path": "analysis/figure_04_qa.json",
+      "bytes": 749,
+      "sha256": "644D2B970036CA53729082CADBBF6E7FAAA0327720EA0328B738478B64277EB6"
+    },
+    {
+      "path": "analysis/per_card.csv",
+      "bytes": 1838,
+      "sha256": "039CCD6E63ABECF39EC27F86FABC7DAE551AAB78F948FD3E9F3D590FE6B15781"
+    },
+    {
+      "path": "analysis/per_difficulty.csv",
+      "bytes": 173,
+      "sha256": "3AFBEC07E7B649D589643701880F2ABC471D78D0F476319799A6730503C5C428"
+    },
+    {
+      "path": "analysis/per_reviewer.csv",
+      "bytes": 172,
+      "sha256": "DA7BAC017A1FA84D6B7B5FF5A385ACD65C0578686C320464BFC8119C217ECCAC"
+    },
+    {
+      "path": "analysis/per_state.csv",
+      "bytes": 287,
+      "sha256": "EDFDF42879D49976B59DA833DC4FFDEF0530441C58BC569D723C8439AFEF8321"
+    },
+    {
+      "path": "analysis/REPORT.md",
+      "bytes": 761,
+      "sha256": "DF3F02BC7CAC57F7C15E4E90C7BB04660B5DDEA8A7517992A9BC43E229360C67"
+    },
+    {
+      "path": "analysis/summary.json",
+      "bytes": 3180,
+      "sha256": "C2D0E3109C479EBFA3A530D8B938D683F9B747D8A084CBB9E74C302832A4F673"
+    },
+    {
+      "path": "ANALYSIS_PLAN.md",
+      "bytes": 2250,
+      "sha256": "72623F75D00982F492E09DD98E57696AC02805A483A187CDFA8B1C5F7D048952"
+    },
+    {
+      "path": "data/blinded_cards.json",
+      "bytes": 43002,
+      "sha256": "2243BAAD7AF8ABFDAFECBA6279A0CB828A2ED2837AB50213C1B56ECBCB1CBD87"
+    },
+    {
+      "path": "data/blinded_responses_deidentified.csv",
+      "bytes": 5085,
+      "sha256": "09F76C881DAB869A254E516EF1245A51C5D0577F226CC188EB5D72184B86F62B"
+    },
+    {
+      "path": "data/post_reveal_responses_deidentified.csv",
+      "bytes": 6392,
+      "sha256": "40F2FB9A9825F8576E91E11CF188EE24277DDC7A6E745E566F613D9ADEB1FE35"
+    },
+    {
+      "path": "data/protocol_answer_key.csv",
+      "bytes": 2921,
+      "sha256": "92F7DFC04C2CAC6AA5792B5190A272570F0849403EACF8809D8D87981AC0689B"
+    },
+    {
+      "path": "data/randomization_orders.csv",
+      "bytes": 2612,
+      "sha256": "6CACE9950BD6793670213DA3D6C6784BB3FC056007B3D9531BDEEEF798A96085"
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 1120,
+      "sha256": "F8C1E57926FFF0DCC210683A1C31CA4D8286B383256C62E311A27CBBC57305EF"
+    },
+    {
+      "path": "EXPERIMENT_PROTOCOL.md",
+      "bytes": 4707,
+      "sha256": "F019CFB3E933A17D1FC84B825FC7D782C48508E9743E26AABF4F6477E3E612AE"
+    },
+    {
+      "path": "figures/figure_04_blinded_routing_validation.pdf",
+      "bytes": 50582,
+      "sha256": "7EAF56CAE52CC16143EBB07331EDB6B7FCE5F1C9A8369E06F500062601EC7260"
+    },
+    {
+      "path": "figures/figure_04_blinded_routing_validation.png",
+      "bytes": 207231,
+      "sha256": "E1F1933258E8B66961541CEF76CB6B405E9236D47CAC0B4A7ED9AD250DE3A89D"
+    },
+    {
+      "path": "figures/figure_04_blinded_routing_validation.svg",
+      "bytes": 30942,
+      "sha256": "0D15DCEDF1C416C30BC9711B1952BD96AB727993B33139E345E6376CC373A9E5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1452,
+      "sha256": "5B655250F29FF12B24CC1398DDE358BBB825345E03F1B810B571F05E2695AE2E"
+    },
+    {
+      "path": "scripts/analyze_responses.py",
+      "bytes": 14491,
+      "sha256": "2BF1AC2C6C80CAC7B3AED87D9E7B04F21479D6B941FB03ED1B1AF2C23D420D88"
+    },
+    {
+      "path": "scripts/plot_blinded_routing.py",
+      "bytes": 6941,
+      "sha256": "EF4E2FFE82DC7D8ECA43F894835899AEF86D5FF43195C7320B1620E2CA7DF362"
+    }
+  ]
+}

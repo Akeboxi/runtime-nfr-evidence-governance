@@ -1,0 +1,53 @@
+{
+  "protocol": "runtime-nfr-protocol-robustness/1",
+  "population_cards": 8668,
+  "configurations": 540,
+  "frozen_configuration": {
+    "config_id": "W24_C0.5_Rt10_q0.95_k3",
+    "window_hours": 24,
+    "coverage_min": 0.5,
+    "valid_samples_min": 720,
+    "tail_ratio": 10.0,
+    "quantile": 0.95,
+    "robust_k": 3.0,
+    "insufficient_evidence": 1054,
+    "threshold_unresolved": 2424,
+    "needs_context_review": 948,
+    "candidate_for_stakeholder_review": 4242,
+    "proportion_insufficient_evidence": 0.12159667743424088,
+    "proportion_threshold_unresolved": 0.2796492847254269,
+    "proportion_needs_context_review": 0.10936778957083526,
+    "proportion_candidate_for_stakeholder_review": 0.489386248269497,
+    "migration_count": 0,
+    "migration_rate": 0.0,
+    "stakeholder_review_jaccard": 1.0,
+    "non_numeric_disposition_count": 4426,
+    "non_numeric_disposition_rate": 0.5106137517305029
+  },
+  "frozen_route_reproduction": {
+    "matched": 8668,
+    "total": 8668,
+    "pass": true
+  },
+  "migration_rate": {
+    "minimum": 0.0,
+    "median": 0.11219427780341486,
+    "maximum": 0.24769266266728196
+  },
+  "stakeholder_review_jaccard": {
+    "minimum": 0.6459874786568014,
+    "median": 0.8193408709909568,
+    "maximum": 1.0
+  },
+  "non_numeric_disposition_rate": {
+    "minimum": 0.4434702353484079,
+    "median": 0.49284725426857406,
+    "maximum": 0.5574526995846794
+  },
+  "maximum_migration_configurations": [
+    "W12_C0.4_Rt8_q0.99_k2.5",
+    "W12_C0.4_Rt8_q0.99_k3",
+    "W12_C0.4_Rt8_q0.99_k3.5"
+  ],
+  "claim_limit": "Descriptive configuration robustness only; no parameter is selected and card-level rows are not treated as independent inferential observations."
+}

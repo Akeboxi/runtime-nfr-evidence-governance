@@ -1,0 +1,26 @@
+{
+  "acceptance": {
+    "different_environment": "scientific payload and internal manifest hashes take precedence over container bytes",
+    "same_reference_environment": "outer ZIP SHA-256 must match"
+  },
+  "json": {
+    "float_serialization": "Python JSON shortest round-trippable representation",
+    "key_order": "lexical"
+  },
+  "randomness": "no sampling is performed during package construction; all upstream frozen seeds are retained in source artifacts",
+  "reference_environment": {
+    "python": "CPython 3.12.4",
+    "zip_implementation": "Python zipfile",
+    "zlib": "1.2.13"
+  },
+  "text": {
+    "encoding": "UTF-8",
+    "newline": "LF"
+  },
+  "zip": {
+    "compression": "DEFLATE level 9",
+    "entry_mode": "100644",
+    "entry_timestamp": "2026-08-04T00:00:00",
+    "relative_paths": "POSIX lexical order"
+  }
+}

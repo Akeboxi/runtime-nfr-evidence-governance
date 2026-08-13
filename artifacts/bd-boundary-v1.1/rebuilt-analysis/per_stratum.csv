@@ -1,0 +1,6 @@
+﻿stratum,cards,judgments,choice_A,choice_B,choice_C,choice_D,CR_v1,CR_v1_1
+A_stable,4,12,12,0,0,0,1.0,1.0
+B_stable,6,18,2,16,0,0,0.8888888888888888,0.8888888888888888
+B_to_D,6,18,2,0,0,16,0.0,0.8888888888888888
+C_stable,4,12,0,0,12,0,1.0,1.0
+D_stable,4,12,0,0,0,12,1.0,1.0

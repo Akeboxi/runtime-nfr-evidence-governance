@@ -1,0 +1,247 @@
+{
+  "protocol": "runtime-nfr-v3-feature-ablation/1",
+  "paired_event_bootstrap": [
+    {
+      "challenger": "app_logistic",
+      "reference": "category_prior",
+      "unit": "event_id",
+      "iterations": 2000,
+      "seed": 20260723,
+      "metrics": {
+        "pr_auc": {
+          "observed_delta": 0.6259344014977943,
+          "ci95_low": 0.5863499503735004,
+          "ci95_high": 0.6604830698883957,
+          "ci95_lower_above_zero": true,
+          "increment_gate_pass": true
+        },
+        "recall_at_3": {
+          "observed_delta": 0.24244604316546764,
+          "ci95_low": 0.1702848309866583,
+          "ci95_high": 0.31169832041343626,
+          "ci95_lower_above_zero": true,
+          "increment_gate_pass": null
+        },
+        "ndcg_at_3": {
+          "observed_delta": 0.3610913274890284,
+          "ci95_low": 0.301707013833412,
+          "ci95_high": 0.4160655021286031,
+          "ci95_lower_above_zero": true,
+          "increment_gate_pass": null
+        }
+      }
+    },
+    {
+      "challenger": "app_logistic",
+      "reference": "persistence",
+      "unit": "event_id",
+      "iterations": 2000,
+      "seed": 20260724,
+      "metrics": {
+        "pr_auc": {
+          "observed_delta": 0.09334432672835635,
+          "ci95_low": 0.06520529670576254,
+          "ci95_high": 0.12082249557796612,
+          "ci95_lower_above_zero": true,
+          "increment_gate_pass": true
+        },
+        "recall_at_3": {
+          "observed_delta": 0.07571085988352166,
+          "ci95_low": 0.011603218210361305,
+          "ci95_high": 0.13984628255644962,
+          "ci95_lower_above_zero": true,
+          "increment_gate_pass": null
+        },
+        "ndcg_at_3": {
+          "observed_delta": 0.1320936816490429,
+          "ci95_low": 0.08539541279905874,
+          "ci95_high": 0.18173903129169625,
+          "ci95_lower_above_zero": true,
+          "increment_gate_pass": null
+        }
+      }
+    },
+    {
+      "challenger": "app_infra_logistic",
+      "reference": "app_logistic",
+      "unit": "event_id",
+      "iterations": 2000,
+      "seed": 20260725,
+      "metrics": {
+        "pr_auc": {
+          "observed_delta": -0.017702402076592794,
+          "ci95_low": -0.03600747575150227,
+          "ci95_high": -0.0006612305966832934,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": false
+        },
+        "recall_at_3": {
+          "observed_delta": -0.02954779033915722,
+          "ci95_low": -0.07565576834598584,
+          "ci95_high": 0.014680214190939504,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        },
+        "ndcg_at_3": {
+          "observed_delta": -0.027586814569291795,
+          "ci95_low": -0.06868229870082218,
+          "ci95_high": 0.011554711840953406,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        }
+      }
+    },
+    {
+      "challenger": "app_infra_topology_logistic",
+      "reference": "app_infra_logistic",
+      "unit": "event_id",
+      "iterations": 2000,
+      "seed": 20260726,
+      "metrics": {
+        "pr_auc": {
+          "observed_delta": -0.0009341611745711242,
+          "ci95_low": -0.008860966530881573,
+          "ci95_high": 0.0066845389341259704,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": false
+        },
+        "recall_at_3": {
+          "observed_delta": 0.02295306611853387,
+          "ci95_low": -0.007417916938465002,
+          "ci95_high": 0.05452970439383478,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        },
+        "ndcg_at_3": {
+          "observed_delta": 0.009051026842154863,
+          "ci95_low": -0.011938838760141901,
+          "ci95_high": 0.030636292105574423,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        }
+      }
+    }
+  ],
+  "cluster_sensitivity": [
+    {
+      "challenger": "app_infra_logistic",
+      "reference": "app_logistic",
+      "unit": "event_date",
+      "iterations": 2000,
+      "seed": 20260823,
+      "metrics": {
+        "pr_auc": {
+          "observed_delta": -0.017702402076592794,
+          "ci95_low": -0.03944382120455189,
+          "ci95_high": 0.003955146350405947,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": false
+        },
+        "recall_at_3": {
+          "observed_delta": -0.02954779033915722,
+          "ci95_low": -0.06337563999109588,
+          "ci95_high": -0.0019223484848485918,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        },
+        "ndcg_at_3": {
+          "observed_delta": -0.027586814569291795,
+          "ci95_low": -0.07395804763418798,
+          "ci95_high": 0.021141069708131035,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        }
+      }
+    },
+    {
+      "challenger": "app_infra_topology_logistic",
+      "reference": "app_infra_logistic",
+      "unit": "event_date",
+      "iterations": 2000,
+      "seed": 20260824,
+      "metrics": {
+        "pr_auc": {
+          "observed_delta": -0.0009341611745711242,
+          "ci95_low": -0.010199429414028646,
+          "ci95_high": 0.008452866275199804,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": false
+        },
+        "recall_at_3": {
+          "observed_delta": 0.02295306611853387,
+          "ci95_low": -0.0009721524077612758,
+          "ci95_high": 0.04761904761904767,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        },
+        "ndcg_at_3": {
+          "observed_delta": 0.009051026842154863,
+          "ci95_low": -0.015130288605686734,
+          "ci95_high": 0.03394703281037712,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        }
+      }
+    },
+    {
+      "challenger": "app_infra_logistic",
+      "reference": "app_logistic",
+      "unit": "segment_id",
+      "iterations": 2000,
+      "seed": 20260833,
+      "metrics": {
+        "pr_auc": {
+          "observed_delta": -0.017702402076592794,
+          "ci95_low": -0.04098253113037756,
+          "ci95_high": 0.024357015452245032,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": false
+        },
+        "recall_at_3": {
+          "observed_delta": -0.02954779033915722,
+          "ci95_low": -0.05514944414069617,
+          "ci95_high": 0.0,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        },
+        "ndcg_at_3": {
+          "observed_delta": -0.027586814569291795,
+          "ci95_low": -0.08883781925069667,
+          "ci95_high": 0.04626963639530701,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        }
+      }
+    },
+    {
+      "challenger": "app_infra_topology_logistic",
+      "reference": "app_infra_logistic",
+      "unit": "segment_id",
+      "iterations": 2000,
+      "seed": 20260834,
+      "metrics": {
+        "pr_auc": {
+          "observed_delta": -0.0009341611745711242,
+          "ci95_low": -0.010621818356203303,
+          "ci95_high": 0.011033777346921762,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": false
+        },
+        "recall_at_3": {
+          "observed_delta": 0.02295306611853387,
+          "ci95_low": 0.0013594166948547176,
+          "ci95_high": 0.04587419592955831,
+          "ci95_lower_above_zero": true,
+          "increment_gate_pass": null
+        },
+        "ndcg_at_3": {
+          "observed_delta": 0.009051026842154863,
+          "ci95_low": -0.009609852131258855,
+          "ci95_high": 0.04151946090944723,
+          "ci95_lower_above_zero": false,
+          "increment_gate_pass": null
+        }
+      }
+    }
+  ]
+}

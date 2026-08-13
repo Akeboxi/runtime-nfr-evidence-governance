@@ -1,0 +1,31 @@
+{
+  "expert": {
+    "cards": 48,
+    "pairs": 144,
+    "positive_pairs": 143
+  },
+  "governance": {
+    "cards": 8668,
+    "status_counts": {
+      "candidate_for_stakeholder_review": 4242,
+      "insufficient_evidence": 1054,
+      "needs_context_review": 948,
+      "threshold_unresolved": 2424
+    }
+  },
+  "manual": {
+    "control_judgments": 240,
+    "direction_counts": {
+      "negative": 16,
+      "positive": 12,
+      "zero": 52
+    },
+    "group_judgments": 80
+  },
+  "rcaeval": {
+    "cards": 1250,
+    "history_window_shortened": false,
+    "observations": 44980,
+    "refused": 1250
+  }
+}

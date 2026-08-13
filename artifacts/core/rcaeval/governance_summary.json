@@ -1,0 +1,17 @@
+{
+  "protocol": "runtime_nfr_v3_academic",
+  "dataset_id": "rcaeval-re1-ob",
+  "intended_role": "external_test_only",
+  "validation_role": "validity_only",
+  "cards": 1250,
+  "status_counts": {
+    "insufficient_evidence": 1250,
+    "threshold_unresolved": 0,
+    "needs_context_review": 0,
+    "candidate_for_stakeholder_review": 0
+  },
+  "raw_threshold_formula_changed": false,
+  "history_window_shortened": false,
+  "reference_slo_available": false,
+  "threshold_correctness_claim_allowed": false
+}

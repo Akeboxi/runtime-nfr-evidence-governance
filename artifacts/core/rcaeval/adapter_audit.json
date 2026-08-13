@@ -1,0 +1,45 @@
+{
+  "protocol": "runtime_nfr_v3_academic",
+  "dataset_id": "rcaeval-re1-ob",
+  "source_cases": 125,
+  "source_schema_variants": 15,
+  "frozen_archive_sha256": "4a709297e0a829f0f2ee8a7792a6d74da32d663c600565b7fffc860963b840c4",
+  "source_sampling_resolution_seconds": 1,
+  "pre_event_seconds": {
+    "minimum": 360,
+    "median": 360.0,
+    "maximum": 2100
+  },
+  "post_event_seconds": {
+    "minimum": 360,
+    "median": 360.0,
+    "maximum": 2100
+  },
+  "canonical_observations": {
+    "rows": 44980,
+    "events": 125,
+    "services": 10,
+    "time_range_start": "2023-05-27T15:16:00+00:00",
+    "time_range_end": "2023-12-12T11:25:00+00:00",
+    "checks": {
+      "dataset_id_constant": true,
+      "service_ids_namespaced": true,
+      "timestamps_parse_as_utc": true,
+      "fault_starts_parse_as_utc": true,
+      "latency_nonnegative_when_present": true,
+      "unique_event_service_timestamp": true
+    },
+    "pass": true
+  },
+  "unit_conversion_status": "assumed_seconds_to_milliseconds_not_independently_documented",
+  "request_count_available": false,
+  "error_count_available": false,
+  "prediction_protocol_compatible": false,
+  "prediction_incompatibility_reasons": [
+    "no case provides the frozen 24-hour history window",
+    "many cases provide only six minutes before and after injection",
+    "request counts are unavailable"
+  ],
+  "decision": "validity_only",
+  "claim_limit": "The external result may demonstrate adapter and refusal-governance portability; it cannot validate threshold correctness or the internal prediction protocol."
+}

@@ -1,0 +1,2 @@
+expert_id,card_id,issue_code,normalized_meaning,raw_comment_sha256
+expert-02,expert-card-028,boundary_too_close,R_t=9.997 was judged too close to 10.0 for an unqualified handoff; review tail distribution and numerical precision first,800dd123c5b9c9ca8d0a8c504574bb9696342560331805552234f9369a8adb14

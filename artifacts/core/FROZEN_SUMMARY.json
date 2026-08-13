@@ -1,0 +1,60 @@
+{
+  "boundary_file_hashes": {
+    "paired_bootstrap.json": "cdadd9bfde3bf8986c729c6291e039ae71f5e717a9fa3e13f6ff93fa4b99e93e",
+    "prediction_stability_and_calibration.json": "0348f8c9e78644f34e1962387a778b6ec33a84b363b3a62c76fd3718ef581d41",
+    "topology_negative_result_scope.json": "d74c0870639a9cb203b2095b79b8eaecec5f015c0fc97c1a2db8473a45069ce7"
+  },
+  "expert": {
+    "cards": 48,
+    "experts": 3,
+    "governance_alpha_ordinal": -0.253925,
+    "pairs": 144,
+    "positive_pairs": 143
+  },
+  "governance": {
+    "cards": 8668,
+    "minimal_information_omission": {
+      "by_status": {
+        "insufficient_evidence": 1054,
+        "needs_context_review": 948,
+        "threshold_unresolved": 2424
+      },
+      "count": 4426,
+      "rate": 0.510613751730503
+    },
+    "priority_swap_changed": {
+      "swap_history_resolution": 311,
+      "swap_resolution_tail": 0
+    },
+    "rule_deletion_changed": {
+      "drop_history": 1054,
+      "drop_resolution": 2424,
+      "drop_tail": 948
+    },
+    "status_counts": {
+      "candidate_for_stakeholder_review": 4242,
+      "insufficient_evidence": 1054,
+      "needs_context_review": 948,
+      "threshold_unresolved": 2424
+    }
+  },
+  "manual": {
+    "control_judgments": 240,
+    "direction_counts": {
+      "negative": 16,
+      "positive": 12,
+      "zero": 52
+    },
+    "group_judgments": 80,
+    "reviewers": 4
+  },
+  "protocol": "runtime-nfr-review-artifact/v0.21",
+  "rcaeval": {
+    "cards": 1250,
+    "history_window_shortened": false,
+    "observations": 44980,
+    "refused": 1250,
+    "source_archive_sha256": "4a709297e0a829f0f2ee8a7792a6d74da32d663c600565b7fffc860963b840c4",
+    "source_cases": 125
+  }
+}

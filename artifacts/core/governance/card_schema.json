@@ -1,0 +1,25 @@
+{
+  "required_top_level_fields": [
+    "card_id",
+    "parent_card_id",
+    "subject_id",
+    "sli",
+    "unit",
+    "history_start",
+    "history_end",
+    "valid_samples",
+    "raw_threshold",
+    "evidence_provenance",
+    "evidence_status",
+    "governance_flags",
+    "recommended_next_action",
+    "applicability_context"
+  ],
+  "schema": "runtime-nfr-boundary-card/v2-academic",
+  "states_unchanged": [
+    "insufficient_evidence",
+    "threshold_unresolved",
+    "needs_context_review",
+    "candidate_for_stakeholder_review"
+  ]
+}

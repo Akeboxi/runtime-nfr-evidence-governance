@@ -1,0 +1,16 @@
+{
+  "allowed_conclusions": [
+    "通过",
+    "不通过"
+  ],
+  "claim_limit": "implementation and evidence-reconstruction consistency only",
+  "control_checks": [
+    "same_app",
+    "time_window",
+    "request_volume",
+    "hour_distance_and_score",
+    "candidate_rank",
+    "history_future_samples",
+    "fault_buffer"
+  ]
+}

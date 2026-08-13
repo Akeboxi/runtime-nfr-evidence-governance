@@ -1,0 +1,401 @@
+source_uuid,source_start_time,fault_category,fault_type,source_service,derived_anchor_status,derived_segment_id,derived_record_id,reason
+345fbe93-80,2025-06-05T16:10:02Z,stress test,cpu stress,emailservice,retained,tenant_ccf_all_seg_0000,record_0000,mapped to derived global_label.json
+74a44ae7-81,2025-06-05T17:10:04Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0000,record_0001,mapped to derived global_label.json
+38ee3d45-82,2025-06-05T18:10:05Z,pod fault,pod failure,cartservice,retained,tenant_ccf_all_seg_0000,record_0002,mapped to derived global_label.json
+b1ab098d-83,2025-06-05T19:10:07Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0000,record_0003,mapped to derived global_label.json
+27956295-84,2025-06-05T20:10:09Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0000,record_0004,mapped to derived global_label.json
+8a7a8a00-85,2025-06-05T21:10:10Z,network attack,network delay,,retained,tenant_ccf_all_seg_0000,record_0005,mapped to derived global_label.json
+ef2a4fbb-87,2025-06-05T23:10:13Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0000,record_0006,mapped to derived global_label.json
+233e0282-88,2025-06-06T00:10:14Z,stress test,cpu stress,currencyservice,retained,tenant_ccf_all_seg_0000,record_0007,mapped to derived global_label.json
+5f904167-89,2025-06-06T01:10:16Z,network attack,network loss,,retained,tenant_ccf_all_seg_0000,record_0008,mapped to derived global_label.json
+d3bd27f3-90,2025-06-06T02:02:59Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0000,record_0009,mapped to derived global_label.json
+26c9ab68-91,2025-06-06T03:03:01Z,stress test,cpu stress,emailservice,retained,tenant_ccf_all_seg_0000,record_0010,mapped to derived global_label.json
+0718e0f9-92,2025-06-06T04:03:03Z,pod fault,pod kill,productcatalogservice,not_formed,,,sub-minute event start falls in a one-minute topology-segment boundary gap
+31392fda-93,2025-06-06T05:03:05Z,stress test,memory stress,shippingservice,retained,tenant_ccf_all_seg_0001,record_0000,mapped to derived global_label.json
+20622318-94,2025-06-06T06:03:07Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0001,record_0001,mapped to derived global_label.json
+c002ac2b-95,2025-06-06T07:03:09Z,pod fault,pod kill,shippingservice,not_formed,,,sub-minute event start falls in a one-minute topology-segment boundary gap
+4ab999b7-96,2025-06-06T08:03:11Z,stress test,cpu stress,shippingservice,retained,tenant_ccf_all_seg_0002,record_0000,mapped to derived global_label.json
+6ef260df-97,2025-06-06T09:03:13Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0002,record_0001,mapped to derived global_label.json
+6375ea10-98,2025-06-06T10:03:14Z,pod fault,pod failure,recommendationservice,retained,tenant_ccf_all_seg_0002,record_0002,mapped to derived global_label.json
+555d145f-99,2025-06-06T11:03:16Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0002,record_0003,mapped to derived global_label.json
+342d4820-100,2025-06-06T12:03:18Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0002,record_0004,mapped to derived global_label.json
+cd81a09b-101,2025-06-06T13:03:21Z,pod fault,pod kill,recommendationservice,retained,tenant_ccf_all_seg_0002,record_0005,mapped to derived global_label.json
+b67cbc30-102,2025-06-06T14:03:28Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0003,record_0000,mapped to derived global_label.json
+ae4abdbe-103,2025-06-06T15:03:29Z,stress test,memory stress,productcatalogservice,retained,tenant_ccf_all_seg_0003,record_0001,mapped to derived global_label.json
+d32bcd36-104,2025-06-06T16:10:02Z,pod fault,pod kill,cartservice,not_formed,,,sub-minute event start falls in a one-minute topology-segment boundary gap
+3df3b41f-105,2025-06-06T18:10:05Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0004,record_0000,mapped to derived global_label.json
+744d4e2b-106,2025-06-06T19:10:06Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0004,record_0001,mapped to derived global_label.json
+462e3353-107,2025-06-06T21:10:18Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0004,record_0002,mapped to derived global_label.json
+271c6b09-108,2025-06-06T22:10:20Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0004,record_0003,mapped to derived global_label.json
+55791019-109,2025-06-06T23:10:21Z,network attack,network loss,,retained,tenant_ccf_all_seg_0004,record_0004,mapped to derived global_label.json
+abb62970-110,2025-06-07T00:10:23Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0004,record_0005,mapped to derived global_label.json
+a54c75dc-111,2025-06-07T01:10:25Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0004,record_0006,mapped to derived global_label.json
+f48a6b60-112,2025-06-07T02:10:26Z,pod fault,pod failure,recommendationservice,retained,tenant_ccf_all_seg_0004,record_0007,mapped to derived global_label.json
+dc62e30c-113,2025-06-07T03:10:28Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0004,record_0008,mapped to derived global_label.json
+bc2f1dfa-114,2025-06-07T04:10:30Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0004,record_0009,mapped to derived global_label.json
+541f72de-115,2025-06-07T05:10:31Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0004,record_0010,mapped to derived global_label.json
+e2750b43-116,2025-06-07T06:10:33Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0004,record_0011,mapped to derived global_label.json
+a363d826-117,2025-06-07T07:10:35Z,network attack,network loss,,retained,tenant_ccf_all_seg_0004,record_0012,mapped to derived global_label.json
+dc331a0b-118,2025-06-07T08:10:37Z,network attack,network delay,,retained,tenant_ccf_all_seg_0004,record_0013,mapped to derived global_label.json
+f18b68cd-119,2025-06-07T09:10:39Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0004,record_0014,mapped to derived global_label.json
+a85d0720-120,2025-06-07T10:10:40Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0004,record_0015,mapped to derived global_label.json
+66cfe1dd-121,2025-06-07T11:10:41Z,stress test,cpu stress,emailservice,retained,tenant_ccf_all_seg_0004,record_0016,mapped to derived global_label.json
+8cf433b4-122,2025-06-07T12:10:44Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0004,record_0017,mapped to derived global_label.json
+bc454cd0-123,2025-06-07T13:11:01Z,network attack,network delay,,retained,tenant_ccf_all_seg_0004,record_0018,mapped to derived global_label.json
+ad84546c-124,2025-06-07T14:11:03Z,network attack,network loss,,retained,tenant_ccf_all_seg_0004,record_0019,mapped to derived global_label.json
+0fccdcad-125,2025-06-07T15:11:05Z,stress test,cpu stress,recommendationservice,retained,tenant_ccf_all_seg_0004,record_0020,mapped to derived global_label.json
+de4a919c-126,2025-06-07T16:10:02Z,stress test,memory stress,paymentservice,retained,tenant_ccf_all_seg_0004,record_0021,mapped to derived global_label.json
+8d818070-127,2025-06-07T17:10:04Z,network attack,network loss,,retained,tenant_ccf_all_seg_0004,record_0022,mapped to derived global_label.json
+c1e7d172-128,2025-06-07T18:10:06Z,network attack,network loss,,retained,tenant_ccf_all_seg_0004,record_0023,mapped to derived global_label.json
+343ba04c-129,2025-06-07T19:10:08Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0004,record_0024,mapped to derived global_label.json
+725d8034-130,2025-06-07T20:10:10Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0004,record_0025,mapped to derived global_label.json
+08e3187d-131,2025-06-07T21:10:11Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0004,record_0026,mapped to derived global_label.json
+21aa302f-132,2025-06-07T22:10:12Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0004,record_0027,mapped to derived global_label.json
+fc44280d-133,2025-06-07T23:10:13Z,network attack,network delay,,retained,tenant_ccf_all_seg_0004,record_0028,mapped to derived global_label.json
+36937f85-134,2025-06-08T00:10:15Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0004,record_0029,mapped to derived global_label.json
+3400061d-135,2025-06-08T01:10:17Z,pod fault,pod failure,recommendationservice,retained,tenant_ccf_all_seg_0004,record_0030,mapped to derived global_label.json
+42c6ad6f-136,2025-06-08T02:10:19Z,pod fault,pod failure,shippingservice,retained,tenant_ccf_all_seg_0004,record_0031,mapped to derived global_label.json
+f99b1645-137,2025-06-08T03:10:21Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0004,record_0032,mapped to derived global_label.json
+2272a5ff-138,2025-06-08T04:10:22Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0004,record_0033,mapped to derived global_label.json
+cc3b1830-139,2025-06-08T05:10:24Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0004,record_0034,mapped to derived global_label.json
+6f84e51d-140,2025-06-08T06:10:26Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0004,record_0035,mapped to derived global_label.json
+5b520645-141,2025-06-08T07:10:28Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0004,record_0036,mapped to derived global_label.json
+ba74cb57-142,2025-06-08T08:10:29Z,stress test,memory stress,productcatalogservice,retained,tenant_ccf_all_seg_0004,record_0037,mapped to derived global_label.json
+fe25ee9b-143,2025-06-08T09:10:31Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0004,record_0038,mapped to derived global_label.json
+94d48f2c-144,2025-06-08T10:10:48Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0004,record_0039,mapped to derived global_label.json
+f066e1dd-145,2025-06-08T11:10:50Z,pod fault,pod kill,shippingservice,retained,tenant_ccf_all_seg_0004,record_0040,mapped to derived global_label.json
+ad13b37a-146,2025-06-08T12:10:52Z,stress test,memory stress,recommendationservice,retained,tenant_ccf_all_seg_0005,record_0000,mapped to derived global_label.json
+dce5cefa-147,2025-06-08T13:10:54Z,pod fault,pod failure,cartservice,retained,tenant_ccf_all_seg_0005,record_0001,mapped to derived global_label.json
+50f000ee-148,2025-06-08T14:10:55Z,stress test,memory stress,paymentservice,retained,tenant_ccf_all_seg_0005,record_0002,mapped to derived global_label.json
+0a373d08-149,2025-06-08T15:10:57Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0005,record_0003,mapped to derived global_label.json
+9a257bd5-150,2025-06-08T16:10:02Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0005,record_0004,mapped to derived global_label.json
+162fe36a-151,2025-06-08T17:10:04Z,pod fault,pod kill,productcatalogservice,not_formed,,,sub-minute event start falls in a one-minute topology-segment boundary gap
+eba76009-152,2025-06-08T18:10:05Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0006,record_0000,mapped to derived global_label.json
+168cdf19-153,2025-06-08T19:10:07Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0006,record_0001,mapped to derived global_label.json
+05b57997-154,2025-06-08T20:10:18Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0006,record_0002,mapped to derived global_label.json
+54002a5c-155,2025-06-08T21:10:21Z,stress test,memory stress,cartservice,retained,tenant_ccf_all_seg_0006,record_0003,mapped to derived global_label.json
+934844b2-156,2025-06-08T22:10:23Z,network attack,network delay,,retained,tenant_ccf_all_seg_0006,record_0004,mapped to derived global_label.json
+1c47d7bf-157,2025-06-08T23:10:24Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0006,record_0005,mapped to derived global_label.json
+3600f326-158,2025-06-09T00:10:25Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0006,record_0006,mapped to derived global_label.json
+a9c6d6c9-159,2025-06-09T01:10:27Z,network attack,network delay,,retained,tenant_ccf_all_seg_0006,record_0007,mapped to derived global_label.json
+0efb9550-160,2025-06-09T02:10:29Z,stress test,memory stress,productcatalogservice,retained,tenant_ccf_all_seg_0006,record_0008,mapped to derived global_label.json
+cb5815ce-161,2025-06-09T03:10:31Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0006,record_0009,mapped to derived global_label.json
+89c85406-162,2025-06-09T04:10:33Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0006,record_0010,mapped to derived global_label.json
+43e1b3bf-163,2025-06-09T05:10:35Z,network attack,network loss,,retained,tenant_ccf_all_seg_0006,record_0011,mapped to derived global_label.json
+7bdc4b83-164,2025-06-09T06:10:36Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0006,record_0012,mapped to derived global_label.json
+cebb47f5-165,2025-06-09T07:10:38Z,pod fault,pod kill,paymentservice,retained,tenant_ccf_all_seg_0006,record_0013,mapped to derived global_label.json
+578fce7c-166,2025-06-09T08:10:40Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0006,record_0014,mapped to derived global_label.json
+47fe21f6-167,2025-06-09T09:10:42Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0006,record_0015,mapped to derived global_label.json
+df892932-168,2025-06-09T10:10:44Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0006,record_0016,mapped to derived global_label.json
+51fc47bf-169,2025-06-09T11:10:46Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0006,record_0017,mapped to derived global_label.json
+046aefa7-170,2025-06-09T12:10:48Z,stress test,cpu stress,shippingservice,retained,tenant_ccf_all_seg_0006,record_0018,mapped to derived global_label.json
+e0a261ce-171,2025-06-09T13:11:07Z,stress test,cpu stress,recommendationservice,retained,tenant_ccf_all_seg_0006,record_0019,mapped to derived global_label.json
+a0761b38-172,2025-06-09T14:11:10Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0006,record_0020,mapped to derived global_label.json
+e6c9989b-173,2025-06-09T15:11:12Z,network attack,network delay,,retained,tenant_ccf_all_seg_0006,record_0021,mapped to derived global_label.json
+cc451a15-174,2025-06-09T16:10:02Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0006,record_0022,mapped to derived global_label.json
+f78ef469-175,2025-06-09T17:10:03Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0006,record_0023,mapped to derived global_label.json
+49a506cd-176,2025-06-09T18:10:04Z,network attack,network loss,,retained,tenant_ccf_all_seg_0006,record_0024,mapped to derived global_label.json
+6892c835-177,2025-06-09T20:10:20Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0006,record_0025,mapped to derived global_label.json
+d0be3c58-178,2025-06-09T21:10:22Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0006,record_0026,mapped to derived global_label.json
+251c4f53-179,2025-06-09T22:10:24Z,pod fault,pod kill,cartservice,retained,tenant_ccf_all_seg_0006,record_0027,mapped to derived global_label.json
+994849cc-180,2025-06-09T23:10:27Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0006,record_0028,mapped to derived global_label.json
+7f595b45-181,2025-06-10T00:10:28Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0006,record_0029,mapped to derived global_label.json
+eb0c4ea8-182,2025-06-10T01:10:30Z,network attack,network delay,,retained,tenant_ccf_all_seg_0006,record_0030,mapped to derived global_label.json
+d3dd6ed7-183,2025-06-10T02:10:32Z,pod fault,pod kill,shippingservice,retained,tenant_ccf_all_seg_0006,record_0031,mapped to derived global_label.json
+fb327034-184,2025-06-10T03:10:34Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0007,record_0000,mapped to derived global_label.json
+1fbef130-185,2025-06-10T04:10:36Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0007,record_0001,mapped to derived global_label.json
+97d37c35-186,2025-06-10T05:10:38Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0007,record_0002,mapped to derived global_label.json
+9b0d8a50-187,2025-06-10T06:10:40Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0007,record_0003,mapped to derived global_label.json
+7e03b07d-188,2025-06-10T07:10:44Z,pod fault,pod failure,shippingservice,retained,tenant_ccf_all_seg_0007,record_0004,mapped to derived global_label.json
+96e4b852-189,2025-06-10T08:10:46Z,pod fault,pod kill,shippingservice,retained,tenant_ccf_all_seg_0007,record_0005,mapped to derived global_label.json
+7513dbaf-190,2025-06-10T09:10:48Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0008,record_0000,mapped to derived global_label.json
+c9832b3e-191,2025-06-10T10:10:50Z,pod fault,pod failure,checkoutservice,retained,tenant_ccf_all_seg_0008,record_0001,mapped to derived global_label.json
+e55fb1cb-192,2025-06-10T11:10:52Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0008,record_0002,mapped to derived global_label.json
+e4ef8a12-193,2025-06-10T12:10:54Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0008,record_0003,mapped to derived global_label.json
+913e1ecf-194,2025-06-10T13:10:57Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0008,record_0004,mapped to derived global_label.json
+7984364a-195,2025-06-10T14:10:58Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0008,record_0005,mapped to derived global_label.json
+6a643823-196,2025-06-10T15:11:01Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0008,record_0006,mapped to derived global_label.json
+de1d442d-197,2025-06-10T16:10:01Z,network attack,network loss,,retained,tenant_ccf_all_seg_0008,record_0007,mapped to derived global_label.json
+4229b9c5-198,2025-06-10T17:10:06Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0008,record_0008,mapped to derived global_label.json
+ff15d32c-199,2025-06-10T18:10:08Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0008,record_0009,mapped to derived global_label.json
+5c8eb611-200,2025-06-10T19:10:10Z,network attack,network delay,,retained,tenant_ccf_all_seg_0008,record_0010,mapped to derived global_label.json
+40424656-201,2025-06-10T20:10:12Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0008,record_0011,mapped to derived global_label.json
+a499f40d-202,2025-06-10T21:10:13Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0008,record_0012,mapped to derived global_label.json
+e25d2429-203,2025-06-10T22:10:17Z,stress test,cpu stress,adservice,retained,tenant_ccf_all_seg_0008,record_0013,mapped to derived global_label.json
+eb79e778-204,2025-06-10T23:10:19Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0008,record_0014,mapped to derived global_label.json
+56c934bb-205,2025-06-11T00:10:20Z,pod fault,pod failure,cartservice,retained,tenant_ccf_all_seg_0008,record_0015,mapped to derived global_label.json
+d9fb014e-206,2025-06-11T01:10:22Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0008,record_0016,mapped to derived global_label.json
+92e5a649-207,2025-06-11T02:10:29Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0008,record_0017,mapped to derived global_label.json
+eaf978d7-208,2025-06-11T03:10:31Z,pod fault,pod kill,currencyservice,retained,tenant_ccf_all_seg_0008,record_0018,mapped to derived global_label.json
+74bd0298-209,2025-06-11T04:10:33Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0008,record_0019,mapped to derived global_label.json
+6a9a1c00-210,2025-06-11T05:10:35Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0008,record_0020,mapped to derived global_label.json
+499d8ec0-211,2025-06-11T06:10:37Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0008,record_0021,mapped to derived global_label.json
+5a573d9d-212,2025-06-11T07:10:39Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0008,record_0022,mapped to derived global_label.json
+5d97906f-213,2025-06-11T08:10:41Z,stress test,memory stress,checkoutservice,retained,tenant_ccf_all_seg_0008,record_0023,mapped to derived global_label.json
+d1e74aa8-214,2025-06-11T09:10:43Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0008,record_0024,mapped to derived global_label.json
+2cce5582-215,2025-06-11T10:10:44Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0008,record_0025,mapped to derived global_label.json
+13ebf32d-216,2025-06-11T11:10:46Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0008,record_0026,mapped to derived global_label.json
+b1dff953-217,2025-06-11T12:10:49Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0008,record_0027,mapped to derived global_label.json
+3ae307d9-218,2025-06-11T13:10:50Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0008,record_0028,mapped to derived global_label.json
+6e8c4acb-219,2025-06-11T14:10:53Z,network attack,network delay,,retained,tenant_ccf_all_seg_0008,record_0029,mapped to derived global_label.json
+aa100326-220,2025-06-11T15:10:55Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0008,record_0030,mapped to derived global_label.json
+10889e22-221,2025-06-11T16:10:02Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0008,record_0031,mapped to derived global_label.json
+ee77456a-222,2025-06-11T17:10:04Z,network attack,network delay,,retained,tenant_ccf_all_seg_0008,record_0032,mapped to derived global_label.json
+87b43d57-223,2025-06-11T18:10:06Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0008,record_0033,mapped to derived global_label.json
+53212d72-224,2025-06-11T19:10:08Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0008,record_0034,mapped to derived global_label.json
+a061c961-225,2025-06-11T20:10:10Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0008,record_0035,mapped to derived global_label.json
+0410d710-226,2025-06-11T21:10:11Z,pod fault,pod kill,paymentservice,retained,tenant_ccf_all_seg_0008,record_0036,mapped to derived global_label.json
+ffabbbb0-227,2025-06-11T22:10:13Z,network attack,network loss,,retained,tenant_ccf_all_seg_0008,record_0037,mapped to derived global_label.json
+7e7b6ea4-228,2025-06-11T23:10:15Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0008,record_0038,mapped to derived global_label.json
+df11e2f0-229,2025-06-12T00:10:16Z,stress test,cpu stress,adservice,retained,tenant_ccf_all_seg_0008,record_0039,mapped to derived global_label.json
+1193b5d8-230,2025-06-12T01:10:18Z,pod fault,pod failure,cartservice,retained,tenant_ccf_all_seg_0008,record_0040,mapped to derived global_label.json
+e4ff5a70-231,2025-06-12T02:10:20Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0008,record_0041,mapped to derived global_label.json
+29f88351-232,2025-06-12T03:10:22Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0008,record_0042,mapped to derived global_label.json
+d99a98a0-233,2025-06-12T04:16:34Z,pod fault,pod kill,paymentservice,retained,tenant_ccf_all_seg_0008,record_0043,mapped to derived global_label.json
+ee69c707-234,2025-06-12T05:16:36Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0008,record_0044,mapped to derived global_label.json
+bc9db995-235,2025-06-12T06:16:38Z,pod fault,pod kill,adservice,retained,tenant_ccf_all_seg_0008,record_0045,mapped to derived global_label.json
+4be46c92-236,2025-06-12T07:02:46Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0008,record_0046,mapped to derived global_label.json
+8c1e8ce9-237,2025-06-12T08:02:48Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0008,record_0047,mapped to derived global_label.json
+f887d7ff-238,2025-06-12T09:02:50Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0008,record_0048,mapped to derived global_label.json
+bc6f6978-239,2025-06-12T10:02:52Z,network attack,network loss,,retained,tenant_ccf_all_seg_0008,record_0049,mapped to derived global_label.json
+980853cb-240,2025-06-12T11:02:54Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0008,record_0050,mapped to derived global_label.json
+1fb24317-241,2025-06-12T13:03:02Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0008,record_0051,mapped to derived global_label.json
+36e2b5c1-242,2025-06-12T14:03:03Z,pod fault,pod failure,emailservice,retained,tenant_ccf_all_seg_0008,record_0052,mapped to derived global_label.json
+f643fe98-243,2025-06-12T15:03:05Z,stress test,memory stress,adservice,retained,tenant_ccf_all_seg_0008,record_0053,mapped to derived global_label.json
+98eacd31-244,2025-06-12T16:10:02Z,pod fault,pod failure,emailservice,retained,tenant_ccf_all_seg_0008,record_0054,mapped to derived global_label.json
+d4cf6596-245,2025-06-12T17:10:04Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0008,record_0055,mapped to derived global_label.json
+bdc8184e-246,2025-06-12T18:10:05Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0008,record_0056,mapped to derived global_label.json
+741b801a-247,2025-06-12T19:10:07Z,stress test,memory stress,emailservice,retained,tenant_ccf_all_seg_0008,record_0057,mapped to derived global_label.json
+5645565c-248,2025-06-12T20:10:09Z,network attack,network loss,,retained,tenant_ccf_all_seg_0008,record_0058,mapped to derived global_label.json
+8c7ed41d-249,2025-06-12T21:10:11Z,network attack,network delay,,retained,tenant_ccf_all_seg_0008,record_0059,mapped to derived global_label.json
+6574656a-250,2025-06-12T22:10:13Z,pod fault,pod kill,paymentservice,retained,tenant_ccf_all_seg_0008,record_0060,mapped to derived global_label.json
+4664a5e8-251,2025-06-12T23:10:15Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0009,record_0000,mapped to derived global_label.json
+91c4c773-252,2025-06-13T00:10:22Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0009,record_0001,mapped to derived global_label.json
+958ecb16-253,2025-06-13T01:10:24Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0009,record_0002,mapped to derived global_label.json
+71964944-254,2025-06-13T02:10:25Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0009,record_0003,mapped to derived global_label.json
+d36dd82b-255,2025-06-13T03:10:30Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0009,record_0004,mapped to derived global_label.json
+14cf33ba-256,2025-06-13T04:10:46Z,network attack,network delay,,retained,tenant_ccf_all_seg_0009,record_0005,mapped to derived global_label.json
+f35a1832-257,2025-06-13T05:10:48Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0009,record_0006,mapped to derived global_label.json
+f62b1785-258,2025-06-13T06:10:51Z,pod fault,pod failure,adservice,retained,tenant_ccf_all_seg_0009,record_0007,mapped to derived global_label.json
+aa53ee7c-259,2025-06-13T07:10:53Z,jvm fault,jvm latency,adservice,retained,tenant_ccf_all_seg_0009,record_0008,mapped to derived global_label.json
+c730da7b-260,2025-06-13T08:10:54Z,stress test,cpu stress,recommendationservice,retained,tenant_ccf_all_seg_0009,record_0009,mapped to derived global_label.json
+db4628f8-261,2025-06-13T09:10:56Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0009,record_0010,mapped to derived global_label.json
+a7b21b38-262,2025-06-13T10:10:58Z,pod fault,pod failure,shippingservice,retained,tenant_ccf_all_seg_0009,record_0011,mapped to derived global_label.json
+757fa56f-263,2025-06-13T11:11:00Z,stress test,cpu stress,recommendationservice,retained,tenant_ccf_all_seg_0009,record_0012,mapped to derived global_label.json
+d8a41a9d-264,2025-06-13T12:11:14Z,pod fault,pod failure,adservice,retained,tenant_ccf_all_seg_0009,record_0013,mapped to derived global_label.json
+b06b79b6-265,2025-06-13T13:11:19Z,stress test,cpu stress,shippingservice,retained,tenant_ccf_all_seg_0009,record_0014,mapped to derived global_label.json
+49e9814e-266,2025-06-13T14:11:24Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0009,record_0015,mapped to derived global_label.json
+d0c7cd07-267,2025-06-13T15:11:27Z,jvm fault,jvm exception,adservice,retained,tenant_ccf_all_seg_0009,record_0016,mapped to derived global_label.json
+25368410-268,2025-06-13T16:10:02Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0009,record_0017,mapped to derived global_label.json
+37de08d4-269,2025-06-13T17:10:04Z,network attack,network loss,,retained,tenant_ccf_all_seg_0009,record_0018,mapped to derived global_label.json
+c6e9faa0-270,2025-06-13T18:10:08Z,stress test,memory stress,currencyservice,retained,tenant_ccf_all_seg_0009,record_0019,mapped to derived global_label.json
+864797d5-271,2025-06-13T19:10:10Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0009,record_0020,mapped to derived global_label.json
+4b8e459c-272,2025-06-13T20:10:13Z,stress test,memory stress,shippingservice,retained,tenant_ccf_all_seg_0009,record_0021,mapped to derived global_label.json
+535dd1bd-273,2025-06-13T21:10:15Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0009,record_0022,mapped to derived global_label.json
+099ce7e2-274,2025-06-13T22:10:16Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0009,record_0023,mapped to derived global_label.json
+7e54232b-275,2025-06-13T23:10:17Z,stress test,cpu stress,checkoutservice,retained,tenant_ccf_all_seg_0009,record_0024,mapped to derived global_label.json
+f5d0349a-276,2025-06-14T00:10:19Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0009,record_0025,mapped to derived global_label.json
+4e221a94-277,2025-06-14T01:10:20Z,stress test,memory stress,paymentservice,retained,tenant_ccf_all_seg_0009,record_0026,mapped to derived global_label.json
+a1b60eea-278,2025-06-14T02:10:22Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0009,record_0027,mapped to derived global_label.json
+825545e5-279,2025-06-14T03:10:24Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0009,record_0028,mapped to derived global_label.json
+e955714b-280,2025-06-14T04:10:26Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0009,record_0029,mapped to derived global_label.json
+de83df2d-281,2025-06-14T05:10:28Z,pod fault,pod failure,adservice,retained,tenant_ccf_all_seg_0009,record_0030,mapped to derived global_label.json
+9c3b8fe7-282,2025-06-14T06:10:30Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0009,record_0031,mapped to derived global_label.json
+84f4b04a-283,2025-06-14T07:10:32Z,stress test,memory stress,currencyservice,retained,tenant_ccf_all_seg_0009,record_0032,mapped to derived global_label.json
+e4dae239-284,2025-06-14T08:10:34Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0009,record_0033,mapped to derived global_label.json
+11f619f0-285,2025-06-14T09:10:35Z,pod fault,pod failure,productcatalogservice,retained,tenant_ccf_all_seg_0009,record_0034,mapped to derived global_label.json
+3da57a36-286,2025-06-14T10:10:38Z,network attack,network delay,,retained,tenant_ccf_all_seg_0009,record_0035,mapped to derived global_label.json
+04418665-287,2025-06-14T11:10:40Z,jvm fault,jvm gc,adservice,retained,tenant_ccf_all_seg_0009,record_0036,mapped to derived global_label.json
+27914c5a-288,2025-06-14T12:10:42Z,pod fault,pod failure,paymentservice,retained,tenant_ccf_all_seg_0009,record_0037,mapped to derived global_label.json
+53d5d618-289,2025-06-14T13:10:45Z,network attack,network delay,,retained,tenant_ccf_all_seg_0009,record_0038,mapped to derived global_label.json
+a63a0c8b-290,2025-06-14T14:10:47Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0009,record_0039,mapped to derived global_label.json
+f370cf6d-291,2025-06-14T15:10:48Z,jvm fault,jvm cpu,adservice,retained,tenant_ccf_all_seg_0009,record_0040,mapped to derived global_label.json
+50bce1c4-311,2025-06-16T16:10:02Z,erroneous change,code error,cartservice,retained,tenant_ccf_all_seg_0010,record_0000,mapped to derived global_label.json
+b78dafc3-312,2025-06-16T17:10:02Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0011,record_0000,mapped to derived global_label.json
+009be6db-313,2025-06-16T18:10:05Z,erroneous change,code error,cartservice,retained,tenant_ccf_all_seg_0011,record_0001,mapped to derived global_label.json
+c0cdda5e-314,2025-06-16T19:10:06Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0011,record_0002,mapped to derived global_label.json
+a482d876-315,2025-06-16T20:10:10Z,stress test,cpu stress,shippingservice,retained,tenant_ccf_all_seg_0011,record_0003,mapped to derived global_label.json
+3260fa48-316,2025-06-16T21:10:11Z,pod fault,pod failure,tidb-tidb,retained,tenant_ccf_all_seg_0011,record_0004,mapped to derived global_label.json
+332adc3a-317,2025-06-16T22:10:12Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0011,record_0005,mapped to derived global_label.json
+18b8cf77-318,2025-06-16T23:10:14Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0011,record_0006,mapped to derived global_label.json
+a42d2eb4-319,2025-06-17T00:10:15Z,misconfiguration,target port misconfig,emailservice,retained,tenant_ccf_all_seg_0011,record_0007,mapped to derived global_label.json
+fc3737af-320,2025-06-17T01:10:16Z,stress test,memory stress,productcatalogservice,retained,tenant_ccf_all_seg_0011,record_0008,mapped to derived global_label.json
+bbfefe10-321,2025-06-17T02:10:17Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0011,record_0009,mapped to derived global_label.json
+e539dea4-322,2025-06-17T03:10:20Z,erroneous change,code error,checkoutservice,retained,tenant_ccf_all_seg_0011,record_0010,mapped to derived global_label.json
+83524cef-323,2025-06-17T04:10:20Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0012,record_0000,mapped to derived global_label.json
+ed40c5a3-324,2025-06-17T05:10:21Z,network attack,network delay,,retained,tenant_ccf_all_seg_0012,record_0001,mapped to derived global_label.json
+55b23e04-325,2025-06-17T06:10:38Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0012,record_0002,mapped to derived global_label.json
+53ab3ccb-326,2025-06-17T07:10:39Z,erroneous change,code error,frontend,retained,tenant_ccf_all_seg_0012,record_0003,mapped to derived global_label.json
+4fd42adb-327,2025-06-17T08:10:39Z,stress test,memory stress,adservice,retained,tenant_ccf_all_seg_0013,record_0000,mapped to derived global_label.json
+d44478e6-328,2025-06-17T09:10:41Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0013,record_0001,mapped to derived global_label.json
+70d3b8b0-329,2025-06-17T10:10:43Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0013,record_0002,mapped to derived global_label.json
+c3f4fde9-330,2025-06-17T11:10:44Z,network attack,network delay,,retained,tenant_ccf_all_seg_0013,record_0003,mapped to derived global_label.json
+76222cb2-331,2025-06-17T12:10:46Z,erroneous change,code error,currencyservice,retained,tenant_ccf_all_seg_0013,record_0004,mapped to derived global_label.json
+68bbf4fd-332,2025-06-17T13:10:47Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0014,record_0000,mapped to derived global_label.json
+3d284cf0-333,2025-06-17T14:10:48Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0014,record_0001,mapped to derived global_label.json
+985de575-334,2025-06-17T15:10:50Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0014,record_0002,mapped to derived global_label.json
+e1562aa2-335,2025-06-17T16:10:02Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0014,record_0003,mapped to derived global_label.json
+8e7a3965-336,2025-06-17T17:10:03Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0014,record_0004,mapped to derived global_label.json
+c3377c5c-337,2025-06-17T18:10:04Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0014,record_0005,mapped to derived global_label.json
+8c61bc09-338,2025-06-17T19:10:05Z,erroneous change,code error,frontend,retained,tenant_ccf_all_seg_0014,record_0006,mapped to derived global_label.json
+0b81a605-339,2025-06-17T20:10:05Z,stress test,cpu stress,paymentservice,retained,tenant_ccf_all_seg_0014,record_0007,mapped to derived global_label.json
+0a9fce75-340,2025-06-17T21:10:07Z,pod fault,pod failure,tidb-pd,retained,tenant_ccf_all_seg_0014,record_0008,mapped to derived global_label.json
+b9319370-341,2025-06-17T22:10:08Z,erroneous change,code error,productcatalogservice,retained,tenant_ccf_all_seg_0014,record_0009,mapped to derived global_label.json
+b96848a5-342,2025-06-17T23:10:08Z,erroneous change,code error,cartservice,retained,tenant_ccf_all_seg_0014,record_0010,mapped to derived global_label.json
+88b7daff-343,2025-06-18T00:10:09Z,network attack,network delay,,retained,tenant_ccf_all_seg_0014,record_0011,mapped to derived global_label.json
+09b7c00b-344,2025-06-18T01:10:10Z,erroneous change,code error,cartservice,retained,tenant_ccf_all_seg_0014,record_0012,mapped to derived global_label.json
+b9539d8e-345,2025-06-18T02:10:11Z,misconfiguration,target port misconfig,productcatalogservice,retained,tenant_ccf_all_seg_0014,record_0013,mapped to derived global_label.json
+76937ba4-346,2025-06-18T03:10:11Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0014,record_0014,mapped to derived global_label.json
+1d868f8e-347,2025-06-18T04:10:12Z,network attack,network delay,,retained,tenant_ccf_all_seg_0014,record_0015,mapped to derived global_label.json
+4b225f4a-348,2025-06-18T05:10:14Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0014,record_0016,mapped to derived global_label.json
+0a4c5c18-349,2025-06-18T06:10:15Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0014,record_0017,mapped to derived global_label.json
+fb20d6d2-350,2025-06-18T07:10:16Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0014,record_0018,mapped to derived global_label.json
+a87be781-351,2025-06-18T08:10:17Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0014,record_0019,mapped to derived global_label.json
+1ef94bd7-352,2025-06-18T09:10:19Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0014,record_0020,mapped to derived global_label.json
+178aa45f-353,2025-06-18T10:10:20Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0014,record_0021,mapped to derived global_label.json
+ad030412-354,2025-06-18T11:10:23Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0014,record_0022,mapped to derived global_label.json
+b168261d-355,2025-06-18T12:10:24Z,misconfiguration,target port misconfig,paymentservice,retained,tenant_ccf_all_seg_0014,record_0023,mapped to derived global_label.json
+ac95d601-356,2025-06-18T13:10:25Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0014,record_0024,mapped to derived global_label.json
+b9e3efbd-357,2025-06-18T14:10:27Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0014,record_0025,mapped to derived global_label.json
+7bd681bb-358,2025-06-18T15:10:30Z,erroneous change,code error,checkoutservice,retained,tenant_ccf_all_seg_0014,record_0026,mapped to derived global_label.json
+7c0d7152-359,2025-06-18T16:10:01Z,misconfiguration,target port misconfig,emailservice,retained,tenant_ccf_all_seg_0015,record_0000,mapped to derived global_label.json
+46fc7b93-360,2025-06-18T17:10:02Z,pod fault,pod failure,tidb-pd,retained,tenant_ccf_all_seg_0015,record_0001,mapped to derived global_label.json
+f5e2df8d-361,2025-06-18T18:10:03Z,pod fault,pod failure,tidb-pd,retained,tenant_ccf_all_seg_0015,record_0002,mapped to derived global_label.json
+f0015bac-362,2025-06-18T19:10:04Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0015,record_0003,mapped to derived global_label.json
+b06baad3-363,2025-06-18T20:10:06Z,misconfiguration,target port misconfig,adservice,retained,tenant_ccf_all_seg_0015,record_0004,mapped to derived global_label.json
+fe4efdc8-364,2025-06-18T21:10:06Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0015,record_0005,mapped to derived global_label.json
+7dbfd4c3-365,2025-06-18T22:10:07Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0015,record_0006,mapped to derived global_label.json
+14c1047f-366,2025-06-18T23:10:08Z,erroneous change,code error,currencyservice,retained,tenant_ccf_all_seg_0015,record_0007,mapped to derived global_label.json
+68727566-367,2025-06-19T00:10:09Z,misconfiguration,target port misconfig,paymentservice,retained,tenant_ccf_all_seg_0015,record_0008,mapped to derived global_label.json
+aba2da7f-368,2025-06-19T01:10:09Z,network attack,network delay,,retained,tenant_ccf_all_seg_0015,record_0009,mapped to derived global_label.json
+e3884815-369,2025-06-19T02:10:11Z,pod fault,pod failure,tidb-tidb,retained,tenant_ccf_all_seg_0015,record_0010,mapped to derived global_label.json
+2e8873a5-370,2025-06-19T03:10:13Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0015,record_0011,mapped to derived global_label.json
+593e3d6b-371,2025-06-19T04:10:14Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0015,record_0012,mapped to derived global_label.json
+9450018e-372,2025-06-19T05:10:16Z,erroneous change,code error,currencyservice,retained,tenant_ccf_all_seg_0015,record_0013,mapped to derived global_label.json
+0419ba04-373,2025-06-19T06:10:19Z,misconfiguration,target port misconfig,currencyservice,retained,tenant_ccf_all_seg_0017,record_0000,mapped to derived global_label.json
+80cdc066-374,2025-06-19T07:10:21Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0017,record_0001,mapped to derived global_label.json
+371ba498-375,2025-06-19T08:10:22Z,misconfiguration,target port misconfig,paymentservice,retained,tenant_ccf_all_seg_0017,record_0002,mapped to derived global_label.json
+2878f9f0-376,2025-06-19T09:10:22Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0017,record_0003,mapped to derived global_label.json
+9ee6b9ce-377,2025-06-19T10:10:24Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0017,record_0004,mapped to derived global_label.json
+bf022434-378,2025-06-19T11:10:25Z,network attack,network loss,,retained,tenant_ccf_all_seg_0017,record_0005,mapped to derived global_label.json
+d124f9b7-379,2025-06-19T12:10:27Z,stress test,cpu stress,productcatalogservice,retained,tenant_ccf_all_seg_0017,record_0006,mapped to derived global_label.json
+38d69375-380,2025-06-19T13:10:28Z,pod fault,pod failure,tidb-tidb,retained,tenant_ccf_all_seg_0017,record_0007,mapped to derived global_label.json
+d0ecec7e-381,2025-06-19T14:10:30Z,misconfiguration,target port misconfig,checkoutservice,retained,tenant_ccf_all_seg_0017,record_0008,mapped to derived global_label.json
+a2047792-382,2025-06-19T15:10:31Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0017,record_0009,mapped to derived global_label.json
+9f49250a-383,2025-06-19T16:10:01Z,misconfiguration,target port misconfig,emailservice,retained,tenant_ccf_all_seg_0017,record_0010,mapped to derived global_label.json
+a0e512ba-384,2025-06-19T17:10:02Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0017,record_0011,mapped to derived global_label.json
+9d5029d9-385,2025-06-19T18:10:03Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0017,record_0012,mapped to derived global_label.json
+91b14fe1-386,2025-06-19T19:10:04Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0017,record_0013,mapped to derived global_label.json
+21950e63-387,2025-06-19T20:10:06Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0017,record_0014,mapped to derived global_label.json
+8781f965-388,2025-06-19T21:10:07Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0017,record_0015,mapped to derived global_label.json
+772b36d0-389,2025-06-19T22:10:08Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0017,record_0016,mapped to derived global_label.json
+9b0004fb-390,2025-06-19T23:10:10Z,network attack,network loss,,retained,tenant_ccf_all_seg_0017,record_0017,mapped to derived global_label.json
+5028909d-391,2025-06-20T00:10:11Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0017,record_0018,mapped to derived global_label.json
+fa555038-392,2025-06-20T01:10:12Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0017,record_0019,mapped to derived global_label.json
+e1950aec-393,2025-06-20T02:10:13Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0017,record_0020,mapped to derived global_label.json
+81a145a5-394,2025-06-20T03:10:15Z,misconfiguration,target port misconfig,paymentservice,retained,tenant_ccf_all_seg_0017,record_0021,mapped to derived global_label.json
+ec746a17-395,2025-06-20T04:10:15Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0017,record_0022,mapped to derived global_label.json
+3966f44b-396,2025-06-20T05:10:17Z,network attack,network delay,,retained,tenant_ccf_all_seg_0017,record_0023,mapped to derived global_label.json
+4153e4c6-397,2025-06-20T06:10:19Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0017,record_0024,mapped to derived global_label.json
+652408d6-398,2025-06-20T07:10:20Z,network attack,network loss,,retained,tenant_ccf_all_seg_0017,record_0025,mapped to derived global_label.json
+c1e38e2e-399,2025-06-20T08:10:22Z,pod fault,pod failure,tidb-pd,retained,tenant_ccf_all_seg_0017,record_0026,mapped to derived global_label.json
+cd049902-400,2025-06-20T09:10:23Z,erroneous change,code error,frontend,retained,tenant_ccf_all_seg_0017,record_0027,mapped to derived global_label.json
+5cb1626b-401,2025-06-20T10:10:24Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0018,record_0000,mapped to derived global_label.json
+3f4b31ee-402,2025-06-20T11:10:25Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0018,record_0001,mapped to derived global_label.json
+55759137-403,2025-06-20T12:10:27Z,network attack,network loss,,retained,tenant_ccf_all_seg_0018,record_0002,mapped to derived global_label.json
+e566fa68-404,2025-06-20T13:10:28Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0018,record_0003,mapped to derived global_label.json
+bc7e1bf2-405,2025-06-20T14:10:30Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0018,record_0004,mapped to derived global_label.json
+a7ed866b-406,2025-06-20T15:10:31Z,misconfiguration,target port misconfig,checkoutservice,retained,tenant_ccf_all_seg_0018,record_0005,mapped to derived global_label.json
+f9b9169c-407,2025-06-20T16:10:01Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0018,record_0006,mapped to derived global_label.json
+e1c6a610-408,2025-06-20T17:10:03Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0018,record_0007,mapped to derived global_label.json
+b7177fa5-409,2025-06-20T18:10:04Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0018,record_0008,mapped to derived global_label.json
+d9eb1e98-410,2025-06-20T19:10:05Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0018,record_0009,mapped to derived global_label.json
+e909315f-411,2025-06-20T20:10:06Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0018,record_0010,mapped to derived global_label.json
+be622d9e-412,2025-06-20T21:10:08Z,stress test,memory stress,emailservice,retained,tenant_ccf_all_seg_0018,record_0011,mapped to derived global_label.json
+b4feec3f-413,2025-06-20T22:10:09Z,misconfiguration,target port misconfig,checkoutservice,retained,tenant_ccf_all_seg_0018,record_0012,mapped to derived global_label.json
+5d022708-414,2025-06-20T23:10:09Z,misconfiguration,target port misconfig,shippingservice,retained,tenant_ccf_all_seg_0018,record_0013,mapped to derived global_label.json
+67ca80f6-415,2025-06-21T00:10:10Z,erroneous change,code error,frontend,retained,tenant_ccf_all_seg_0018,record_0014,mapped to derived global_label.json
+ba4ffa4e-416,2025-06-21T01:10:10Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0018,record_0015,mapped to derived global_label.json
+6e08f907-417,2025-06-21T02:10:11Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0018,record_0016,mapped to derived global_label.json
+11cdd935-418,2025-06-21T03:10:13Z,erroneous change,code error,cartservice,retained,tenant_ccf_all_seg_0018,record_0017,mapped to derived global_label.json
+9d5bc038-419,2025-06-21T04:10:13Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0019,record_0000,mapped to derived global_label.json
+ac9112a4-420,2025-06-21T05:10:14Z,erroneous change,code error,checkoutservice,retained,tenant_ccf_all_seg_0019,record_0001,mapped to derived global_label.json
+1003cbad-421,2025-06-21T06:10:14Z,network attack,network delay,,retained,tenant_ccf_all_seg_0020,record_0000,mapped to derived global_label.json
+e7f160ac-422,2025-06-21T07:10:16Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0020,record_0001,mapped to derived global_label.json
+7d463806-423,2025-06-21T08:10:18Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0020,record_0002,mapped to derived global_label.json
+b1affa2a-424,2025-06-21T09:10:19Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0020,record_0003,mapped to derived global_label.json
+20af4918-425,2025-06-21T10:10:21Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0020,record_0004,mapped to derived global_label.json
+88f808ff-426,2025-06-21T11:10:22Z,stress test,cpu stress,cartservice,retained,tenant_ccf_all_seg_0020,record_0005,mapped to derived global_label.json
+96fed9c7-427,2025-06-21T12:10:24Z,network attack,network loss,,retained,tenant_ccf_all_seg_0020,record_0006,mapped to derived global_label.json
+83d06197-428,2025-06-21T13:10:29Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0020,record_0007,mapped to derived global_label.json
+6739d066-429,2025-06-21T14:10:30Z,network attack,network loss,,retained,tenant_ccf_all_seg_0020,record_0008,mapped to derived global_label.json
+25ce9c41-430,2025-06-21T15:10:32Z,network attack,network loss,,retained,tenant_ccf_all_seg_0020,record_0009,mapped to derived global_label.json
+f625bd45-479,2025-06-23T16:10:01Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0021,record_0000,mapped to derived global_label.json
+6add78b2-480,2025-06-23T17:10:02Z,stress test,cpu stress,paymentservice,retained,tenant_ccf_all_seg_0021,record_0001,mapped to derived global_label.json
+1e36872d-481,2025-06-23T18:10:04Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0021,record_0002,mapped to derived global_label.json
+e1b52df0-482,2025-06-23T19:10:05Z,erroneous change,code error,cartservice,retained,tenant_ccf_all_seg_0021,record_0003,mapped to derived global_label.json
+dac96ecf-483,2025-06-23T20:10:06Z,stress test,memory stress,adservice,retained,tenant_ccf_all_seg_0021,record_0004,mapped to derived global_label.json
+3c7d0c09-484,2025-06-23T21:10:07Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0021,record_0005,mapped to derived global_label.json
+328b39df-485,2025-06-23T22:10:08Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0021,record_0006,mapped to derived global_label.json
+192019ef-486,2025-06-23T23:10:09Z,stress test,cpu stress,currencyservice,retained,tenant_ccf_all_seg_0021,record_0007,mapped to derived global_label.json
+45c7bf97-487,2025-06-24T00:10:11Z,erroneous change,code error,productcatalogservice,not_formed,,,sub-minute event start falls in a one-minute topology-segment boundary gap
+01cf75fe-488,2025-06-24T01:10:11Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0023,record_0000,mapped to derived global_label.json
+a0d5329b-489,2025-06-24T02:10:12Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0023,record_0001,mapped to derived global_label.json
+e7648f7d-490,2025-06-24T03:10:14Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0023,record_0002,mapped to derived global_label.json
+1c4a277a-491,2025-06-24T04:10:16Z,network attack,network delay,,retained,tenant_ccf_all_seg_0023,record_0003,mapped to derived global_label.json
+d3691ad9-492,2025-06-24T05:10:17Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0023,record_0004,mapped to derived global_label.json
+9ce187ea-493,2025-06-24T06:10:34Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0023,record_0005,mapped to derived global_label.json
+17ed37a5-494,2025-06-24T07:10:36Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0023,record_0006,mapped to derived global_label.json
+523bb271-495,2025-06-24T08:10:37Z,misconfiguration,target port misconfig,adservice,retained,tenant_ccf_all_seg_0023,record_0007,mapped to derived global_label.json
+7db04792-496,2025-06-24T09:10:37Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0023,record_0008,mapped to derived global_label.json
+6d1ad486-497,2025-06-24T10:10:39Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0023,record_0009,mapped to derived global_label.json
+6a9c8dc7-498,2025-06-24T11:10:40Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0023,record_0010,mapped to derived global_label.json
+c4b46577-499,2025-06-24T12:10:42Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0023,record_0011,mapped to derived global_label.json
+5fb39f4b-500,2025-06-24T13:10:43Z,pod fault,pod failure,tidb-tidb,retained,tenant_ccf_all_seg_0023,record_0012,mapped to derived global_label.json
+2ff9d8a6-501,2025-06-24T14:10:44Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0023,record_0013,mapped to derived global_label.json
+959cfb67-502,2025-06-24T15:10:47Z,misconfiguration,target port misconfig,currencyservice,retained,tenant_ccf_all_seg_0023,record_0014,mapped to derived global_label.json
+5c4502b0-551,2025-06-26T16:10:02Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0024,record_0000,mapped to derived global_label.json
+28eb3b8c-552,2025-06-26T17:10:04Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0024,record_0001,mapped to derived global_label.json
+ac8cf6cb-553,2025-06-26T18:10:05Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0024,record_0002,mapped to derived global_label.json
+3d3f68e9-554,2025-06-26T19:10:10Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0024,record_0003,mapped to derived global_label.json
+1ae8a5c3-555,2025-06-26T20:10:11Z,pod fault,pod failure,tidb-tidb,retained,tenant_ccf_all_seg_0024,record_0004,mapped to derived global_label.json
+52c080d4-556,2025-06-26T21:10:13Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0024,record_0005,mapped to derived global_label.json
+a9a3df0e-557,2025-06-26T22:10:14Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0024,record_0006,mapped to derived global_label.json
+20f9c3bc-558,2025-06-26T23:10:16Z,erroneous change,code error,currencyservice,not_formed,,,sub-minute event start falls in a one-minute topology-segment boundary gap
+448bc5e0-559,2025-06-27T00:10:17Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0025,record_0000,mapped to derived global_label.json
+4b98f078-560,2025-06-27T01:10:19Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0025,record_0001,mapped to derived global_label.json
+5934fe6f-561,2025-06-27T02:10:21Z,erroneous change,code error,frontend,retained,tenant_ccf_all_seg_0025,record_0002,mapped to derived global_label.json
+7a54210f-562,2025-06-27T03:10:21Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0003,mapped to derived global_label.json
+6637fe70-563,2025-06-27T04:10:22Z,stress test,cpu stress,currencyservice,retained,tenant_ccf_all_seg_0025,record_0004,mapped to derived global_label.json
+62e9d294-564,2025-06-27T05:10:24Z,network attack,network delay,,retained,tenant_ccf_all_seg_0025,record_0005,mapped to derived global_label.json
+cbd1f06b-565,2025-06-27T06:10:28Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0025,record_0006,mapped to derived global_label.json
+c9ba0b22-566,2025-06-27T07:10:29Z,network attack,network loss,,retained,tenant_ccf_all_seg_0025,record_0007,mapped to derived global_label.json
+bd4bafd7-567,2025-06-27T08:10:30Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0025,record_0008,mapped to derived global_label.json
+bd9203a8-568,2025-06-27T09:10:32Z,network attack,network delay,,retained,tenant_ccf_all_seg_0025,record_0009,mapped to derived global_label.json
+732d8fff-569,2025-06-27T10:10:33Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0010,mapped to derived global_label.json
+aceeda23-570,2025-06-27T11:10:35Z,network attack,network corrupt,,retained,tenant_ccf_all_seg_0025,record_0011,mapped to derived global_label.json
+52c722c7-571,2025-06-27T12:10:37Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0012,mapped to derived global_label.json
+569f2ed5-572,2025-06-27T13:10:40Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0025,record_0013,mapped to derived global_label.json
+238afe01-573,2025-06-27T14:10:41Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0025,record_0014,mapped to derived global_label.json
+25231384-574,2025-06-27T15:10:42Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0015,mapped to derived global_label.json
+33492fcd-575,2025-06-27T16:10:01Z,stress test,cpu stress,currencyservice,retained,tenant_ccf_all_seg_0025,record_0016,mapped to derived global_label.json
+a6536c80-576,2025-06-27T17:10:03Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0025,record_0017,mapped to derived global_label.json
+7d23b182-577,2025-06-27T18:10:04Z,stress test,memory stress,checkoutservice,retained,tenant_ccf_all_seg_0025,record_0018,mapped to derived global_label.json
+8ce0cd7e-578,2025-06-27T19:10:05Z,pod fault,pod failure,tidb-pd,retained,tenant_ccf_all_seg_0025,record_0019,mapped to derived global_label.json
+fbd6edf4-579,2025-06-27T20:10:06Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0020,mapped to derived global_label.json
+8440ee17-580,2025-06-27T21:10:07Z,misconfiguration,target port misconfig,shippingservice,retained,tenant_ccf_all_seg_0025,record_0021,mapped to derived global_label.json
+c54cf2d2-581,2025-06-27T22:10:08Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0022,mapped to derived global_label.json
+c9fbd527-582,2025-06-27T23:10:09Z,erroneous change,code error,frontend,retained,tenant_ccf_all_seg_0025,record_0023,mapped to derived global_label.json
+cc62b887-583,2025-06-28T00:10:09Z,pod fault,pod failure,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0024,mapped to derived global_label.json
+b531523c-584,2025-06-28T01:10:10Z,node fault,node memory stress,,retained,tenant_ccf_all_seg_0025,record_0025,mapped to derived global_label.json
+e50db6d8-585,2025-06-28T02:10:12Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0026,mapped to derived global_label.json
+146da42a-586,2025-06-28T03:10:13Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0027,mapped to derived global_label.json
+d6b961d4-587,2025-06-28T04:10:14Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0025,record_0028,mapped to derived global_label.json
+1573cbd5-588,2025-06-28T05:10:17Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0029,mapped to derived global_label.json
+bb585575-589,2025-06-28T06:10:20Z,node fault,node cpu stress,,retained,tenant_ccf_all_seg_0025,record_0030,mapped to derived global_label.json
+6dee3cf4-590,2025-06-28T07:10:22Z,dns fault,dns error,checkoutservice,retained,tenant_ccf_all_seg_0025,record_0031,mapped to derived global_label.json
+e025b3a4-591,2025-06-28T08:10:23Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0032,mapped to derived global_label.json
+8c1e905b-592,2025-06-28T09:10:25Z,pod fault,pod failure,tidb-tidb,retained,tenant_ccf_all_seg_0025,record_0033,mapped to derived global_label.json
+cc8e0450-593,2025-06-28T10:10:26Z,node fault,node disk fill,,retained,tenant_ccf_all_seg_0025,record_0034,mapped to derived global_label.json
+f475f2fe-594,2025-06-28T11:10:27Z,io fault,io fault,tidb-tikv,retained,tenant_ccf_all_seg_0025,record_0035,mapped to derived global_label.json
+3d6c95dd-595,2025-06-28T12:10:28Z,misconfiguration,target port misconfig,shippingservice,retained,tenant_ccf_all_seg_0025,record_0036,mapped to derived global_label.json

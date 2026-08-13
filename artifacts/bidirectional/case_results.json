@@ -1,0 +1,128 @@
+[
+  {
+    "case_id": "duration_23h59",
+    "expected_adapter_status": "refused_insufficient_interface_history",
+    "observed_adapter_status": "refused_insufficient_interface_history",
+    "expected_route": null,
+    "observed_route": null,
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "duration_24h",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "candidate_for_stakeholder_review",
+    "observed_route": "candidate_for_stakeholder_review",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "coverage_0_49",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "insufficient_evidence",
+    "observed_route": "insufficient_evidence",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "coverage_0_51",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "candidate_for_stakeholder_review",
+    "observed_route": "candidate_for_stakeholder_review",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "samples_719",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "insufficient_evidence",
+    "observed_route": "insufficient_evidence",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "samples_721",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "candidate_for_stakeholder_review",
+    "observed_route": "candidate_for_stakeholder_review",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "zero_error_baseline",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "threshold_unresolved",
+    "observed_route": "threshold_unresolved",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "nonzero_error_baseline",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "candidate_for_stakeholder_review",
+    "observed_route": "candidate_for_stakeholder_review",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "tail_ratio_9_9",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "candidate_for_stakeholder_review",
+    "observed_route": "candidate_for_stakeholder_review",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "tail_ratio_10_1",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "needs_context_review",
+    "observed_route": "needs_context_review",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "overlap_history_and_resolution",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "insufficient_evidence",
+    "observed_route": "insufficient_evidence",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "overlap_history_and_tail",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "insufficient_evidence",
+    "observed_route": "insufficient_evidence",
+    "passed": true,
+    "error": null
+  },
+  {
+    "case_id": "missing_provenance",
+    "expected_adapter_status": "construction_failure",
+    "observed_adapter_status": "construction_failure",
+    "expected_route": null,
+    "observed_route": null,
+    "passed": true,
+    "error": "evidence_provenance must be a mapping"
+  },
+  {
+    "case_id": "fully_eligible_acceptance",
+    "expected_adapter_status": "adapted",
+    "observed_adapter_status": "adapted",
+    "expected_route": "candidate_for_stakeholder_review",
+    "observed_route": "candidate_for_stakeholder_review",
+    "passed": true,
+    "error": null
+  }
+]

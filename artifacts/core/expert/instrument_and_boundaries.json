@@ -1,0 +1,32 @@
+{
+  "acceptance_gate": {
+    "criterion": "at least 75% of cards have governance median >= 4",
+    "not_for": [
+      "statistical significance",
+      "population approval-rate generalization"
+    ],
+    "purpose": "engineering gate preventing a few high-scoring cards from masking failure on most cards"
+  },
+  "analysis_unit": "48 cards; 144 expert-card pairs are descriptive",
+  "anchors": {
+    "1": "clearly inappropriate",
+    "2": "rather inappropriate",
+    "3": "uncertain or average",
+    "4": "appropriate",
+    "5": "highly appropriate"
+  },
+  "claim_limit": "does not establish actual utility, workflow efficiency, decision effect, governance effect, expert-consensus reliability, threshold correctness, or SLO approval",
+  "items": {
+    "evidence_flag_correctness": "whether insufficient-evidence or anomaly flags are accurate",
+    "governance_appropriateness": "whether confirmation, refusal, or contextual review is appropriate",
+    "overall_revision_value": "original wording asks whether governance information has actual increment over threshold-only output; manuscript reports this as evaluator-perceived incremental information",
+    "runtime_actionability": "whether the added governance state supports runtime disposition",
+    "threshold_plausibility": "whether the raw threshold can serve as a candidate starting point"
+  },
+  "name": "expert content-appropriateness evaluation of governance disposition",
+  "sampling": {
+    "held_out_cards": 24,
+    "held_out_overlap_with_round1": 0,
+    "remediation_cards": 24
+  }
+}

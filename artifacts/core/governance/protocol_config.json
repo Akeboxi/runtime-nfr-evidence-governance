@@ -1,0 +1,31 @@
+{
+  "approval_boundary": "candidate is not an SLO; target owner retains approval",
+  "candidate_window": "[t_a-24h, t_a)",
+  "core_construct": "evidence-responsibility governance of runtime NFR candidates",
+  "experiment_anchor": "fault onset used only as a reproducible sampling anchor",
+  "future_information_used_for_candidate_generation": false,
+  "gates": {
+    "history_coverage_min": 0.5,
+    "latency_tail_ratio_review": 10.0,
+    "valid_samples_min": 720
+  },
+  "priority": [
+    "history",
+    "resolution",
+    "tail"
+  ],
+  "protocol": "runtime-nfr-review-artifact/v0.19",
+  "provenance_precondition": {
+    "failure_mode": "hard_fail_with_audit_record_no_formal_card",
+    "required": true,
+    "required_fields": [
+      "protocol",
+      "dataset_hash",
+      "event_id",
+      "record_id",
+      "query_version",
+      "evidence_cutoff"
+    ]
+  },
+  "routing": "one primary route plus complete secondary trigger flags in this implementation"
+}

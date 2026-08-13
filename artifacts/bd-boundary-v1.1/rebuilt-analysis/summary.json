@@ -1,0 +1,51 @@
+{
+  "protocol": "runtime-nfr-bd-boundary-validation/1.1",
+  "cards": 24,
+  "evaluators": 3,
+  "judgments": 72,
+  "CR_v1": 0.7222222222222222,
+  "CR_v1_1": 0.9444444444444444,
+  "delta_CR": 0.2222222222222222,
+  "delta_CR_card_cluster_bootstrap_95_ci": [
+    0.06944444444444445,
+    0.3888888888888889
+  ],
+  "delta_CR_stratified_card_cluster_bootstrap_95_ci_sensitivity": [
+    0.19444444444444445,
+    0.25
+  ],
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 20260817,
+  "B_to_D": {
+    "judgments": 18,
+    "choice_counts": {
+      "A": 2,
+      "D": 16
+    },
+    "v1_agreements": 0,
+    "v1_1_agreements": 16
+  },
+  "stable_group": {
+    "judgments": 54,
+    "v1_1_agreements": 52,
+    "v1_1_rate": 0.9629629629629629
+  },
+  "inter_rater": {
+    "krippendorff_alpha_nominal": 0.8482905982905983,
+    "fleiss_kappa": 0.846153846153846
+  },
+  "confidence": {
+    "median": 5.0,
+    "distribution": {
+      "4": 18,
+      "5": 54
+    }
+  },
+  "card_majority": {
+    "v1_agree_cards": 18,
+    "v1_1_agree_cards": 24,
+    "total_cards": 24,
+    "v1_1_unanimous_cards": 20
+  },
+  "interpretation_boundary": "Controlled measurement scenarios anchored to real candidates; not a production-effectiveness test."
+}

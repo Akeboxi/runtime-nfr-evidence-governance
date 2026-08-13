@@ -1,0 +1,12 @@
+{
+  "protocol": "runtime-nfr-bidirectional-conformance/1",
+  "cases_path": "C:\\Users\\huach\\projects\\risk_prdiction\\docs\\experiments\\runtime-nfr-v3-academic\\bidirectional-conformance-v1\\cases.json",
+  "cases_sha256": "13648d252e3651f9581678498ff13791e463c1db2361d6bebae392afb519996f",
+  "script_path": "C:\\Users\\huach\\projects\\risk_prdiction\\scripts\\run_runtime_nfr_bidirectional_conformance_v1.py",
+  "script_sha256": "cdc82bcb1e72186fec90fe0f0a19a004a713c9d7ef1b637e491209bf6a112c62",
+  "outputs": [
+    "case_results.json",
+    "summary.json",
+    "RESULTS.md"
+  ]
+}

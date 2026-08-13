@@ -1,0 +1,5 @@
+﻿protocol_choice,protocol_route,expert_card_judgments,agreements,agreement_rate
+A,补充历史证据,24,19,0.7916666666666666
+B,澄清测量方式或参考目标,24,8,0.3333333333333333
+C,进行上下文审查,24,16,0.6666666666666666
+D,可提交目标所有者审查,24,15,0.625

@@ -1,0 +1,18 @@
+{
+  "protocol": "runtime-nfr-protocol-robustness/1",
+  "analysis_plan": "C:\\Users\\huach\\projects\\risk_prdiction\\docs\\experiments\\runtime-nfr-v3-academic\\protocol-robustness-v1\\ANALYSIS_PLAN.md",
+  "cards_path": "C:\\Users\\huach\\projects\\risk_prdiction\\checkpoints\\runtime_nfr_v3_academic\\governance_cards\\academic_governance_cards.json",
+  "cards_sha256_before": "fb4af8ed20cf7e801a38754821175fd883099c86d953718c66a3ff92bc2b9009",
+  "cards_sha256_after": "fb4af8ed20cf7e801a38754821175fd883099c86d953718c66a3ff92bc2b9009",
+  "source_cards_unchanged": true,
+  "segment_root": "C:\\Users\\huach\\projects\\risk_prdiction\\dataset\\outputs\\topo_intent_v2\\segment_tenants_all",
+  "script_path": "C:\\Users\\huach\\projects\\risk_prdiction\\scripts\\analyze_runtime_nfr_robustness_v1.py",
+  "script_sha256": "5a82fa3d6514b180c0cd3d07c79b5aa2c4aecd5d06147ec611a7bcc26c39f0a0",
+  "outputs": [
+    "reconstructed_statistics.csv.gz",
+    "robustness_grid.csv",
+    "one_factor_robustness.csv",
+    "robustness_summary.json",
+    "RESULTS.md"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "error_count": null,
+  "event_time": "inject_time.txt",
+  "history_window_required_seconds": 86400,
+  "latency_unit_conversion": "source magnitude multiplied by 1000 under an explicit seconds-to-milliseconds assumption",
+  "request_count": null,
+  "service_and_latency": "*_latency or *_latency-90"
+}

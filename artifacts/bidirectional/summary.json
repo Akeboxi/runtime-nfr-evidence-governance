@@ -1,0 +1,22 @@
+{
+  "protocol": "runtime-nfr-bidirectional-conformance/1",
+  "cases": 14,
+  "adapter_status_counts": {
+    "refused_insufficient_interface_history": 1,
+    "adapted": 12,
+    "construction_failure": 1
+  },
+  "routed_cases": 12,
+  "four_state_distribution": {
+    "insufficient_evidence": 4,
+    "threshold_unresolved": 1,
+    "needs_context_review": 1,
+    "candidate_for_stakeholder_review": 6
+  },
+  "passed_gate_cards": 6,
+  "case_agreement": 14,
+  "case_agreement_rate": 1.0,
+  "anomalies": [],
+  "pass": true,
+  "claim_limit": "Bidirectional executable contract coverage only; not external validity, threshold correctness, or empirical accuracy."
+}

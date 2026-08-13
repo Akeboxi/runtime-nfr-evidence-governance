@@ -1,0 +1,6 @@
+original_question_zh,variable,manuscript_label_zh,interpretation_boundary_zh
+原始阈值是否可作为候选起点,threshold_plausibility,阈值合理性,不证明阈值正确或可直接批准
+加入治理状态后是否能支持运行时处置,runtime_actionability,运行时处置可操作性,评价所示卡片，不测量真实处置效率
+证据不足或异常标志是否准确,evidence_flag_correctness,证据标记正确性,不证明门禁参数最优
+继续确认、拒绝操作化或要求上下文审查是否合理,governance_appropriateness,治理处置内容适当性,不证明治理效果或专家共识可靠性
+相比只输出阈值，治理信息是否有实际增量,overall_revision_value,评价者感知的增量信息,不等于实际效用、工作效率或决策效果

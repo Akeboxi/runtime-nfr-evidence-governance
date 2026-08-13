@@ -1,0 +1,152 @@
+{
+  "protocol": "runtime-nfr-jos-figures/43",
+  "created_utc": "2026-08-13T11:48:46.199578+00:00",
+  "source": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v42",
+  "backend": "Python (Matplotlib)",
+  "core_conclusion": "The independent interface preserves the frozen 24 h evidence gate and follows the expected refusal path.",
+  "repairs": {
+    "figure_A1_panel_labels_lowered_to_title_baseline": true,
+    "figure_A1_axis_explanation_moved_to_manuscript": true,
+    "figure_A1_scope_sentence_moved_to_manuscript": true,
+    "figure_A1_bottom_whitespace_cropped": true
+  },
+  "unchanged_from_v42": [
+    "figure_01_evidence_aware_governance",
+    "figure_02_governance_rules_and_strata",
+    "figure_03_configuration_robustness",
+    "figure_04_expert_card_level_distinction",
+    "figure_05_blinded_routing_validation"
+  ],
+  "outputs": [
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/CONTACT_SHEET_COLOR.png",
+      "sha256": "EC96A2D4EA286927B4038DAE626C912AC5CD553F8D62FAA4B581918EA6407547",
+      "bytes": 961109
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/CONTACT_SHEET_GRAYSCALE.png",
+      "sha256": "266F1BF393541F7EDBBA8FE62B9AFC1C74215789CC65A32350A6C0451F44DDB5",
+      "bytes": 828092
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_01_evidence_aware_governance.pdf",
+      "sha256": "DC1F0B640A608E3516B688B5882FA4E8DD1B01DF071AA71FAC137F556C6CD260",
+      "bytes": 91522
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_01_evidence_aware_governance.png",
+      "sha256": "086C993F08F055B03F99178C717AE6ABFFAFE81EDCF5C7DCAC3AEE9EECDD55D9",
+      "bytes": 341420
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_01_evidence_aware_governance.svg",
+      "sha256": "B5EA95E963CF0D9C452756D6EDF2B4DD5917190132B2D326DAE8A26AABB8EE1A",
+      "bytes": 21018
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_02_governance_rules_and_strata.pdf",
+      "sha256": "9C47D6E13D91D5ED41A7D6A054F00D0490077C3DDBEEF59A6949A3F4411F0C70",
+      "bytes": 52398
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_02_governance_rules_and_strata.png",
+      "sha256": "6652EB5108A4D5CFE5C82B1EC8AB2444D35CCC65030557BEABAE948EC4FBA3BC",
+      "bytes": 269926
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_02_governance_rules_and_strata.svg",
+      "sha256": "19868D6E7DCEF266CD37A28377F20C18EA35F5B11EBD964F3DE2FF8A4695B940",
+      "bytes": 48639
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_03_configuration_robustness.pdf",
+      "sha256": "84A2D1571FFFB9650336ED57679C1A9EB7C0E2D7C2CEFD360E007E67D772E253",
+      "bytes": 50228
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_03_configuration_robustness.png",
+      "sha256": "3146AB3A82B05C650DE7E3369BC1833FD17720446AC855D7DC8CD84C69A5EE65",
+      "bytes": 180674
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_03_configuration_robustness.svg",
+      "sha256": "3CD9C327309A548057DCD2E37745E624BDDF8F2BAA21C816C0F270AB3FDEDB93",
+      "bytes": 44611
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_04_expert_card_level_distinction.pdf",
+      "sha256": "DBE747D19037C7DF3A44194FED97A5E084CDCCE325AEA4358890A7FEA1A85456",
+      "bytes": 55383
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_04_expert_card_level_distinction.png",
+      "sha256": "26AB260326304D07E1698A939B28F4C2BCC6C10959DB6E7C27D59CC4A1B683C6",
+      "bytes": 267573
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_04_expert_card_level_distinction.svg",
+      "sha256": "5E49CFAF37949D4E0399996425D9A98144E7DA8B65B0DF678EFA7EC94055CEAD",
+      "bytes": 49406
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_04_refusal_path_conformance.pdf",
+      "sha256": "CDE531F06442274D8977A48D842271DA3382B40B0FEEA63E4712ABA09A40F54D",
+      "bytes": 53719
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_04_refusal_path_conformance.png",
+      "sha256": "96D6725DA95B1C54EE88AEACD9FCD2E9E6B0A63944090E6432F6F73B9BAF9026",
+      "bytes": 135289
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_04_refusal_path_conformance.svg",
+      "sha256": "28AD743548F55EF776CD407A7EA6F060117994D78C222BE161483C78323DAD2D",
+      "bytes": 28983
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_05_blinded_routing_validation.pdf",
+      "sha256": "7485DD8D5AA93124C0912D632E405C3AEE5EAC3DC4E197C0072FFDFBFF89113C",
+      "bytes": 51858
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_05_blinded_routing_validation.png",
+      "sha256": "CC31469C1A1EA7F33126F1154B07056ECDF174DCE6C94B4ED61EEAF599FA5D41",
+      "bytes": 183396
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/figure_05_blinded_routing_validation.svg",
+      "sha256": "74B615F6C6D78F61B3210C7ECDAE9ED4282C92F7C7BAF23E17569FEDA1A38F8D",
+      "bytes": 32260
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/qa_grayscale/figure_01_evidence_aware_governance_gray.png",
+      "sha256": "5779F672748920B50F09B8837BE128778FBD8D1D2F2BD5156FF1374B6F990B8A",
+      "bytes": 158955
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/qa_grayscale/figure_02_governance_rules_and_strata_gray.png",
+      "sha256": "6D4886B9D3466D77B1564BCE65744DAF65B52E7094BDBEA7FCCE698FB9DC639C",
+      "bytes": 148993
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/qa_grayscale/figure_03_configuration_robustness_gray.png",
+      "sha256": "5BE7A8C864ED97C1B7B032AE97A4B0EC496ED886D44118C3B910FBEE74E12EC3",
+      "bytes": 98060
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/qa_grayscale/figure_04_expert_card_level_distinction_gray.png",
+      "sha256": "07489D1D0CE6DCC25DD0D8D8D6F9D9CCE06F7B18ABDB4D61742F51C3F5B7E8BC",
+      "bytes": 120287
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/qa_grayscale/figure_04_refusal_path_conformance_gray.png",
+      "sha256": "3CC11BA4CBE718D3502864A8554A76B50CB8438E1D2D8F6C9CE4D6581DADD6CC",
+      "bytes": 59711
+    },
+    {
+      "path": "checkpoints/runtime_nfr_v3_academic/phase3_figures_jos_v43/qa_grayscale/figure_05_blinded_routing_validation_gray.png",
+      "sha256": "DDF385D16BED41AB1B9A90E2FC186AF6D0BAC559024536F8EB70E4852AE95429",
+      "bytes": 82696
+    }
+  ]
+}

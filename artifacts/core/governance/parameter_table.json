@@ -1,0 +1,23 @@
+[
+  {
+    "configurable": true,
+    "not_support": "universal statistical or business sufficiency",
+    "parameter": "history_coverage_min",
+    "role": "valid coverage in the frozen 24 h window",
+    "value": 0.5
+  },
+  {
+    "configurable": true,
+    "not_support": "a natural or optimal sample-size threshold",
+    "parameter": "valid_samples_min",
+    "role": "valid minute-level samples",
+    "value": 720
+  },
+  {
+    "configurable": true,
+    "not_support": "a correct or optimal SLO boundary",
+    "parameter": "latency_tail_ratio_review",
+    "role": "tail-context review trigger",
+    "value": 10.0
+  }
+]
