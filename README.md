@@ -107,3 +107,13 @@ units were formed; they were not removed by a later paper-level exclusion.
 
 This branch is a submission snapshot. A versioned release and archival DOI can
 be added after acceptance without changing the commit cited by the manuscript.
+
+## Manuscript appendix details
+
+The appendix supplement is in [docs/manuscript_supplement/appendix_details/](docs/manuscript_supplement/appendix_details/). It preserves the relocated timeline, complete questionnaire mapping, formative scores, blinded metrics, 14 historical interface cases, and the RCAEval refusal-path figure. The manuscript retains all seven tables added for the review revision; their current numbers are A3--A9.
+
+Verify the supplement with the Python standard library:
+
+```text
+python docs/manuscript_supplement/appendix_details/verify_appendix_materials.py
+```

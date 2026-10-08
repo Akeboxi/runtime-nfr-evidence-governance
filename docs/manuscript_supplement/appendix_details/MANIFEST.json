@@ -1,0 +1,20 @@
+{
+  "source_manuscript_sha256": "ea7d83ed4e39d12fc2626c21a492ac99e8327c03071eb83e7dff4933b3eecfc1",
+  "source": "latest saved clean manuscript at extraction time",
+  "purpose": "Relocation of existing appendix details; no new experiment or human evaluation.",
+  "original_implementation_snapshot": "1786cc50679095be66081da904d46bf2f3b66e89",
+  "audited_implementation_snapshot": "dde4f37ee3c76eba88fa3881e75326418f2b5936",
+  "files": {
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "appendix_numbering.csv": "e396b0030364bb08f388fdd6e056808e0715d2d3dd9fef25b84028cc4b866aa0",
+    "blinded_evaluation_metrics.csv": "b86804c8611e9a053b08d7af788022137b75a548b899a6e9e9fdddcc2bd935c8",
+    "evaluation_freeze_timeline.csv": "ebec6106d22a8d09cbbb4768f9f779a178f5764ac2044e2fb2617bd9d4dbf572",
+    "figure_A1_rcaeval_refusal.png": "678e5dab8f5b31f779cbec0f836627e4d2a2116e5884040563c7a80c1a9446b1",
+    "formative_repair_cards.csv": "b6cdecc184ab138f81e8a4c521fb58a01a4d541c008d3b25fbaa3a2a5a1a932c",
+    "interface_conformance_cases.csv": "e4921d30fc47f29d3f03299d2b99ac09ecca42180f91f850d13e7ca454fbd6ac",
+    "questionnaire_mapping_full.csv": "fbebfb90661d084d14f0baa3cd834365cdcb95ac075e89068d87f7ccede43751",
+    "README.md": "4266dd8877324768eceb3b9724d802277c6ed6aff92c1f1ac0afac730c82000c",
+    "supplementary_appendix.md": "6d92eec4052d074da242e295e8c45fd3b49ef8a3f549ed26135abc7f0da1dd6e",
+    "verify_appendix_materials.py": "85ddfb3f4fa64416dcfcec72aabbea86afe334bc72bf0e3a70916998fae2f238"
+  }
+}

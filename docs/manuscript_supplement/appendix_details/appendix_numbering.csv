@@ -1,0 +1,15 @@
+original_label,current_label,disposition
+表A1,,detail_moved_to_this_supplement
+表A2,表A1,retained_core_questions_and_full_mapping_archived
+表A3,,detail_moved_to_this_supplement
+表A4,,detail_moved_to_this_supplement
+表A5,,detail_moved_to_this_supplement
+表A6,表A2,retained
+表A7,表A3,retained
+表A8,表A4,retained
+表A9,表A5,retained
+表A10,表A6,retained
+表A11,表A7,retained
+表A12,表A8,retained
+表A13,表A9,retained
+图A1,,figure_moved_to_this_supplement
