@@ -1,0 +1,46 @@
+{
+  "protocol": "learned-G-interface/20260929",
+  "selected_cards": 72,
+  "fitted": 55,
+  "failures": {
+    "insufficient_training_or_holdout": 17
+  },
+  "statistical_route_counts": {
+    "B": 48,
+    "A": 24
+  },
+  "learned_route_counts": {
+    "B": 48,
+    "A": 7
+  },
+  "different_values": 46,
+  "route_changes": 0,
+  "measurement_unknown_M4": 55,
+  "context_facts_retained": 13,
+  "context_facts_under_B": 12,
+  "no_training_or_input_at_or_after_audit": true,
+  "source_sha256": "12eef5770e44d4a59a97f5b2cc0cb87d25395ff3e6cb4202dc32d66e5225aa8f",
+  "selection_sha256": "53b512493a22d03b9b459b3a534e3d6e0f278aa68ed1ff0334f699f3c98ff325",
+  "sklearn_version": "1.7.2",
+  "elapsed_seconds": 1.181008200161159,
+  "per_sli": {
+    "error_ratio": {
+      "n": 27,
+      "median_absolute_difference": 3e-06,
+      "median_holdout_pinball_loss": 0.000483267340806535,
+      "clipped_predictions": 802
+    },
+    "latency": {
+      "n": 28,
+      "median_absolute_difference": 133.76425488790574,
+      "median_holdout_pinball_loss": 94.07094989815977,
+      "clipped_predictions": 0
+    }
+  },
+  "limitations": [
+    "Purposefully stratified interface cases, not a population estimate or human evaluation.",
+    "M4 remains unknown for real cards. Identical A/B routes are expected from shared evidence, not proof of efficacy.",
+    "Conditional historical quantile candidate differs in construction from empirical robust bound; no superiority claim.",
+    "Fault interval cleaning uses offline known labels; timestamps are interpreted as UTC per source case mapping."
+  ]
+}

@@ -1,0 +1,3 @@
+﻿card_id,selection_position,service,sli,window_start,window_end,valid_samples,n_train,n_holdout,statistical_value,learned_value,unit_declared_by_adapter,route,missing_dimensions,context_fact,open_tasks
+acad-195258dd5eecece4,13,shippingservice,latency,2025-06-08T07:10:00+00:00,2025-06-09T07:10:00+00:00,1423,991,432,1331.8466279999998,1305.0100955559467,ms,B,"M1,M2,M4",False,measurement
+acad-68b0154e865f638d,1,redis-cart,error_ratio,2025-06-13T00:10:00+00:00,2025-06-14T00:10:00+00:00,1381,949,432,0.0037735849056603,0.004136583332871381,ratio,B,"M1,M2,M4",False,measurement

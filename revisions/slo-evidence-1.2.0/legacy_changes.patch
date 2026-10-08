@@ -1,0 +1,181 @@
+--- a/scripts/analyze_runtime_nfr_phase2.py
++++ b/scripts/analyze_runtime_nfr_phase2.py
+@@ -81,7 +81,8 @@
+             "history_coverage_below_0_5" in flags or "valid_samples_below_720" in flags
+         ),
+         "resolution": bool(
+-            "zero_error_baseline" in flags or "threshold_from_robust_scale_floor" in flags
++            "zero_error_baseline" in flags or "zero_summary_unverified" in flags
++            or "threshold_from_robust_scale_floor" in flags
+         ),
+         "tail": bool(tail is not None and float(tail) >= tail_cutoff),
+     }
+--- a/scripts/analyze_runtime_nfr_robustness_v1.py
++++ b/scripts/analyze_runtime_nfr_robustness_v1.py
+@@ -14,6 +14,7 @@
+ 
+ import numpy as np
+ import pandas as pd
++from slo_evidence import Policy
+ 
+ from src.data.runtime_nfr_dataset import (
+     _collect_event_intervals,
+@@ -106,6 +107,9 @@
+                         "median": boundary.median,
+                         "mad": boundary.mad,
+                         "robust_scale": boundary.robust_scale,
++                        "nonzero_count": boundary.nonzero_count,
++                        "all_zero": boundary.all_zero,
++                        "max_value": boundary.max_value,
+                     }
+                 )
+         if index % 500 == 0:
+@@ -122,15 +126,14 @@
+     median = frame["median"].to_numpy(dtype=float)
+     mad = frame["mad"].to_numpy(dtype=float)
+     scale = frame["robust_scale"].to_numpy(dtype=float)
+-    tied_minimum = np.ceil(coverage_min * window_minutes).astype(int)
++    tied_minimum = np.asarray([Policy(int(n), coverage_min).minimum_samples for n in window_minutes])
+     history = (coverage < coverage_min) | (valid_samples < tied_minimum)
+ 
+     raw_threshold = np.maximum(qvalue, median + robust_k * scale)
+     all_zero_error = (
+         (sli == "error_ratio")
+-        & np.isclose(qvalue, 0.0)
+-        & np.isclose(median, 0.0)
+-        & np.isclose(mad, 0.0)
++        & (valid_samples > 0)
++        & (frame["nonzero_count"].to_numpy(dtype=int) == 0)
+     )
+     raw_threshold[all_zero_error] = 0.0
+     floor_threshold = median + robust_k * SCALE_FLOOR
+@@ -204,7 +207,7 @@
+             "config_id": config_key(window_hours, coverage_min, tail_ratio, quantile, robust_k),
+             "window_hours": window_hours,
+             "coverage_min": coverage_min,
+-            "valid_samples_min": int(math.ceil(coverage_min * window_hours * 60)),
++            "valid_samples_min": Policy(window_hours * 60, coverage_min).minimum_samples,
+             "tail_ratio": tail_ratio,
+             "quantile": quantile,
+             "robust_k": robust_k,
+@@ -242,7 +245,7 @@
+ 
+     nonnumeric = result_frame["non_numeric_disposition_rate"]
+     summary = {
+-        "protocol": "runtime-nfr-protocol-robustness/1",
++        "protocol": "runtime-nfr-protocol-robustness/1-corrected-20260929",
+         "population_cards": len(cards),
+         "configurations": len(results),
+         "frozen_configuration": frozen_row,
+--- a/src/data/runtime_nfr_dataset.py
++++ b/src/data/runtime_nfr_dataset.py
+@@ -59,6 +59,9 @@
+     robust_scale: float
+     threshold: float
+     valid_samples: int
++    nonzero_count: int | None = None
++    max_value: float | None = None
++    all_zero: bool | None = None
+ 
+ 
+ @dataclass(frozen=True)
+@@ -214,6 +217,9 @@
+         robust_scale=robust_scale,
+         threshold=float(threshold),
+         valid_samples=int(clean.size),
++        nonzero_count=int(np.count_nonzero(clean.to_numpy())),
++        max_value=float(clean.max()) if len(clean) else None,
++        all_zero=bool(len(clean) and np.count_nonzero(clean.to_numpy()) == 0),
+     )
+ 
+ 
+--- a/src/data/runtime_nfr_v2.py
++++ b/src/data/runtime_nfr_v2.py
+@@ -77,6 +77,9 @@
+     observation_context: dict[str, Any]
+     evidence_provenance: dict[str, Any]
+     quality: dict[str, Any]
++    nonzero_count: int | None = None
++    max_value: float | None = None
++    all_zero: bool | None = None
+ 
+     def to_dict(self, *, blinded: bool = False) -> dict[str, Any]:
+         payload = asdict(self)
+@@ -208,6 +211,9 @@
+                         history_start=boundary.history_start,
+                         history_end=boundary.history_end,
+                         valid_samples=boundary.valid_samples,
++                        nonzero_count=boundary.nonzero_count,
++                        max_value=boundary.max_value,
++                        all_zero=boundary.all_zero,
+                         quantile_level=boundary.quantile_level,
+                         quantile_value=boundary.quantile_value,
+                         median=boundary.median,
+--- a/src/data/runtime_nfr_v3_academic.py
++++ b/src/data/runtime_nfr_v3_academic.py
+@@ -20,6 +20,7 @@
+ 
+ import numpy as np
+ import pandas as pd
++from slo_evidence import Policy
+ 
+ from .runtime_nfr_v2 import EXPERT_DIMENSIONS, krippendorff_alpha_ordinal
+ 
+@@ -435,12 +436,18 @@
+     flags: list[str] = []
+     if coverage < 0.5:
+         flags.append("history_coverage_below_0_5")
+-    if valid_samples < 720:
++    if valid_samples < Policy().minimum_samples:
+         flags.append("valid_samples_below_720")
+ 
+     if sli == "error_ratio":
+-        if math.isclose(q95, 0.0) and math.isclose(median, 0.0) and math.isclose(mad, 0.0):
++        # Never infer all-zero history from Q95/median/MAD alone. Old cards
++        # without the raw fact remain conservatively unresolved, with a distinct flag.
++        actual_nonzero = card.get("nonzero_count")
++        known_zero = (valid_samples > 0 and actual_nonzero == 0)
++        if known_zero:
+             flags.append("zero_error_baseline")
++        elif actual_nonzero is None and math.isclose(q95, 0.0) and math.isclose(median, 0.0) and math.isclose(mad, 0.0):
++            flags.append("zero_summary_unverified")
+         floor_threshold = median + 3.0 * ROBUST_SCALE_FLOOR
+         if (
+             math.isclose(mad, 0.0)
+@@ -460,6 +467,7 @@
+         action = "collect_more_history_before_operationalization"
+     elif (
+         "zero_error_baseline" in flags
++        or "zero_summary_unverified" in flags
+         or "threshold_from_robust_scale_floor" in flags
+     ):
+         status = "threshold_unresolved"
+@@ -484,6 +492,7 @@
+             **dict(card),
+             "card_id": _academic_card_id(str(card["card_id"])),
+             "schema": ACADEMIC_CARD_SCHEMA,
++            "numeric_rule_revision": "v1-corrected-20260929",
+             "parent_card_id": str(card["card_id"]),
+             "raw_threshold": raw_threshold,
+             "measurement_resolution": {
+--- a/tests/test_runtime_nfr_v3_academic.py
++++ b/tests/test_runtime_nfr_v3_academic.py
+@@ -47,6 +47,7 @@
+         "history_start": "2025-01-01T00:00:00",
+         "history_end": "2025-01-02T00:00:00",
+         "valid_samples": valid_samples,
++        "nonzero_count": 0 if q95 == median == mad == threshold == 0.0 else 1,
+         "quantile_level": 0.95,
+         "quantile_value": q95,
+         "median": median,
+@@ -167,6 +168,10 @@
+         / "governance_cards"
+         / "academic_governance_cards.json"
+     )
++    if not cards_path.exists():
++        # The SLO workspace keeps frozen experiment inputs outside code/.
++        cards_path = (Path(__file__).resolve().parents[3] / "experiments" /
++                      "analysis_outputs" / "governance_cards" / "academic_governance_cards.json")
+     cards = json.loads(cards_path.read_text(encoding="utf-8"))
+     assert len(cards) == 8668
+     for card in cards:

@@ -1,0 +1,63 @@
+{
+  "protected_files_checked": 239,
+  "protected_files_changed": [],
+  "same_frozen_selection": true,
+  "same_values_models_and_routes_after_assessment_correction": true,
+  "paired_common_input_and_decision_checks": 55,
+  "training_time_and_train_only_scaling_checks": 55,
+  "missing_dimensions_existing_pool": {
+    "M1|M2|M4": 8668
+  },
+  "missing_dimensions_learned_success": {
+    "M1,M2,M4": 55
+  },
+  "coverage_migrations": {
+    "A->D": 109,
+    "A->B": 63,
+    "A->C": 24
+  },
+  "coverage_migration_rate": 0.022611905860636824,
+  "fixed_720_history_gate_changes": 0,
+  "closure_scenarios_passed": 9,
+  "clipped_cards": 2,
+  "clipped_predictions": 802,
+  "cases": [
+    {
+      "card_id": "acad-195258dd5eecece4",
+      "selection_position": 13,
+      "service": "shippingservice",
+      "sli": "latency",
+      "window_start": "2025-06-08T07:10:00+00:00",
+      "window_end": "2025-06-09T07:10:00+00:00",
+      "valid_samples": 1423,
+      "n_train": 991,
+      "n_holdout": 432,
+      "statistical_value": 1331.8466279999998,
+      "learned_value": 1305.0100955559467,
+      "unit_declared_by_adapter": "ms",
+      "route": "B",
+      "missing_dimensions": "M1,M2,M4",
+      "context_fact": false,
+      "open_tasks": "measurement"
+    },
+    {
+      "card_id": "acad-68b0154e865f638d",
+      "selection_position": 1,
+      "service": "redis-cart",
+      "sli": "error_ratio",
+      "window_start": "2025-06-13T00:10:00+00:00",
+      "window_end": "2025-06-14T00:10:00+00:00",
+      "valid_samples": 1381,
+      "n_train": 949,
+      "n_holdout": 432,
+      "statistical_value": 0.0037735849056603,
+      "learned_value": 0.004136583332871381,
+      "unit_declared_by_adapter": "ratio",
+      "route": "B",
+      "missing_dimensions": "M1,M2,M4",
+      "context_fact": false,
+      "open_tasks": "measurement"
+    }
+  ],
+  "interpretation": "All empirical routes unchanged; M1/M2 assessment corrected, M4 remains unknown. No human or production efficacy evidence."
+}

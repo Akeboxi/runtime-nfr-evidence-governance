@@ -1,0 +1,1167 @@
+[
+  {
+    "case": "initial",
+    "evidence_type": "SYNTHETIC_SOFTWARE_CONTRACT_NOT_HUMAN_REVIEW",
+    "input": {
+      "card_id": "fixture-parent",
+      "subject_id": "service",
+      "sli": "latency",
+      "unit": "ms",
+      "window_start": "2026-01-01T00:00:00Z",
+      "window_end": "2026-01-02T00:00:00Z",
+      "observations_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "measurement_definition": "fixture definition/1",
+      "candidate_value": 20.0,
+      "statistics": {
+        "valid_samples": 1440,
+        "quantile_level": 0.95,
+        "quantile_value": 20.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "robust_scale": 1e-06,
+        "nonzero_count": 1440,
+        "max_value": 20.0,
+        "all_zero": false
+      },
+      "generator": {
+        "id": "statistical",
+        "version": "1",
+        "kind": "statistical",
+        "fit_end": "2026-01-01T23:59:00Z",
+        "input_end": "2026-01-01T23:59:00Z"
+      },
+      "provenance": {
+        "source_id": "fixture",
+        "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "query_version": "1",
+        "evidence_cutoff": "2026-01-02T00:00:00Z"
+      },
+      "measurement_evidence": {
+        "M1": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M2": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M3": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M4": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        }
+      },
+      "closures": []
+    },
+    "decision": {
+      "version": "slo-evidence/1.2.0",
+      "policy": {
+        "window_minutes": 1440,
+        "coverage_min": 0.5,
+        "tail_cutoff": 10.0,
+        "diagnostic_quantile": 0.95,
+        "version": "slo-evidence/1.2.0"
+      },
+      "route": "C",
+      "evidence_status": "needs_context_review",
+      "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+      "triggered_facts": {
+        "history": false,
+        "measurement": false,
+        "context": true
+      },
+      "open_tasks": [
+        "context"
+      ],
+      "missing_measurement_dimensions": [],
+      "accepted_closure_ids": [],
+      "rejected_closures": [],
+      "tail_ratio": 19000000.0,
+      "expected_minutes": 1440,
+      "minimum_samples": 720,
+      "business_slo_approved": false
+    },
+    "expected": "C"
+  },
+  {
+    "case": "note_only",
+    "evidence_type": "SYNTHETIC_SOFTWARE_CONTRACT_NOT_HUMAN_REVIEW",
+    "input": {
+      "card_id": "fixture-parent",
+      "subject_id": "service",
+      "sli": "latency",
+      "unit": "ms",
+      "window_start": "2026-01-01T00:00:00Z",
+      "window_end": "2026-01-02T00:00:00Z",
+      "observations_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "measurement_definition": "fixture definition/1",
+      "candidate_value": 20.0,
+      "statistics": {
+        "valid_samples": 1440,
+        "quantile_level": 0.95,
+        "quantile_value": 20.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "robust_scale": 1e-06,
+        "nonzero_count": 1440,
+        "max_value": 20.0,
+        "all_zero": false
+      },
+      "generator": {
+        "id": "statistical",
+        "version": "1",
+        "kind": "statistical",
+        "fit_end": "2026-01-01T23:59:00Z",
+        "input_end": "2026-01-01T23:59:00Z"
+      },
+      "provenance": {
+        "source_id": "fixture",
+        "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "query_version": "1",
+        "evidence_cutoff": "2026-01-02T00:00:00Z"
+      },
+      "measurement_evidence": {
+        "M1": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M2": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M3": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M4": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        }
+      },
+      "closures": [
+        {
+          "record_id": "note",
+          "task_type": "context",
+          "resolution": "normal load"
+        }
+      ]
+    },
+    "decision": {
+      "version": "slo-evidence/1.2.0",
+      "policy": {
+        "window_minutes": 1440,
+        "coverage_min": 0.5,
+        "tail_cutoff": 10.0,
+        "diagnostic_quantile": 0.95,
+        "version": "slo-evidence/1.2.0"
+      },
+      "route": "C",
+      "evidence_status": "needs_context_review",
+      "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+      "triggered_facts": {
+        "history": false,
+        "measurement": false,
+        "context": true
+      },
+      "open_tasks": [
+        "context"
+      ],
+      "missing_measurement_dimensions": [],
+      "accepted_closure_ids": [],
+      "rejected_closures": [
+        {
+          "record_id": "note",
+          "reason": "not_a_confirmed_closable_task"
+        }
+      ],
+      "tail_ratio": 19000000.0,
+      "expected_minutes": 1440,
+      "minimum_samples": 720,
+      "business_slo_approved": false
+    },
+    "expected": "C"
+  },
+  {
+    "case": "valid",
+    "evidence_type": "SYNTHETIC_SOFTWARE_CONTRACT_NOT_HUMAN_REVIEW",
+    "input": {
+      "card_id": "fixture-parent",
+      "subject_id": "service",
+      "sli": "latency",
+      "unit": "ms",
+      "window_start": "2026-01-01T00:00:00Z",
+      "window_end": "2026-01-02T00:00:00Z",
+      "observations_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "measurement_definition": "fixture definition/1",
+      "candidate_value": 20.0,
+      "statistics": {
+        "valid_samples": 1440,
+        "quantile_level": 0.95,
+        "quantile_value": 20.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "robust_scale": 1e-06,
+        "nonzero_count": 1440,
+        "max_value": 20.0,
+        "all_zero": false
+      },
+      "generator": {
+        "id": "statistical",
+        "version": "1",
+        "kind": "statistical",
+        "fit_end": "2026-01-01T23:59:00Z",
+        "input_end": "2026-01-01T23:59:00Z"
+      },
+      "provenance": {
+        "source_id": "fixture",
+        "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "query_version": "1",
+        "evidence_cutoff": "2026-01-02T00:00:00Z"
+      },
+      "measurement_evidence": {
+        "M1": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M2": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M3": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M4": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        }
+      },
+      "closures": [
+        {
+          "record_id": "closure-context",
+          "task_type": "context",
+          "status": "confirmed",
+          "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+          "reviewer_id": "synthetic-reviewer",
+          "reviewer_role": "sre_context_reviewer",
+          "reviewed_at": "2026-01-02T01:00:00Z",
+          "expires_at": "2026-01-03T00:00:00Z",
+          "resolution": "synthetic scoped explanation",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ],
+          "resolved_dimensions": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ]
+        }
+      ]
+    },
+    "decision": {
+      "version": "slo-evidence/1.2.0",
+      "policy": {
+        "window_minutes": 1440,
+        "coverage_min": 0.5,
+        "tail_cutoff": 10.0,
+        "diagnostic_quantile": 0.95,
+        "version": "slo-evidence/1.2.0"
+      },
+      "route": "D",
+      "evidence_status": "candidate_for_stakeholder_review",
+      "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+      "triggered_facts": {
+        "history": false,
+        "measurement": false,
+        "context": true
+      },
+      "open_tasks": [],
+      "missing_measurement_dimensions": [],
+      "accepted_closure_ids": [
+        "closure-context"
+      ],
+      "rejected_closures": [],
+      "tail_ratio": 19000000.0,
+      "expected_minutes": 1440,
+      "minimum_samples": 720,
+      "business_slo_approved": false
+    },
+    "expected": "D"
+  },
+  {
+    "case": "expired",
+    "evidence_type": "SYNTHETIC_SOFTWARE_CONTRACT_NOT_HUMAN_REVIEW",
+    "input": {
+      "card_id": "fixture-parent",
+      "subject_id": "service",
+      "sli": "latency",
+      "unit": "ms",
+      "window_start": "2026-01-01T00:00:00Z",
+      "window_end": "2026-01-02T00:00:00Z",
+      "observations_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "measurement_definition": "fixture definition/1",
+      "candidate_value": 20.0,
+      "statistics": {
+        "valid_samples": 1440,
+        "quantile_level": 0.95,
+        "quantile_value": 20.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "robust_scale": 1e-06,
+        "nonzero_count": 1440,
+        "max_value": 20.0,
+        "all_zero": false
+      },
+      "generator": {
+        "id": "statistical",
+        "version": "1",
+        "kind": "statistical",
+        "fit_end": "2026-01-01T23:59:00Z",
+        "input_end": "2026-01-01T23:59:00Z"
+      },
+      "provenance": {
+        "source_id": "fixture",
+        "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "query_version": "1",
+        "evidence_cutoff": "2026-01-02T00:00:00Z"
+      },
+      "measurement_evidence": {
+        "M1": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M2": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M3": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M4": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        }
+      },
+      "closures": [
+        {
+          "record_id": "closure-context",
+          "task_type": "context",
+          "status": "confirmed",
+          "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+          "reviewer_id": "synthetic-reviewer",
+          "reviewer_role": "sre_context_reviewer",
+          "reviewed_at": "2026-01-02T01:00:00Z",
+          "expires_at": "2026-01-02T01:30:00Z",
+          "resolution": "synthetic scoped explanation",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ],
+          "resolved_dimensions": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ]
+        }
+      ]
+    },
+    "decision": {
+      "version": "slo-evidence/1.2.0",
+      "policy": {
+        "window_minutes": 1440,
+        "coverage_min": 0.5,
+        "tail_cutoff": 10.0,
+        "diagnostic_quantile": 0.95,
+        "version": "slo-evidence/1.2.0"
+      },
+      "route": "C",
+      "evidence_status": "needs_context_review",
+      "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+      "triggered_facts": {
+        "history": false,
+        "measurement": false,
+        "context": true
+      },
+      "open_tasks": [
+        "context"
+      ],
+      "missing_measurement_dimensions": [],
+      "accepted_closure_ids": [],
+      "rejected_closures": [
+        {
+          "record_id": "closure-context",
+          "reason": "invalid_review_time_or_expired"
+        }
+      ],
+      "tail_ratio": 19000000.0,
+      "expected_minutes": 1440,
+      "minimum_samples": 720,
+      "business_slo_approved": false
+    },
+    "expected": "C"
+  },
+  {
+    "case": "wrong_window",
+    "evidence_type": "SYNTHETIC_SOFTWARE_CONTRACT_NOT_HUMAN_REVIEW",
+    "input": {
+      "card_id": "fixture-parent",
+      "subject_id": "service",
+      "sli": "latency",
+      "unit": "ms",
+      "window_start": "2025-12-31T23:00:00Z",
+      "window_end": "2026-01-01T23:00:00Z",
+      "observations_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "measurement_definition": "fixture definition/1",
+      "candidate_value": 20.0,
+      "statistics": {
+        "valid_samples": 1440,
+        "quantile_level": 0.95,
+        "quantile_value": 20.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "robust_scale": 1e-06,
+        "nonzero_count": 1440,
+        "max_value": 20.0,
+        "all_zero": false
+      },
+      "generator": {
+        "id": "statistical",
+        "version": "1",
+        "kind": "statistical",
+        "fit_end": "2026-01-01T22:59:00Z",
+        "input_end": "2026-01-01T22:59:00Z"
+      },
+      "provenance": {
+        "source_id": "fixture",
+        "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "query_version": "1",
+        "evidence_cutoff": "2026-01-01T23:00:00Z"
+      },
+      "measurement_evidence": {
+        "M1": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M2": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M3": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M4": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        }
+      },
+      "closures": [
+        {
+          "record_id": "closure-context",
+          "task_type": "context",
+          "status": "confirmed",
+          "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+          "reviewer_id": "synthetic-reviewer",
+          "reviewer_role": "sre_context_reviewer",
+          "reviewed_at": "2026-01-02T01:00:00Z",
+          "expires_at": "2026-01-03T00:00:00Z",
+          "resolution": "synthetic scoped explanation",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ],
+          "resolved_dimensions": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ]
+        }
+      ]
+    },
+    "decision": {
+      "version": "slo-evidence/1.2.0",
+      "policy": {
+        "window_minutes": 1440,
+        "coverage_min": 0.5,
+        "tail_cutoff": 10.0,
+        "diagnostic_quantile": 0.95,
+        "version": "slo-evidence/1.2.0"
+      },
+      "route": "C",
+      "evidence_status": "needs_context_review",
+      "scope_hash": "f982337c91f7afd957445caf911077b52818b21b9443dc756ffe283126769f5d",
+      "triggered_facts": {
+        "history": false,
+        "measurement": false,
+        "context": true
+      },
+      "open_tasks": [
+        "context"
+      ],
+      "missing_measurement_dimensions": [],
+      "accepted_closure_ids": [],
+      "rejected_closures": [
+        {
+          "record_id": "closure-context",
+          "reason": "stale_scope_or_policy"
+        }
+      ],
+      "tail_ratio": 19000000.0,
+      "expected_minutes": 1440,
+      "minimum_samples": 720,
+      "business_slo_approved": false
+    },
+    "expected": "C"
+  },
+  {
+    "case": "missing_role",
+    "evidence_type": "SYNTHETIC_SOFTWARE_CONTRACT_NOT_HUMAN_REVIEW",
+    "input": {
+      "card_id": "fixture-parent",
+      "subject_id": "service",
+      "sli": "latency",
+      "unit": "ms",
+      "window_start": "2026-01-01T00:00:00Z",
+      "window_end": "2026-01-02T00:00:00Z",
+      "observations_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "measurement_definition": "fixture definition/1",
+      "candidate_value": 20.0,
+      "statistics": {
+        "valid_samples": 1440,
+        "quantile_level": 0.95,
+        "quantile_value": 20.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "robust_scale": 1e-06,
+        "nonzero_count": 1440,
+        "max_value": 20.0,
+        "all_zero": false
+      },
+      "generator": {
+        "id": "statistical",
+        "version": "1",
+        "kind": "statistical",
+        "fit_end": "2026-01-01T23:59:00Z",
+        "input_end": "2026-01-01T23:59:00Z"
+      },
+      "provenance": {
+        "source_id": "fixture",
+        "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "query_version": "1",
+        "evidence_cutoff": "2026-01-02T00:00:00Z"
+      },
+      "measurement_evidence": {
+        "M1": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M2": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M3": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M4": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        }
+      },
+      "closures": [
+        {
+          "record_id": "closure-context",
+          "task_type": "context",
+          "status": "confirmed",
+          "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+          "reviewer_id": "synthetic-reviewer",
+          "reviewed_at": "2026-01-02T01:00:00Z",
+          "expires_at": "2026-01-03T00:00:00Z",
+          "resolution": "synthetic scoped explanation",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ],
+          "resolved_dimensions": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ]
+        }
+      ]
+    },
+    "decision": {
+      "version": "slo-evidence/1.2.0",
+      "policy": {
+        "window_minutes": 1440,
+        "coverage_min": 0.5,
+        "tail_cutoff": 10.0,
+        "diagnostic_quantile": 0.95,
+        "version": "slo-evidence/1.2.0"
+      },
+      "route": "C",
+      "evidence_status": "needs_context_review",
+      "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+      "triggered_facts": {
+        "history": false,
+        "measurement": false,
+        "context": true
+      },
+      "open_tasks": [
+        "context"
+      ],
+      "missing_measurement_dimensions": [],
+      "accepted_closure_ids": [],
+      "rejected_closures": [
+        {
+          "record_id": "closure-context",
+          "reason": "missing_or_ineligible_reviewer"
+        }
+      ],
+      "tail_ratio": 19000000.0,
+      "expected_minutes": 1440,
+      "minimum_samples": 720,
+      "business_slo_approved": false
+    },
+    "expected": "C"
+  },
+  {
+    "case": "closure_hash_mismatch",
+    "evidence_type": "SYNTHETIC_SOFTWARE_CONTRACT_NOT_HUMAN_REVIEW",
+    "input": {
+      "card_id": "fixture-parent",
+      "subject_id": "service",
+      "sli": "latency",
+      "unit": "ms",
+      "window_start": "2026-01-01T00:00:00Z",
+      "window_end": "2026-01-02T00:00:00Z",
+      "observations_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "measurement_definition": "fixture definition/1",
+      "candidate_value": 20.0,
+      "statistics": {
+        "valid_samples": 1440,
+        "quantile_level": 0.95,
+        "quantile_value": 20.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "robust_scale": 1e-06,
+        "nonzero_count": 1440,
+        "max_value": 20.0,
+        "all_zero": false
+      },
+      "generator": {
+        "id": "statistical",
+        "version": "1",
+        "kind": "statistical",
+        "fit_end": "2026-01-01T23:59:00Z",
+        "input_end": "2026-01-01T23:59:00Z"
+      },
+      "provenance": {
+        "source_id": "fixture",
+        "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "query_version": "1",
+        "evidence_cutoff": "2026-01-02T00:00:00Z"
+      },
+      "measurement_evidence": {
+        "M1": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M2": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M3": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M4": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        }
+      },
+      "closures": [
+        {
+          "record_id": "closure-context",
+          "task_type": "context",
+          "status": "confirmed",
+          "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+          "reviewer_id": "synthetic-reviewer",
+          "reviewer_role": "sre_context_reviewer",
+          "reviewed_at": "2026-01-02T01:00:00Z",
+          "expires_at": "2026-01-03T00:00:00Z",
+          "resolution": "synthetic scoped explanation",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          ],
+          "resolved_dimensions": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ]
+        }
+      ]
+    },
+    "decision": {
+      "version": "slo-evidence/1.2.0",
+      "policy": {
+        "window_minutes": 1440,
+        "coverage_min": 0.5,
+        "tail_cutoff": 10.0,
+        "diagnostic_quantile": 0.95,
+        "version": "slo-evidence/1.2.0"
+      },
+      "route": "C",
+      "evidence_status": "needs_context_review",
+      "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+      "triggered_facts": {
+        "history": false,
+        "measurement": false,
+        "context": true
+      },
+      "open_tasks": [
+        "context"
+      ],
+      "missing_measurement_dimensions": [],
+      "accepted_closure_ids": [],
+      "rejected_closures": [
+        {
+          "record_id": "closure-context",
+          "reason": "missing_or_unverifiable_evidence"
+        }
+      ],
+      "tail_ratio": 19000000.0,
+      "expected_minutes": 1440,
+      "minimum_samples": 720,
+      "business_slo_approved": false
+    },
+    "expected": "C"
+  },
+  {
+    "case": "remaining_M4",
+    "evidence_type": "SYNTHETIC_SOFTWARE_CONTRACT_NOT_HUMAN_REVIEW",
+    "input": {
+      "card_id": "fixture-parent",
+      "subject_id": "service",
+      "sli": "latency",
+      "unit": "ms",
+      "window_start": "2026-01-01T00:00:00Z",
+      "window_end": "2026-01-02T00:00:00Z",
+      "observations_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "measurement_definition": "fixture definition/1",
+      "candidate_value": 20.0,
+      "statistics": {
+        "valid_samples": 1440,
+        "quantile_level": 0.95,
+        "quantile_value": 20.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "robust_scale": 1e-06,
+        "nonzero_count": 1440,
+        "max_value": 20.0,
+        "all_zero": false
+      },
+      "generator": {
+        "id": "statistical",
+        "version": "1",
+        "kind": "statistical",
+        "fit_end": "2026-01-01T23:59:00Z",
+        "input_end": "2026-01-01T23:59:00Z"
+      },
+      "provenance": {
+        "source_id": "fixture",
+        "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "query_version": "1",
+        "evidence_cutoff": "2026-01-02T00:00:00Z"
+      },
+      "measurement_evidence": {
+        "M1": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M2": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M3": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M4": {
+          "status": "unknown",
+          "refs": []
+        }
+      },
+      "closures": [
+        {
+          "record_id": "closure-context",
+          "task_type": "context",
+          "status": "confirmed",
+          "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+          "reviewer_id": "synthetic-reviewer",
+          "reviewer_role": "sre_context_reviewer",
+          "reviewed_at": "2026-01-02T01:00:00Z",
+          "expires_at": "2026-01-03T00:00:00Z",
+          "resolution": "synthetic scoped explanation",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ],
+          "resolved_dimensions": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ]
+        }
+      ]
+    },
+    "decision": {
+      "version": "slo-evidence/1.2.0",
+      "policy": {
+        "window_minutes": 1440,
+        "coverage_min": 0.5,
+        "tail_cutoff": 10.0,
+        "diagnostic_quantile": 0.95,
+        "version": "slo-evidence/1.2.0"
+      },
+      "route": "B",
+      "evidence_status": "threshold_unresolved",
+      "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+      "triggered_facts": {
+        "history": false,
+        "measurement": true,
+        "context": true
+      },
+      "open_tasks": [
+        "measurement"
+      ],
+      "missing_measurement_dimensions": [
+        "M4"
+      ],
+      "accepted_closure_ids": [
+        "closure-context"
+      ],
+      "rejected_closures": [],
+      "tail_ratio": 19000000.0,
+      "expected_minutes": 1440,
+      "minimum_samples": 720,
+      "business_slo_approved": false
+    },
+    "expected": "B"
+  },
+  {
+    "case": "regen",
+    "evidence_type": "SYNTHETIC_SOFTWARE_CONTRACT_NOT_HUMAN_REVIEW",
+    "input": {
+      "card_id": "fixture-parent",
+      "subject_id": "service",
+      "sli": "latency",
+      "unit": "ms",
+      "window_start": "2026-01-01T00:00:00Z",
+      "window_end": "2026-01-02T00:00:00Z",
+      "observations_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "measurement_definition": "fixture definition/1",
+      "candidate_value": 21.0,
+      "statistics": {
+        "valid_samples": 1440,
+        "quantile_level": 0.95,
+        "quantile_value": 20.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "robust_scale": 1e-06,
+        "nonzero_count": 1440,
+        "max_value": 20.0,
+        "all_zero": false
+      },
+      "generator": {
+        "id": "statistical",
+        "version": "1",
+        "kind": "statistical",
+        "fit_end": "2026-01-01T23:59:00Z",
+        "input_end": "2026-01-01T23:59:00Z"
+      },
+      "provenance": {
+        "source_id": "fixture",
+        "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "query_version": "1",
+        "evidence_cutoff": "2026-01-02T00:00:00Z"
+      },
+      "measurement_evidence": {
+        "M1": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M2": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M3": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        },
+        "M4": {
+          "status": "verified",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ]
+        }
+      },
+      "closures": [
+        {
+          "record_id": "closure-context",
+          "task_type": "context",
+          "status": "confirmed",
+          "scope_hash": "a17c09377ad5bd97dc9bedc74d48fbcaf055a09eb21e0693b7ec7a95604014b3",
+          "reviewer_id": "synthetic-reviewer",
+          "reviewer_role": "sre_context_reviewer",
+          "reviewed_at": "2026-01-02T01:00:00Z",
+          "expires_at": "2026-01-03T00:00:00Z",
+          "resolution": "synthetic scoped explanation",
+          "refs": [
+            {
+              "uri": "fixture://contract",
+              "sha256": "d42135e241169fd1bef007bb804bd9be2d62e7e66462f18db7aca2a1fde13d01"
+            }
+          ],
+          "resolved_dimensions": [
+            "M1",
+            "M2",
+            "M3",
+            "M4"
+          ]
+        }
+      ]
+    },
+    "decision": {
+      "version": "slo-evidence/1.2.0",
+      "policy": {
+        "window_minutes": 1440,
+        "coverage_min": 0.5,
+        "tail_cutoff": 10.0,
+        "diagnostic_quantile": 0.95,
+        "version": "slo-evidence/1.2.0"
+      },
+      "route": "C",
+      "evidence_status": "needs_context_review",
+      "scope_hash": "987962c539b7a8f4dbd797f60e3fa39aea9b10436f6e7b5637b3c887ab5bc30a",
+      "triggered_facts": {
+        "history": false,
+        "measurement": false,
+        "context": true
+      },
+      "open_tasks": [
+        "context"
+      ],
+      "missing_measurement_dimensions": [],
+      "accepted_closure_ids": [],
+      "rejected_closures": [
+        {
+          "record_id": "closure-context",
+          "reason": "stale_scope_or_policy"
+        }
+      ],
+      "tail_ratio": 19000000.0,
+      "expected_minutes": 1440,
+      "minimum_samples": 720,
+      "business_slo_approved": false
+    },
+    "expected": "C"
+  }
+]

@@ -1,0 +1,532 @@
+[
+  {
+    "selection_rule": "first fitted card of SLI in frozen learning_selection.json order",
+    "selection_position_1based": 13,
+    "card_id": "acad-195258dd5eecece4",
+    "model": {
+      "card_id": "acad-195258dd5eecece4",
+      "status": "fitted",
+      "n_train": 991,
+      "n_holdout": 432,
+      "split": "2025-06-08T23:57:59+00:00",
+      "train_end": "2025-06-08T23:57:00+00:00",
+      "holdout_start": "2025-06-08T23:58:00+00:00",
+      "input_end": "2025-06-09T07:09:00+00:00",
+      "target_scale_train_only": 1304.035,
+      "coefficient": [
+        0.0,
+        0.0006793931830655115
+      ],
+      "intercept": 0.9995703325478178,
+      "feature_mean": [
+        -0.29543859356917984,
+        -0.20712544985666437
+      ],
+      "feature_scale": [
+        0.6225560890035827,
+        0.694434303225368
+      ]
+    },
+    "statistical": {
+      "source": "statistical",
+      "card": {
+        "card_id": "acad-195258dd5eecece4-robust-statistical",
+        "parent_card_id": "acad-195258dd5eecece4",
+        "subject_id": "shippingservice",
+        "sli": "latency",
+        "unit": "ms",
+        "window_start": "2025-06-08T07:10:00+00:00",
+        "window_end": "2025-06-09T07:10:00+00:00",
+        "observations_sha256": "e3dab1f23c7d63f3387e3c79364fa2ae626a5934d2f50ec8c7d713f6d1c6b5c7",
+        "observation_hash_kind": "content",
+        "measurement_definition": "derived-minute-series/legacy-preserved/2",
+        "measurement_assessment_version": "measurement-audit/20260930",
+        "statistics": {
+          "valid_samples": 1423,
+          "quantile_level": 0.95,
+          "quantile_value": 1293.3219999999985,
+          "median": 1068.27,
+          "mad": 59.25999999999999,
+          "robust_scale": 87.85887599999998,
+          "nonzero_count": 1423,
+          "max_value": 2146.28,
+          "all_zero": false
+        },
+        "candidate_value": 1331.8466279999998,
+        "generator": {
+          "id": "robust-statistical",
+          "version": "1-corrected",
+          "kind": "statistical",
+          "fit_end": "2025-06-09T07:09:00+00:00",
+          "input_end": "2025-06-09T07:09:00+00:00",
+          "quantile": 0.95,
+          "robust_k": 3.0
+        },
+        "provenance": {
+          "source_id": "learning_windows.csv.gz",
+          "source_sha256": "12eef5770e44d4a59a97f5b2cc0cb87d25395ff3e6cb4202dc32d66e5225aa8f",
+          "query_version": "legacy-minute-with-offline-exclusions/1",
+          "evidence_cutoff": "2025-06-09T07:10:00+00:00",
+          "original_dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42"
+        },
+        "measurement_evidence": {
+          "M1": {
+            "status": "unknown",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "local derived formula only",
+            "reason": "upstream rrt meaning/unit and error-timeout counting semantics unverified"
+          },
+          "M2": {
+            "status": "unknown",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "local minute window only",
+            "reason": "source sampling and collection process unverified"
+          },
+          "M3": {
+            "status": "verified",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "converted source fields to minute values and candidate; not upstream instrumentation"
+          },
+          "M4": {
+            "status": "unknown",
+            "refs": [],
+            "reason": "source precision and upstream special-value semantics unverified"
+          }
+        },
+        "closures": []
+      },
+      "decision": {
+        "version": "slo-evidence/1.2.0",
+        "policy": {
+          "window_minutes": 1440,
+          "coverage_min": 0.5,
+          "tail_cutoff": 10.0,
+          "diagnostic_quantile": 0.95,
+          "version": "slo-evidence/1.2.0"
+        },
+        "route": "B",
+        "evidence_status": "threshold_unresolved",
+        "scope_hash": "64de246cb5b6dfc380924e0abebe6c9c0b8abc810852f6a6b27b7512eb5a9d6f",
+        "triggered_facts": {
+          "history": false,
+          "measurement": true,
+          "context": false
+        },
+        "open_tasks": [
+          "measurement"
+        ],
+        "missing_measurement_dimensions": [
+          "M1",
+          "M2",
+          "M4"
+        ],
+        "accepted_closure_ids": [],
+        "rejected_closures": [],
+        "tail_ratio": 2.5615169490672587,
+        "expected_minutes": 1440,
+        "minimum_samples": 720,
+        "business_slo_approved": false
+      }
+    },
+    "learned": {
+      "source": "learned",
+      "card": {
+        "card_id": "acad-195258dd5eecece4-linear-quantile-time",
+        "parent_card_id": "acad-195258dd5eecece4",
+        "subject_id": "shippingservice",
+        "sli": "latency",
+        "unit": "ms",
+        "window_start": "2025-06-08T07:10:00+00:00",
+        "window_end": "2025-06-09T07:10:00+00:00",
+        "observations_sha256": "e3dab1f23c7d63f3387e3c79364fa2ae626a5934d2f50ec8c7d713f6d1c6b5c7",
+        "observation_hash_kind": "content",
+        "measurement_definition": "derived-minute-series/legacy-preserved/2",
+        "measurement_assessment_version": "measurement-audit/20260930",
+        "statistics": {
+          "valid_samples": 1423,
+          "quantile_level": 0.95,
+          "quantile_value": 1293.3219999999985,
+          "median": 1068.27,
+          "mad": 59.25999999999999,
+          "robust_scale": 87.85887599999998,
+          "nonzero_count": 1423,
+          "max_value": 2146.28,
+          "all_zero": false
+        },
+        "candidate_value": 1305.0100955559467,
+        "generator": {
+          "id": "linear-quantile-time",
+          "version": "1",
+          "kind": "learned",
+          "fit_end": "2025-06-08T23:57:00+00:00",
+          "input_end": "2025-06-09T07:09:00+00:00",
+          "model": "StandardScaler+QuantileRegressor",
+          "quantile": 0.95,
+          "alpha": 0.01,
+          "candidate_aggregation": "Q95 of conditional-Q95 predictions on historical holdout times",
+          "parameters_sha256": "7f0d99365951a3a305f0153a424f4ba35f92dafd275dcbdaa58f6fd1420223d5",
+          "sklearn": "1.7.2"
+        },
+        "provenance": {
+          "source_id": "learning_windows.csv.gz",
+          "source_sha256": "12eef5770e44d4a59a97f5b2cc0cb87d25395ff3e6cb4202dc32d66e5225aa8f",
+          "query_version": "legacy-minute-with-offline-exclusions/1",
+          "evidence_cutoff": "2025-06-09T07:10:00+00:00",
+          "original_dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42"
+        },
+        "measurement_evidence": {
+          "M1": {
+            "status": "unknown",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "local derived formula only",
+            "reason": "upstream rrt meaning/unit and error-timeout counting semantics unverified"
+          },
+          "M2": {
+            "status": "unknown",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "local minute window only",
+            "reason": "source sampling and collection process unverified"
+          },
+          "M3": {
+            "status": "verified",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "converted source fields to minute values and candidate; not upstream instrumentation"
+          },
+          "M4": {
+            "status": "unknown",
+            "refs": [],
+            "reason": "source precision and upstream special-value semantics unverified"
+          }
+        },
+        "closures": []
+      },
+      "decision": {
+        "version": "slo-evidence/1.2.0",
+        "policy": {
+          "window_minutes": 1440,
+          "coverage_min": 0.5,
+          "tail_cutoff": 10.0,
+          "diagnostic_quantile": 0.95,
+          "version": "slo-evidence/1.2.0"
+        },
+        "route": "B",
+        "evidence_status": "threshold_unresolved",
+        "scope_hash": "61f730afbc27c5deb0aaff937688088bbce3e63a0038981816b44b764e3a281e",
+        "triggered_facts": {
+          "history": false,
+          "measurement": true,
+          "context": false
+        },
+        "open_tasks": [
+          "measurement"
+        ],
+        "missing_measurement_dimensions": [
+          "M1",
+          "M2",
+          "M4"
+        ],
+        "accepted_closure_ids": [],
+        "rejected_closures": [],
+        "tail_ratio": 2.5615169490672587,
+        "expected_minutes": 1440,
+        "minimum_samples": 720,
+        "business_slo_approved": false
+      }
+    }
+  },
+  {
+    "selection_rule": "first fitted card of SLI in frozen learning_selection.json order",
+    "selection_position_1based": 1,
+    "card_id": "acad-68b0154e865f638d",
+    "model": {
+      "card_id": "acad-68b0154e865f638d",
+      "status": "fitted",
+      "n_train": 949,
+      "n_holdout": 432,
+      "split": "2025-06-13T16:57:59+00:00",
+      "train_end": "2025-06-13T16:57:00+00:00",
+      "holdout_start": "2025-06-13T16:58:00+00:00",
+      "input_end": "2025-06-14T00:09:00+00:00",
+      "target_scale_train_only": 0.004096718769643338,
+      "coefficient": [
+        0.08217564877463862,
+        0.0
+      ],
+      "intercept": 1.055306442284255,
+      "feature_mean": [
+        0.3017073312697734,
+        -0.18281135523204584
+      ],
+      "feature_scale": [
+        0.6426828600330062,
+        0.680081933355158
+      ]
+    },
+    "statistical": {
+      "source": "statistical",
+      "card": {
+        "card_id": "acad-68b0154e865f638d-robust-statistical",
+        "parent_card_id": "acad-68b0154e865f638d",
+        "subject_id": "redis-cart",
+        "sli": "error_ratio",
+        "unit": "ratio",
+        "window_start": "2025-06-13T00:10:00+00:00",
+        "window_end": "2025-06-14T00:10:00+00:00",
+        "observations_sha256": "af10a5832f8a63d6d1bb58a2fc7f60ff2da68459b7aec2aa04e782708b4fc760",
+        "observation_hash_kind": "content",
+        "measurement_definition": "derived-minute-series/legacy-preserved/2",
+        "measurement_assessment_version": "measurement-audit/20260930",
+        "statistics": {
+          "valid_samples": 1381,
+          "quantile_level": 0.95,
+          "quantile_value": 0.0037735849056603,
+          "median": 0.0,
+          "mad": 0.0,
+          "robust_scale": 1e-06,
+          "nonzero_count": 432,
+          "max_value": 0.1,
+          "all_zero": false
+        },
+        "candidate_value": 0.0037735849056603,
+        "generator": {
+          "id": "robust-statistical",
+          "version": "1-corrected",
+          "kind": "statistical",
+          "fit_end": "2025-06-14T00:09:00+00:00",
+          "input_end": "2025-06-14T00:09:00+00:00",
+          "quantile": 0.95,
+          "robust_k": 3.0
+        },
+        "provenance": {
+          "source_id": "learning_windows.csv.gz",
+          "source_sha256": "12eef5770e44d4a59a97f5b2cc0cb87d25395ff3e6cb4202dc32d66e5225aa8f",
+          "query_version": "legacy-minute-with-offline-exclusions/1",
+          "evidence_cutoff": "2025-06-14T00:10:00+00:00",
+          "original_dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42"
+        },
+        "measurement_evidence": {
+          "M1": {
+            "status": "unknown",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "local derived formula only",
+            "reason": "upstream rrt meaning/unit and error-timeout counting semantics unverified"
+          },
+          "M2": {
+            "status": "unknown",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "local minute window only",
+            "reason": "source sampling and collection process unverified"
+          },
+          "M3": {
+            "status": "verified",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "converted source fields to minute values and candidate; not upstream instrumentation"
+          },
+          "M4": {
+            "status": "unknown",
+            "refs": [],
+            "reason": "source precision and upstream special-value semantics unverified"
+          }
+        },
+        "closures": []
+      },
+      "decision": {
+        "version": "slo-evidence/1.2.0",
+        "policy": {
+          "window_minutes": 1440,
+          "coverage_min": 0.5,
+          "tail_cutoff": 10.0,
+          "diagnostic_quantile": 0.95,
+          "version": "slo-evidence/1.2.0"
+        },
+        "route": "B",
+        "evidence_status": "threshold_unresolved",
+        "scope_hash": "e8527da4c41383de68c7e95916551d5988d76b739fc74152b5960d81e2e93f71",
+        "triggered_facts": {
+          "history": false,
+          "measurement": true,
+          "context": false
+        },
+        "open_tasks": [
+          "measurement"
+        ],
+        "missing_measurement_dimensions": [
+          "M1",
+          "M2",
+          "M4"
+        ],
+        "accepted_closure_ids": [],
+        "rejected_closures": [],
+        "tail_ratio": null,
+        "expected_minutes": 1440,
+        "minimum_samples": 720,
+        "business_slo_approved": false
+      }
+    },
+    "learned": {
+      "source": "learned",
+      "card": {
+        "card_id": "acad-68b0154e865f638d-linear-quantile-time",
+        "parent_card_id": "acad-68b0154e865f638d",
+        "subject_id": "redis-cart",
+        "sli": "error_ratio",
+        "unit": "ratio",
+        "window_start": "2025-06-13T00:10:00+00:00",
+        "window_end": "2025-06-14T00:10:00+00:00",
+        "observations_sha256": "af10a5832f8a63d6d1bb58a2fc7f60ff2da68459b7aec2aa04e782708b4fc760",
+        "observation_hash_kind": "content",
+        "measurement_definition": "derived-minute-series/legacy-preserved/2",
+        "measurement_assessment_version": "measurement-audit/20260930",
+        "statistics": {
+          "valid_samples": 1381,
+          "quantile_level": 0.95,
+          "quantile_value": 0.0037735849056603,
+          "median": 0.0,
+          "mad": 0.0,
+          "robust_scale": 1e-06,
+          "nonzero_count": 432,
+          "max_value": 0.1,
+          "all_zero": false
+        },
+        "candidate_value": 0.004136583332871381,
+        "generator": {
+          "id": "linear-quantile-time",
+          "version": "1",
+          "kind": "learned",
+          "fit_end": "2025-06-13T16:57:00+00:00",
+          "input_end": "2025-06-14T00:09:00+00:00",
+          "model": "StandardScaler+QuantileRegressor",
+          "quantile": 0.95,
+          "alpha": 0.01,
+          "candidate_aggregation": "Q95 of conditional-Q95 predictions on historical holdout times",
+          "parameters_sha256": "03231a7aeea8836f3c510d1ab0294e7ca1c5c73061afd3c1bddede7006960730",
+          "sklearn": "1.7.2"
+        },
+        "provenance": {
+          "source_id": "learning_windows.csv.gz",
+          "source_sha256": "12eef5770e44d4a59a97f5b2cc0cb87d25395ff3e6cb4202dc32d66e5225aa8f",
+          "query_version": "legacy-minute-with-offline-exclusions/1",
+          "evidence_cutoff": "2025-06-14T00:10:00+00:00",
+          "original_dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42"
+        },
+        "measurement_evidence": {
+          "M1": {
+            "status": "unknown",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "local derived formula only",
+            "reason": "upstream rrt meaning/unit and error-timeout counting semantics unverified"
+          },
+          "M2": {
+            "status": "unknown",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "local minute window only",
+            "reason": "source sampling and collection process unverified"
+          },
+          "M3": {
+            "status": "verified",
+            "refs": [
+              {
+                "uri": "artifact://local-derived-measurement-definition",
+                "sha256": "d67899c3ce48728addeff48ad13bddc7d5f48c87ed9668d0b6205dc74d976417"
+              }
+            ],
+            "scope": "converted source fields to minute values and candidate; not upstream instrumentation"
+          },
+          "M4": {
+            "status": "unknown",
+            "refs": [],
+            "reason": "source precision and upstream special-value semantics unverified"
+          }
+        },
+        "closures": []
+      },
+      "decision": {
+        "version": "slo-evidence/1.2.0",
+        "policy": {
+          "window_minutes": 1440,
+          "coverage_min": 0.5,
+          "tail_cutoff": 10.0,
+          "diagnostic_quantile": 0.95,
+          "version": "slo-evidence/1.2.0"
+        },
+        "route": "B",
+        "evidence_status": "threshold_unresolved",
+        "scope_hash": "a818a5e2010248c1d8fc699e1cb3fbcd1d74e8ec2d667fb7f6e8d24855c99a24",
+        "triggered_facts": {
+          "history": false,
+          "measurement": true,
+          "context": false
+        },
+        "open_tasks": [
+          "measurement"
+        ],
+        "missing_measurement_dimensions": [
+          "M1",
+          "M2",
+          "M4"
+        ],
+        "accepted_closure_ids": [],
+        "rejected_closures": [],
+        "tail_ratio": null,
+        "expected_minutes": 1440,
+        "minimum_samples": 720,
+        "business_slo_approved": false
+      }
+    }
+  }
+]

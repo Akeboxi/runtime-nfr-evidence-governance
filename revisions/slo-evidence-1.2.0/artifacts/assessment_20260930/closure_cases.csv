@@ -1,0 +1,10 @@
+﻿case,expected,actual,rejected,slo_approved
+initial,C,C,[],False
+note_only,C,C,"[{""record_id"": ""note"", ""reason"": ""not_a_confirmed_closable_task""}]",False
+valid,D,D,[],False
+expired,C,C,"[{""record_id"": ""closure-context"", ""reason"": ""invalid_review_time_or_expired""}]",False
+wrong_window,C,C,"[{""record_id"": ""closure-context"", ""reason"": ""stale_scope_or_policy""}]",False
+missing_role,C,C,"[{""record_id"": ""closure-context"", ""reason"": ""missing_or_ineligible_reviewer""}]",False
+closure_hash_mismatch,C,C,"[{""record_id"": ""closure-context"", ""reason"": ""missing_or_unverifiable_evidence""}]",False
+remaining_M4,B,B,[],False
+regen,C,C,"[{""record_id"": ""closure-context"", ""reason"": ""stale_scope_or_policy""}]",False

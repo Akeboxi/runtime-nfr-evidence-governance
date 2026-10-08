@@ -1,0 +1,14 @@
+Derived-series definition, not certification of source instrumentation.
+M1 UNKNOWN: latency is the numeric rrt column aggregated by minute, unit ms as declared
+by the frozen dataset adapter; error_ratio=(error+timeout)/request clipped 0..1.
+This is not a request-level percentile. No equivalence to user-experience SLI is asserted.
+The upstream rrt unit/meaning and error-timeout overlap are not independently established.
+M2 UNKNOWN: timestamps floored to minute; window [start,end); finite values only;
+request<=0 excluded for error_ratio; count is distinct minute count.
+Source sampling/collection and missingness are not established by this local transform.
+M3: source error/timeout nulls filled 0 by the legacy transform; same-minute
+ratios and rrt averaged, not request-weighted. Service-specific known fault
+intervals removed offline using the frozen graph mapping. Historical slots,
+source and query hashes recorded. These explain the derived computation only.
+M4 UNKNOWN: source collection precision, zero-vs-missing upstream semantics,
+and sampling fidelity have not been independently verified. Code is not proof.

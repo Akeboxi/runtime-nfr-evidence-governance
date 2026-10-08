@@ -1,0 +1,1441 @@
+[
+  {
+    "card_id": "acad-68b0154e865f638d",
+    "status": "fitted",
+    "n_train": 949,
+    "n_holdout": 432,
+    "split": "2025-06-13T16:57:59+00:00",
+    "train_end": "2025-06-13T16:57:00+00:00",
+    "holdout_start": "2025-06-13T16:58:00+00:00",
+    "input_end": "2025-06-14T00:09:00+00:00",
+    "target_scale_train_only": 0.004096718769643338,
+    "coefficient": [
+      0.08217564877463862,
+      0.0
+    ],
+    "intercept": 1.055306442284255,
+    "feature_mean": [
+      0.3017073312697734,
+      -0.18281135523204584
+    ],
+    "feature_scale": [
+      0.6426828600330062,
+      0.680081933355158
+    ]
+  },
+  {
+    "card_id": "acad-f7d8b2dcb5c4f7d6",
+    "status": "fitted",
+    "n_train": 944,
+    "n_holdout": 419,
+    "split": "2025-06-07T16:57:59+00:00",
+    "train_end": "2025-06-07T16:57:00+00:00",
+    "holdout_start": "2025-06-07T16:58:00+00:00",
+    "input_end": "2025-06-08T00:09:00+00:00",
+    "target_scale_train_only": 0.015960785107128048,
+    "coefficient": [
+      0.0,
+      0.05304536858150916
+    ],
+    "intercept": 0.20988819711512,
+    "feature_mean": [
+      0.2602342170548291,
+      -0.2374187947558453
+    ],
+    "feature_scale": [
+      0.6296627588732913,
+      0.6924126502733885
+    ]
+  },
+  {
+    "card_id": "acad-062d96f3bb2d19bf",
+    "status": "fitted",
+    "n_train": 1008,
+    "n_holdout": 431,
+    "split": "2025-06-08T04:57:59+00:00",
+    "train_end": "2025-06-08T04:57:00+00:00",
+    "holdout_start": "2025-06-08T04:58:00+00:00",
+    "input_end": "2025-06-08T12:09:00+00:00",
+    "target_scale_train_only": 0.0036630036630036,
+    "coefficient": [
+      0.01526561587524569,
+      0.0
+    ],
+    "intercept": 1.0077470431690658,
+    "feature_mean": [
+      -0.2884074159573026,
+      0.22838407695945243
+    ],
+    "feature_scale": [
+      0.6261312738279884,
+      0.6874747295332039
+    ]
+  },
+  {
+    "card_id": "acad-6043061ade4a41e3",
+    "status": "fitted",
+    "n_train": 975,
+    "n_holdout": 431,
+    "split": "2025-06-19T07:57:59+00:00",
+    "train_end": "2025-06-19T07:57:00+00:00",
+    "holdout_start": "2025-06-19T07:58:00+00:00",
+    "input_end": "2025-06-19T15:09:00+00:00",
+    "target_scale_train_only": 0.0130151843817787,
+    "coefficient": [
+      -0.2674760922080778,
+      0.023532683222284235
+    ],
+    "intercept": 0.792158534956039,
+    "feature_mean": [
+      -0.0443065570910781,
+      0.36082585567641934
+    ],
+    "feature_scale": [
+      0.7736834972249422,
+      0.518898330114771
+    ]
+  },
+  {
+    "card_id": "acad-edd180389dd8241a",
+    "status": "fitted",
+    "n_train": 974,
+    "n_holdout": 409,
+    "split": "2025-06-20T18:57:59+00:00",
+    "train_end": "2025-06-20T18:57:00+00:00",
+    "holdout_start": "2025-06-20T18:58:00+00:00",
+    "input_end": "2025-06-21T02:09:00+00:00",
+    "target_scale_train_only": 0.0115163147792706,
+    "coefficient": [
+      -0.28055060788982217,
+      0.0
+    ],
+    "intercept": 0.7418540299496903,
+    "feature_mean": [
+      0.1731442032946932,
+      -0.34298233475540035
+    ],
+    "feature_scale": [
+      0.7335060615488099,
+      0.5606719723531157
+    ]
+  },
+  {
+    "card_id": "acad-6a8ef3c20e5fcadc",
+    "status": "fitted",
+    "n_train": 919,
+    "n_holdout": 432,
+    "split": "2025-06-07T13:57:59+00:00",
+    "train_end": "2025-06-07T13:57:00+00:00",
+    "holdout_start": "2025-06-07T13:58:00+00:00",
+    "input_end": "2025-06-07T21:09:00+00:00",
+    "target_scale_train_only": 0.016154907301494277,
+    "coefficient": [
+      0.025773457716944417,
+      0.040179071628218245
+    ],
+    "intercept": 0.20768428446875384,
+    "feature_mean": [
+      0.356279387203429,
+      0.026360526833136194
+    ],
+    "feature_scale": [
+      0.5107561144560614,
+      0.7819835755466831
+    ]
+  },
+  {
+    "card_id": "acad-f5ceaffb4e446c98",
+    "status": "fitted",
+    "n_train": 959,
+    "n_holdout": 420,
+    "split": "2025-06-07T22:57:59+00:00",
+    "train_end": "2025-06-07T22:57:00+00:00",
+    "holdout_start": "2025-06-07T22:58:00+00:00",
+    "input_end": "2025-06-08T06:09:00+00:00",
+    "target_scale_train_only": 0.00291992665017349,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.831248437653455,
+    "feature_mean": [
+      -0.25352158288293486,
+      -0.2918327995113839
+    ],
+    "feature_scale": [
+      0.6781162837327477,
+      0.6250749794051644
+    ]
+  },
+  {
+    "card_id": "acad-08b06a60628e7cd4",
+    "status": "fitted",
+    "n_train": 812,
+    "n_holdout": 351,
+    "split": "2025-06-17T06:57:59+00:00",
+    "train_end": "2025-06-17T06:57:00+00:00",
+    "holdout_start": "2025-06-17T06:58:00+00:00",
+    "input_end": "2025-06-17T14:09:00+00:00",
+    "target_scale_train_only": 0.029308365619170558,
+    "coefficient": [
+      -0.9935221492925027,
+      -0.4000669361782837
+    ],
+    "intercept": 1.351518445084378,
+    "feature_mean": [
+      -0.13292255167607006,
+      0.45449730400050237
+    ],
+    "feature_scale": [
+      0.7599453512513088,
+      0.44524921002032414
+    ]
+  },
+  {
+    "card_id": "acad-805be34e9bfd924d",
+    "status": "fitted",
+    "n_train": 624,
+    "n_holdout": 410,
+    "split": "2025-06-24T02:57:59+00:00",
+    "train_end": "2025-06-24T02:57:00+00:00",
+    "holdout_start": "2025-06-24T02:58:00+00:00",
+    "input_end": "2025-06-24T10:09:00+00:00",
+    "target_scale_train_only": 0.03350026911853752,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.10125680620054332,
+    "feature_mean": [
+      -0.43284516877531065,
+      0.5381988734882077
+    ],
+    "feature_scale": [
+      0.5499904357678451,
+      0.46957166972443404
+    ]
+  },
+  {
+    "card_id": "acad-59a98e77d47003a6",
+    "status": "fitted",
+    "n_train": 871,
+    "n_holdout": 364,
+    "split": "2025-06-10T08:57:59+00:00",
+    "train_end": "2025-06-10T08:57:00+00:00",
+    "holdout_start": "2025-06-10T08:58:00+00:00",
+    "input_end": "2025-06-10T16:09:00+00:00",
+    "target_scale_train_only": 0.01273891092679405,
+    "coefficient": [
+      -0.24901106655995872,
+      0.07957247184000905
+    ],
+    "intercept": 0.810112163653205,
+    "feature_mean": [
+      0.02380771699213388,
+      0.343526312208942
+    ],
+    "feature_scale": [
+      0.7718134378057426,
+      0.5345342670533182
+    ]
+  },
+  {
+    "card_id": "acad-e67e737df2294413",
+    "status": "fitted",
+    "n_train": 919,
+    "n_holdout": 419,
+    "split": "2025-06-07T15:57:59+00:00",
+    "train_end": "2025-06-07T15:57:00+00:00",
+    "holdout_start": "2025-06-07T15:58:00+00:00",
+    "input_end": "2025-06-07T23:09:00+00:00",
+    "target_scale_train_only": 0.016161155821655466,
+    "coefficient": [
+      0.014063483217152652,
+      0.05028351432960936
+    ],
+    "intercept": 0.2039227004247273,
+    "feature_mean": [
+      0.3258568187488128,
+      -0.18028458038654416
+    ],
+    "feature_scale": [
+      0.561961816896174,
+      0.7385890062142157
+    ]
+  },
+  {
+    "card_id": "acad-28b4c2116fef2880",
+    "status": "fitted",
+    "n_train": 969,
+    "n_holdout": 412,
+    "split": "2025-06-19T09:57:59+00:00",
+    "train_end": "2025-06-19T09:57:00+00:00",
+    "holdout_start": "2025-06-19T09:58:00+00:00",
+    "input_end": "2025-06-19T17:09:00+00:00",
+    "target_scale_train_only": 0.13340595547212375,
+    "coefficient": [
+      0.0,
+      -0.06949094595240876
+    ],
+    "intercept": 0.9911191088117076,
+    "feature_mean": [
+      0.1287344245034341,
+      0.3218825711400447
+    ],
+    "feature_scale": [
+      0.7512229131735254,
+      0.5616789056633027
+    ]
+  },
+  {
+    "card_id": "acad-195258dd5eecece4",
+    "status": "fitted",
+    "n_train": 991,
+    "n_holdout": 432,
+    "split": "2025-06-08T23:57:59+00:00",
+    "train_end": "2025-06-08T23:57:00+00:00",
+    "holdout_start": "2025-06-08T23:58:00+00:00",
+    "input_end": "2025-06-09T07:09:00+00:00",
+    "target_scale_train_only": 1304.035,
+    "coefficient": [
+      0.0,
+      0.0006793931830655115
+    ],
+    "intercept": 0.9995703325478178,
+    "feature_mean": [
+      -0.29543859356917984,
+      -0.20712544985666437
+    ],
+    "feature_scale": [
+      0.6225560890035827,
+      0.694434303225368
+    ]
+  },
+  {
+    "card_id": "acad-21fb45ed7b729e2d",
+    "status": "fitted",
+    "n_train": 973,
+    "n_holdout": 432,
+    "split": "2025-06-09T18:57:59+00:00",
+    "train_end": "2025-06-09T18:57:00+00:00",
+    "holdout_start": "2025-06-09T18:58:00+00:00",
+    "input_end": "2025-06-10T02:09:00+00:00",
+    "target_scale_train_only": 1185.7640000000001,
+    "coefficient": [
+      -0.02580763223107994,
+      0.019301432487511108
+    ],
+    "intercept": 1.0042365344363637,
+    "feature_mean": [
+      0.1367868243662058,
+      -0.3549008121862794
+    ],
+    "feature_scale": [
+      0.7432205286587364,
+      0.5504162279307878
+    ]
+  },
+  {
+    "card_id": "acad-34e3b3e835e03355",
+    "status": "fitted",
+    "n_train": 899,
+    "n_holdout": 372,
+    "split": "2025-06-08T21:57:59+00:00",
+    "train_end": "2025-06-08T21:57:00+00:00",
+    "holdout_start": "2025-06-08T21:58:00+00:00",
+    "input_end": "2025-06-09T05:09:00+00:00",
+    "target_scale_train_only": 4808.567999999965,
+    "coefficient": [
+      0.0,
+      -0.12340224282539632
+    ],
+    "intercept": 1.0822512026427904,
+    "feature_mean": [
+      -0.1326178220323818,
+      -0.3719331499790891
+    ],
+    "feature_scale": [
+      0.7206486201896967,
+      0.5698629760255575
+    ]
+  },
+  {
+    "card_id": "acad-9d1eb4baebb5a08a",
+    "status": "fitted",
+    "n_train": 899,
+    "n_holdout": 391,
+    "split": "2025-06-19T18:57:59+00:00",
+    "train_end": "2025-06-19T18:57:00+00:00",
+    "holdout_start": "2025-06-19T18:58:00+00:00",
+    "input_end": "2025-06-20T02:09:00+00:00",
+    "target_scale_train_only": 60514.72580721315,
+    "coefficient": [
+      0.0,
+      -0.011999206510561406
+    ],
+    "intercept": 0.16466832955097863,
+    "feature_mean": [
+      0.13208845369314004,
+      -0.3622682942834135
+    ],
+    "feature_scale": [
+      0.7434602735027513,
+      0.5464257910102296
+    ]
+  },
+  {
+    "card_id": "acad-8b81f680f206438d",
+    "status": "fitted",
+    "n_train": 980,
+    "n_holdout": 369,
+    "split": "2025-06-09T22:57:59+00:00",
+    "train_end": "2025-06-09T22:57:00+00:00",
+    "holdout_start": "2025-06-09T22:58:00+00:00",
+    "input_end": "2025-06-10T06:09:00+00:00",
+    "target_scale_train_only": 7618.741,
+    "coefficient": [
+      -0.032896424443305296,
+      0.027302532858289468
+    ],
+    "intercept": 0.9530922264856663,
+    "feature_mean": [
+      -0.22447765028557334,
+      -0.2790750182418397
+    ],
+    "feature_scale": [
+      0.6899865875197507,
+      0.6290035196709431
+    ]
+  },
+  {
+    "card_id": "acad-505ef36a81fc4b7f",
+    "status": "fitted",
+    "n_train": 927,
+    "n_holdout": 420,
+    "split": "2025-06-07T09:57:59+00:00",
+    "train_end": "2025-06-07T09:57:00+00:00",
+    "holdout_start": "2025-06-07T09:58:00+00:00",
+    "input_end": "2025-06-07T17:09:00+00:00",
+    "target_scale_train_only": 7042.75,
+    "coefficient": [
+      0.0,
+      -0.0051292113354042415
+    ],
+    "intercept": 0.9987207678043089,
+    "feature_mean": [
+      0.15899494705402806,
+      0.31617556534670876
+    ],
+    "feature_scale": [
+      0.7449109241827527,
+      0.5655628468368241
+    ]
+  },
+  {
+    "card_id": "acad-92c8a230852663f0",
+    "status": "fitted",
+    "n_train": 941,
+    "n_holdout": 404,
+    "split": "2025-06-07T13:57:59+00:00",
+    "train_end": "2025-06-07T13:57:00+00:00",
+    "holdout_start": "2025-06-07T13:58:00+00:00",
+    "input_end": "2025-06-07T21:09:00+00:00",
+    "target_scale_train_only": 5825.85,
+    "coefficient": [
+      0.08981355627033032,
+      0.12484549519654475
+    ],
+    "intercept": 0.9184333185694066,
+    "feature_mean": [
+      0.3617409383842743,
+      0.043748800752633606
+    ],
+    "feature_scale": [
+      0.5186040520503085,
+      0.7734852119637269
+    ]
+  },
+  {
+    "card_id": "acad-4d06867f000d3cbd",
+    "status": "fitted",
+    "n_train": 993,
+    "n_holdout": 432,
+    "split": "2025-06-10T05:57:59+00:00",
+    "train_end": "2025-06-10T05:57:00+00:00",
+    "holdout_start": "2025-06-10T05:58:00+00:00",
+    "input_end": "2025-06-10T13:09:00+00:00",
+    "target_scale_train_only": 1282.472,
+    "coefficient": [
+      -0.042703565321236814,
+      0.040435282423039266
+    ],
+    "intercept": 0.9804332596931978,
+    "feature_mean": [
+      -0.20918198392770795,
+      0.3062687920240075
+    ],
+    "feature_scale": [
+      0.6951075344044568,
+      0.6158472539894773
+    ]
+  },
+  {
+    "card_id": "acad-a33eedcab9479ba0",
+    "status": "fitted",
+    "n_train": 942,
+    "n_holdout": 432,
+    "split": "2025-06-14T04:57:59+00:00",
+    "train_end": "2025-06-14T04:57:00+00:00",
+    "holdout_start": "2025-06-14T04:58:00+00:00",
+    "input_end": "2025-06-14T12:09:00+00:00",
+    "target_scale_train_only": 1241.695,
+    "coefficient": [
+      0.0,
+      0.022918056853063223
+    ],
+    "intercept": 0.99617710234935,
+    "feature_mean": [
+      -0.2717645750919938,
+      0.22655745061742064
+    ],
+    "feature_scale": [
+      0.6409680565034993,
+      0.681157608661116
+    ]
+  },
+  {
+    "card_id": "acad-b9c8515567ab705c",
+    "status": "fitted",
+    "n_train": 913,
+    "n_holdout": 416,
+    "split": "2025-06-14T07:57:59+00:00",
+    "train_end": "2025-06-14T07:57:00+00:00",
+    "holdout_start": "2025-06-14T07:58:00+00:00",
+    "input_end": "2025-06-14T15:09:00+00:00",
+    "target_scale_train_only": 8643.673999999999,
+    "coefficient": [
+      0.0,
+      0.007624772958245009
+    ],
+    "intercept": 0.9999892186264985,
+    "feature_mean": [
+      -0.07663513173146623,
+      0.3480897109744386
+    ],
+    "feature_scale": [
+      0.7774497936114348,
+      0.5182011463821448
+    ]
+  },
+  {
+    "card_id": "acad-9b7cb251fa49b528",
+    "status": "fitted",
+    "n_train": 967,
+    "n_holdout": 419,
+    "split": "2025-06-13T08:57:59+00:00",
+    "train_end": "2025-06-13T08:57:00+00:00",
+    "holdout_start": "2025-06-13T08:58:00+00:00",
+    "input_end": "2025-06-13T16:09:00+00:00",
+    "target_scale_train_only": 7005.719999999999,
+    "coefficient": [
+      -0.00652220046303089,
+      -0.00404847901283079
+    ],
+    "intercept": 0.9971128991808944,
+    "feature_mean": [
+      0.0527644359137838,
+      0.36561501896790005
+    ],
+    "feature_scale": [
+      0.7717400206779919,
+      0.5176474791706569
+    ]
+  },
+  {
+    "card_id": "acad-5884c14d4740de1f",
+    "status": "fitted",
+    "n_train": 418,
+    "n_holdout": 355,
+    "split": "2025-06-16T22:57:59+00:00",
+    "train_end": "2025-06-16T22:57:00+00:00",
+    "holdout_start": "2025-06-16T22:58:00+00:00",
+    "input_end": "2025-06-17T06:09:00+00:00",
+    "target_scale_train_only": 2489.9769999999994,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 1.006274355144646,
+    "feature_mean": [
+      -0.8032015604433722,
+      0.32655465336652734
+    ],
+    "feature_scale": [
+      0.2120892320586967,
+      0.45082975646107465
+    ]
+  },
+  {
+    "card_id": "acad-6607e535b5db6c26",
+    "status": "fitted",
+    "n_train": 238,
+    "n_holdout": 432,
+    "split": "2025-06-16T19:57:59+00:00",
+    "train_end": "2025-06-16T19:57:00+00:00",
+    "holdout_start": "2025-06-16T19:58:00+00:00",
+    "input_end": "2025-06-17T03:09:00+00:00",
+    "target_scale_train_only": 0.1005013077593717,
+    "coefficient": [
+      -0.426966556604393,
+      -0.034435526330470374
+    ],
+    "intercept": 0.9113054087387912,
+    "feature_mean": [
+      -0.9556478988719496,
+      -0.006254790183944162
+    ],
+    "feature_scale": [
+      0.039466579286066714,
+      0.29178821103814195
+    ]
+  },
+  {
+    "card_id": "acad-b32de217f46c9fad",
+    "status": "fitted",
+    "n_train": 238,
+    "n_holdout": 374,
+    "split": "2025-06-16T19:57:59+00:00",
+    "train_end": "2025-06-16T19:57:00+00:00",
+    "holdout_start": "2025-06-16T19:58:00+00:00",
+    "input_end": "2025-06-17T03:09:00+00:00",
+    "target_scale_train_only": 1e-06,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      -0.9556478988719496,
+      -0.006254790183944162
+    ],
+    "feature_scale": [
+      0.039466579286066714,
+      0.29178821103814195
+    ]
+  },
+  {
+    "card_id": "acad-717cb38be866b8f3",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 310,
+    "split": "2025-06-16T13:57:59+00:00"
+  },
+  {
+    "card_id": "acad-2cca4255661be2f1",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 130,
+    "split": "2025-06-05T10:57:59+00:00"
+  },
+  {
+    "card_id": "acad-32ffe69d0f44c771",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 130,
+    "split": "2025-06-26T10:57:59+00:00"
+  },
+  {
+    "card_id": "acad-b6cd3c0248942bb9",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 10,
+    "split": "2025-06-23T08:57:59+00:00"
+  },
+  {
+    "card_id": "acad-0cd19d02c279d151",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 190,
+    "split": "2025-06-26T11:57:59+00:00"
+  },
+  {
+    "card_id": "acad-478735e710f2b531",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 429,
+    "split": "2025-06-23T15:57:59+00:00"
+  },
+  {
+    "card_id": "acad-6b337ccb49fbba11",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 70,
+    "split": "2025-06-05T09:57:59+00:00"
+  },
+  {
+    "card_id": "acad-749f232d64db6968",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 58,
+    "n_holdout": 399,
+    "split": "2025-06-05T16:57:59+00:00"
+  },
+  {
+    "card_id": "acad-0d1a0cb05fef7ab6",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 355,
+    "split": "2025-06-26T14:57:59+00:00"
+  },
+  {
+    "card_id": "acad-4efe6c1d233e0a06",
+    "status": "fitted",
+    "n_train": 357,
+    "n_holdout": 355,
+    "split": "2025-06-23T21:57:59+00:00",
+    "train_end": "2025-06-23T21:57:00+00:00",
+    "holdout_start": "2025-06-23T21:58:00+00:00",
+    "input_end": "2025-06-24T05:09:00+00:00",
+    "target_scale_train_only": 0.020511802236734777,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      -0.8728623099379134,
+      0.22605346472283064
+    ],
+    "feature_scale": [
+      0.13583345066349964,
+      0.4105611923422635
+    ]
+  },
+  {
+    "card_id": "acad-87eb12374c2fbf49",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 235,
+    "split": "2025-06-26T12:57:59+00:00"
+  },
+  {
+    "card_id": "acad-1b7c6d9dcf21e728",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 310,
+    "split": "2025-06-05T13:57:59+00:00"
+  },
+  {
+    "card_id": "acad-de7e3708ace41b93",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 292,
+    "split": "2025-06-05T13:57:59+00:00"
+  },
+  {
+    "card_id": "acad-471cb78e9ecddc6f",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 428,
+    "split": "2025-06-23T15:57:59+00:00"
+  },
+  {
+    "card_id": "acad-c5d023b2f1a63f80",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 10,
+    "split": "2025-06-16T08:57:59+00:00"
+  },
+  {
+    "card_id": "acad-4311dd9471984851",
+    "status": "fitted",
+    "n_train": 238,
+    "n_holdout": 413,
+    "split": "2025-06-23T19:57:59+00:00",
+    "train_end": "2025-06-23T19:57:00+00:00",
+    "holdout_start": "2025-06-23T19:58:00+00:00",
+    "input_end": "2025-06-24T03:09:00+00:00",
+    "target_scale_train_only": 3574117.3409827356,
+    "coefficient": [
+      0.9000220092191783,
+      -1.3088657256658944
+    ],
+    "intercept": 1.4758704447471185,
+    "feature_mean": [
+      -0.9556478988719496,
+      -0.006254790183944162
+    ],
+    "feature_scale": [
+      0.039466579286066714,
+      0.29178821103814195
+    ]
+  },
+  {
+    "card_id": "acad-3c6850f5e737e26e",
+    "status": "fitted",
+    "n_train": 223,
+    "n_holdout": 406,
+    "split": "2025-06-26T19:57:59+00:00",
+    "train_end": "2025-06-26T19:57:00+00:00",
+    "holdout_start": "2025-06-26T19:58:00+00:00",
+    "input_end": "2025-06-27T03:09:00+00:00",
+    "target_scale_train_only": 1290.484,
+    "coefficient": [
+      -0.00609869140025645,
+      0.0
+    ],
+    "intercept": 1.000953226065465,
+    "feature_mean": [
+      -0.9564366855132443,
+      -0.028848076372379496
+    ],
+    "feature_scale": [
+      0.04061910396195012,
+      0.2876573369260388
+    ]
+  },
+  {
+    "card_id": "acad-92768a25ab8e5cd1",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 70,
+    "split": "2025-06-23T09:57:59+00:00"
+  },
+  {
+    "card_id": "acad-dfbfbd6da606afbc",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 207,
+    "split": "2025-06-16T12:57:59+00:00"
+  },
+  {
+    "card_id": "acad-323ffbcbcaae0d22",
+    "status": "fitted",
+    "n_train": 177,
+    "n_holdout": 427,
+    "split": "2025-06-23T18:57:59+00:00",
+    "train_end": "2025-06-23T18:57:00+00:00",
+    "holdout_start": "2025-06-23T18:58:00+00:00",
+    "input_end": "2025-06-24T02:09:00+00:00",
+    "target_scale_train_only": 2510.7159999999994,
+    "coefficient": [
+      0.0,
+      0.050288120501640325
+    ],
+    "intercept": 1.0130928025132637,
+    "feature_mean": [
+      -0.9662498437713632,
+      -0.13185060330010254
+    ],
+    "feature_scale": [
+      0.037171024186805714,
+      0.21816272088081234
+    ]
+  },
+  {
+    "card_id": "acad-0769256f8dc797ef",
+    "status": "insufficient_training_or_holdout",
+    "n_train": 0,
+    "n_holdout": 130,
+    "split": "2025-06-16T10:57:59+00:00"
+  },
+  {
+    "card_id": "acad-dea99c4b420745e6",
+    "status": "fitted",
+    "n_train": 217,
+    "n_holdout": 416,
+    "split": "2025-06-26T19:57:59+00:00",
+    "train_end": "2025-06-26T19:57:00+00:00",
+    "holdout_start": "2025-06-26T19:58:00+00:00",
+    "input_end": "2025-06-27T03:09:00+00:00",
+    "target_scale_train_only": 4139.807999999999,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 1.0259702865446902,
+    "feature_mean": [
+      -0.9528592390064563,
+      0.009938704994670948
+    ],
+    "feature_scale": [
+      0.0402264470707016,
+      0.3005700013959038
+    ]
+  },
+  {
+    "card_id": "acad-e62974562d5c491b",
+    "status": "fitted",
+    "n_train": 952,
+    "n_holdout": 372,
+    "split": "2025-06-07T01:57:59+00:00",
+    "train_end": "2025-06-07T01:57:00+00:00",
+    "holdout_start": "2025-06-07T01:58:00+00:00",
+    "input_end": "2025-06-07T09:09:00+00:00",
+    "target_scale_train_only": 1776013.5982840632,
+    "coefficient": [
+      0.0,
+      -0.03441989544244766
+    ],
+    "intercept": 0.05469381167355875,
+    "feature_mean": [
+      -0.3741638877558103,
+      -0.05216256293383948
+    ],
+    "feature_scale": [
+      0.5136385798161839,
+      0.770360864434353
+    ]
+  },
+  {
+    "card_id": "acad-9e7ccfeb553a97f1",
+    "status": "fitted",
+    "n_train": 941,
+    "n_holdout": 391,
+    "split": "2025-06-20T22:57:59+00:00",
+    "train_end": "2025-06-20T22:57:00+00:00",
+    "holdout_start": "2025-06-20T22:58:00+00:00",
+    "input_end": "2025-06-21T06:09:00+00:00",
+    "target_scale_train_only": 258802.18198548083,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.014492304397226513,
+    "feature_mean": [
+      -0.22753642126038706,
+      -0.278305431175449
+    ],
+    "feature_scale": [
+      0.6818994908444569,
+      0.6370136170949043
+    ]
+  },
+  {
+    "card_id": "acad-f945ab711159ae41",
+    "status": "fitted",
+    "n_train": 1007,
+    "n_holdout": 432,
+    "split": "2025-06-17T19:57:59+00:00",
+    "train_end": "2025-06-17T19:57:00+00:00",
+    "holdout_start": "2025-06-17T19:58:00+00:00",
+    "input_end": "2025-06-18T03:09:00+00:00",
+    "target_scale_train_only": 1391.1979999999996,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 1.0008927557400171,
+    "feature_mean": [
+      0.04186011213909429,
+      -0.3650179119089452
+    ],
+    "feature_scale": [
+      0.7769785884062593,
+      0.5111887402472322
+    ]
+  },
+  {
+    "card_id": "acad-ce7ad687b1677f76",
+    "status": "fitted",
+    "n_train": 993,
+    "n_holdout": 376,
+    "split": "2025-06-17T20:57:59+00:00",
+    "train_end": "2025-06-17T20:57:00+00:00",
+    "holdout_start": "2025-06-17T20:58:00+00:00",
+    "input_end": "2025-06-18T04:09:00+00:00",
+    "target_scale_train_only": 3775.5079999999994,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 1.002760423233112,
+    "feature_mean": [
+      -0.04436694543735482,
+      -0.35945054053894065
+    ],
+    "feature_scale": [
+      0.7760286092917734,
+      0.5163395013162339
+    ]
+  },
+  {
+    "card_id": "acad-226c7aa90f788313",
+    "status": "fitted",
+    "n_train": 1008,
+    "n_holdout": 431,
+    "split": "2025-06-18T05:57:59+00:00",
+    "train_end": "2025-06-18T05:57:00+00:00",
+    "holdout_start": "2025-06-18T05:58:00+00:00",
+    "input_end": "2025-06-18T13:09:00+00:00",
+    "target_scale_train_only": 43183.711116844344,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.03516650053282806,
+    "feature_mean": [
+      -0.21947002285118655,
+      0.2952474102468798
+    ],
+    "feature_scale": [
+      0.6949764327357701,
+      0.6177941677889767
+    ]
+  },
+  {
+    "card_id": "acad-4271bc49fde4b03e",
+    "status": "fitted",
+    "n_train": 973,
+    "n_holdout": 396,
+    "split": "2025-06-10T19:57:59+00:00",
+    "train_end": "2025-06-10T19:57:00+00:00",
+    "holdout_start": "2025-06-10T19:58:00+00:00",
+    "input_end": "2025-06-11T03:09:00+00:00",
+    "target_scale_train_only": 3183.998,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 1.0008706035619368,
+    "feature_mean": [
+      0.04533679477440555,
+      -0.39114102181932525
+    ],
+    "feature_scale": [
+      0.7712168031404641,
+      0.5001778869997355
+    ]
+  },
+  {
+    "card_id": "acad-e928fdf8f8c1455a",
+    "status": "fitted",
+    "n_train": 934,
+    "n_holdout": 407,
+    "split": "2025-06-10T19:57:59+00:00",
+    "train_end": "2025-06-10T19:57:00+00:00",
+    "holdout_start": "2025-06-10T19:58:00+00:00",
+    "input_end": "2025-06-11T03:09:00+00:00",
+    "target_scale_train_only": 34495.368999999984,
+    "coefficient": [
+      -0.24545963745909596,
+      -0.07998966795510146
+    ],
+    "intercept": 0.7618460512954698,
+    "feature_mean": [
+      0.0691537042302919,
+      -0.3787703818484187
+    ],
+    "feature_scale": [
+      0.7735480694115213,
+      0.5033628386515433
+    ]
+  },
+  {
+    "card_id": "acad-591a7bcea199c34e",
+    "status": "fitted",
+    "n_train": 393,
+    "n_holdout": 432,
+    "split": "2025-06-05T22:50:59+00:00",
+    "train_end": "2025-06-05T22:50:00+00:00",
+    "holdout_start": "2025-06-05T22:51:00+00:00",
+    "input_end": "2025-06-06T06:02:00+00:00",
+    "target_scale_train_only": 1024.2079999999999,
+    "coefficient": [
+      0.0,
+      0.003390360019396168
+    ],
+    "intercept": 0.997882915692451,
+    "feature_mean": [
+      -0.8037088022324187,
+      0.3253646106215853
+    ],
+    "feature_scale": [
+      0.2034012877980031,
+      0.4547724128520882
+    ]
+  },
+  {
+    "card_id": "acad-78cc8a2fc9cb2c28",
+    "status": "fitted",
+    "n_train": 967,
+    "n_holdout": 375,
+    "split": "2025-06-20T06:57:59+00:00",
+    "train_end": "2025-06-20T06:57:00+00:00",
+    "holdout_start": "2025-06-20T06:58:00+00:00",
+    "input_end": "2025-06-20T14:09:00+00:00",
+    "target_scale_train_only": 3275367.309549727,
+    "coefficient": [
+      0.5117609596453728,
+      0.2386287808858783
+    ],
+    "intercept": 0.8483180964514625,
+    "feature_mean": [
+      -0.1833048675550533,
+      0.3532621058915906
+    ],
+    "feature_scale": [
+      0.7267189076833144,
+      0.5598971684936737
+    ]
+  },
+  {
+    "card_id": "acad-2261d5f767dc60a1",
+    "status": "fitted",
+    "n_train": 1007,
+    "n_holdout": 432,
+    "split": "2025-06-06T17:57:59+00:00",
+    "train_end": "2025-06-06T17:57:00+00:00",
+    "holdout_start": "2025-06-06T17:58:00+00:00",
+    "input_end": "2025-06-07T01:09:00+00:00",
+    "target_scale_train_only": 1032.1709999999998,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 1.0005609535629272,
+    "feature_mean": [
+      0.2187395859876256,
+      -0.2952461250783311
+    ],
+    "feature_scale": [
+      0.6949345800439513,
+      0.6181008401606718
+    ]
+  },
+  {
+    "card_id": "acad-8ec61b43a0885a64",
+    "status": "fitted",
+    "n_train": 1008,
+    "n_holdout": 428,
+    "split": "2025-06-09T09:57:59+00:00",
+    "train_end": "2025-06-09T09:57:00+00:00",
+    "holdout_start": "2025-06-09T09:58:00+00:00",
+    "input_end": "2025-06-09T17:09:00+00:00",
+    "target_scale_train_only": 1062.2665,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 1.0002009853459561,
+    "feature_mean": [
+      0.1459567462497705,
+      0.33769032028171886
+    ],
+    "feature_scale": [
+      0.7434901136934055,
+      0.5584660478958207
+    ]
+  },
+  {
+    "card_id": "acad-9f1cf7282cf3aa00",
+    "status": "fitted",
+    "n_train": 1006,
+    "n_holdout": 431,
+    "split": "2025-06-19T12:57:59+00:00",
+    "train_end": "2025-06-19T12:57:00+00:00",
+    "holdout_start": "2025-06-19T12:58:00+00:00",
+    "input_end": "2025-06-19T20:09:00+00:00",
+    "target_scale_train_only": 1448.75,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 1.00195340811044,
+    "feature_mean": [
+      0.3419373585931675,
+      0.13769378368092502
+    ],
+    "feature_scale": [
+      0.5521738523194033,
+      0.7478123438060569
+    ]
+  },
+  {
+    "card_id": "acad-98a98d3024f37c2a",
+    "status": "fitted",
+    "n_train": 996,
+    "n_holdout": 420,
+    "split": "2025-06-11T09:57:59+00:00",
+    "train_end": "2025-06-11T09:57:00+00:00",
+    "holdout_start": "2025-06-11T09:58:00+00:00",
+    "input_end": "2025-06-11T17:09:00+00:00",
+    "target_scale_train_only": 0.019544792499025722,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      0.1465867879796188,
+      0.3297650229757789
+    ],
+    "feature_scale": [
+      0.7479314584322584,
+      0.5571049063677286
+    ]
+  },
+  {
+    "card_id": "acad-3ea90e5e762bd9f1",
+    "status": "fitted",
+    "n_train": 894,
+    "n_holdout": 369,
+    "split": "2025-06-21T07:57:59+00:00",
+    "train_end": "2025-06-21T07:57:00+00:00",
+    "holdout_start": "2025-06-21T07:58:00+00:00",
+    "input_end": "2025-06-21T15:09:00+00:00",
+    "target_scale_train_only": 1e-06,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      -0.039875237551325424,
+      0.3373302682321305
+    ],
+    "feature_scale": [
+      0.7986076830771286,
+      0.4968340005422785
+    ]
+  },
+  {
+    "card_id": "acad-7c2d630eff1c8f33",
+    "status": "fitted",
+    "n_train": 1006,
+    "n_holdout": 396,
+    "split": "2025-06-19T02:57:59+00:00",
+    "train_end": "2025-06-19T02:57:00+00:00",
+    "holdout_start": "2025-06-19T02:58:00+00:00",
+    "input_end": "2025-06-19T10:09:00+00:00",
+    "target_scale_train_only": 0.07236514346348427,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      -0.3638650294285193,
+      0.054352230736762853
+    ],
+    "feature_scale": [
+      0.513766370427156,
+      0.7750433484593147
+    ]
+  },
+  {
+    "card_id": "acad-9232faf9a9c2e423",
+    "status": "fitted",
+    "n_train": 712,
+    "n_holdout": 397,
+    "split": "2025-06-24T04:57:59+00:00",
+    "train_end": "2025-06-24T04:57:00+00:00",
+    "holdout_start": "2025-06-24T04:58:00+00:00",
+    "input_end": "2025-06-24T12:09:00+00:00",
+    "target_scale_train_only": 1e-06,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      -0.25622163014563004,
+      0.5415975479369799
+    ],
+    "feature_scale": [
+      0.6780680357526724,
+      0.42573032685572165
+    ]
+  },
+  {
+    "card_id": "acad-db15433db630e177",
+    "status": "fitted",
+    "n_train": 923,
+    "n_holdout": 384,
+    "split": "2025-06-20T16:57:59+00:00",
+    "train_end": "2025-06-20T16:57:00+00:00",
+    "holdout_start": "2025-06-20T16:58:00+00:00",
+    "input_end": "2025-06-21T00:09:00+00:00",
+    "target_scale_train_only": 1e-06,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      0.30774763648436704,
+      -0.20969351061652863
+    ],
+    "feature_scale": [
+      0.6260363961866215,
+      0.6851265974207027
+    ]
+  },
+  {
+    "card_id": "acad-81180a0c5876d7b2",
+    "status": "fitted",
+    "n_train": 976,
+    "n_holdout": 396,
+    "split": "2025-06-10T21:57:59+00:00",
+    "train_end": "2025-06-10T21:57:00+00:00",
+    "holdout_start": "2025-06-10T21:58:00+00:00",
+    "input_end": "2025-06-11T05:09:00+00:00",
+    "target_scale_train_only": 1e-06,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      -0.1353266517308429,
+      -0.3517071977865822
+    ],
+    "feature_scale": [
+      0.7480733456810976,
+      0.5462371406613779
+    ]
+  },
+  {
+    "card_id": "acad-134a48a4dc15cee0",
+    "status": "fitted",
+    "n_train": 926,
+    "n_holdout": 420,
+    "split": "2025-06-13T11:57:59+00:00",
+    "train_end": "2025-06-13T11:52:00+00:00",
+    "holdout_start": "2025-06-13T11:59:00+00:00",
+    "input_end": "2025-06-13T19:09:00+00:00",
+    "target_scale_train_only": 1e-06,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      0.274005250925535,
+      0.27194181198410544
+    ],
+    "feature_scale": [
+      0.6339671565537195,
+      0.6701152272342629
+    ]
+  },
+  {
+    "card_id": "acad-df67281acef3a3ab",
+    "status": "fitted",
+    "n_train": 916,
+    "n_holdout": 389,
+    "split": "2025-06-07T15:57:59+00:00",
+    "train_end": "2025-06-07T15:57:00+00:00",
+    "holdout_start": "2025-06-07T15:58:00+00:00",
+    "input_end": "2025-06-07T23:09:00+00:00",
+    "target_scale_train_only": 1e-06,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      0.36075182955968593,
+      -0.1182063405112454
+    ],
+    "feature_scale": [
+      0.5645203091565355,
+      0.7329407882510626
+    ]
+  },
+  {
+    "card_id": "acad-8bfd8bc279f1794f",
+    "status": "fitted",
+    "n_train": 973,
+    "n_holdout": 385,
+    "split": "2025-06-10T09:57:59+00:00",
+    "train_end": "2025-06-10T09:57:00+00:00",
+    "holdout_start": "2025-06-10T09:58:00+00:00",
+    "input_end": "2025-06-10T17:09:00+00:00",
+    "target_scale_train_only": 0.02352557134486019,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      0.15654391132274872,
+      0.33116461490566584
+    ],
+    "feature_scale": [
+      0.7447579375666498,
+      0.557816830235183
+    ]
+  },
+  {
+    "card_id": "acad-b91296f978969cdb",
+    "status": "fitted",
+    "n_train": 976,
+    "n_holdout": 385,
+    "split": "2025-06-20T13:57:59+00:00",
+    "train_end": "2025-06-20T13:57:00+00:00",
+    "holdout_start": "2025-06-20T13:58:00+00:00",
+    "input_end": "2025-06-20T21:09:00+00:00",
+    "target_scale_train_only": 1e-06,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      0.3614468820759906,
+      0.06430006357204446
+    ],
+    "feature_scale": [
+      0.5104525121063246,
+      0.7775987951035664
+    ]
+  },
+  {
+    "card_id": "acad-f6658b1a97650ae9",
+    "status": "fitted",
+    "n_train": 976,
+    "n_holdout": 411,
+    "split": "2025-06-28T01:57:59+00:00",
+    "train_end": "2025-06-28T01:57:00+00:00",
+    "holdout_start": "2025-06-28T01:58:00+00:00",
+    "input_end": "2025-06-28T09:09:00+00:00",
+    "target_scale_train_only": 1e-06,
+    "coefficient": [
+      0.0,
+      0.0
+    ],
+    "intercept": 0.0,
+    "feature_mean": [
+      -0.3815155611517477,
+      -0.06455215003226265
+    ],
+    "feature_scale": [
+      0.5059817377015345,
+      0.7708835045827703
+    ]
+  },
+  {
+    "card_id": "acad-25bf8feb4bfff5f6",
+    "status": "fitted",
+    "n_train": 984,
+    "n_holdout": 370,
+    "split": "2025-06-13T21:57:59+00:00",
+    "train_end": "2025-06-13T21:57:00+00:00",
+    "holdout_start": "2025-06-13T21:58:00+00:00",
+    "input_end": "2025-06-14T05:09:00+00:00",
+    "target_scale_train_only": 0.019092329949382068,
+    "coefficient": [
+      -0.08248945602084692,
+      -0.1379291652677589
+    ],
+    "intercept": 0.2612729585847303,
+    "feature_mean": [
+      -0.15081292422970224,
+      -0.34436115490702385
+    ],
+    "feature_scale": [
+      0.7448431837789969,
+      0.5512526539204627
+    ]
+  }
+]

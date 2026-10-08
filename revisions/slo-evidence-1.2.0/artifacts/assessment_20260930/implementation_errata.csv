@@ -1,0 +1,6 @@
+﻿item,affected,effect,evidence
+minimum_samples_metadata,90,metadata corrected; 540 configuration routing counts unchanged,parameter_errata_90_rows.csv
+false_all_zero_flags,1306,remove flags; baseline candidate values and routes unchanged,../revision_v12_20260929/rebuild/card_errata.csv
+M1_M2_overstated_assessment,8668,unknown instead of verified; routes unchanged,verification/v12_existing_pool_routes.csv
+scoped_closure_validation,9,synthetic positive and negative scenarios passed,closure_cases.csv
+public_source_check_gap,not a card count,working code has checks; old frozen public entry does not; new publication pending,版本与证据对应表.md

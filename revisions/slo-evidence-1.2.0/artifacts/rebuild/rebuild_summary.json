@@ -1,0 +1,65 @@
+{
+  "protocol": "v1-corrected-numeric-audit/20260929",
+  "cards": 8668,
+  "reconstructed_rows": 78012,
+  "archived_rows_matched": 78012,
+  "statistics_comparison": {
+    "valid_samples": {
+      "matches": 78012,
+      "max_abs_difference": 0.0
+    },
+    "coverage": {
+      "matches": 78012,
+      "max_abs_difference": 1.1102230246251565e-16
+    },
+    "quantile_value": {
+      "matches": 78012,
+      "max_abs_difference": 3.725290298461914e-09
+    },
+    "median": {
+      "matches": 78012,
+      "max_abs_difference": 1.8189894035458565e-12
+    },
+    "mad": {
+      "matches": 78012,
+      "max_abs_difference": 2.2737367544323206e-13
+    },
+    "robust_scale": {
+      "matches": 78012,
+      "max_abs_difference": 4.547473508864641e-13
+    }
+  },
+  "candidate_value_changes": 0,
+  "route_changes": 0,
+  "false_zero_flags_removed": 1306,
+  "true_zero_flags_added": 0,
+  "corrected_error_all_zero": 1429,
+  "corrected_status_counts": {
+    "insufficient_evidence": 1054,
+    "candidate_for_stakeholder_review": 4242,
+    "needs_context_review": 948,
+    "threshold_unresolved": 2424
+  },
+  "configuration_count": 540,
+  "configuration_routing_changes": 0,
+  "parameter_metadata_rows_corrected": 90,
+  "source_csv_count": 264,
+  "source_missing_counts": {
+    "error": 0,
+    "timeout": 0
+  },
+  "learning_selected": 72,
+  "learning_selection_strata": {
+    "candidate_for_stakeholder_review/error_ratio": 12,
+    "candidate_for_stakeholder_review/latency": 12,
+    "insufficient_evidence/error_ratio": 12,
+    "insufficient_evidence/latency": 12,
+    "needs_context_review/latency": 12,
+    "threshold_unresolved/error_ratio": 12
+  },
+  "input_cards_unchanged": true,
+  "limitations": [
+    "Legacy source conversion and service exclusions retained; no proof of source measurement precision.",
+    "These are corrected v1 numeric predicates, not v1.2 M1-M4 empirical outcomes."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "verification_date": "2026-10-08",
+  "software_version": "slo-evidence/1.2.0",
+  "measurement_assessment_version": "measurement-audit/20260930",
+  "python_version": "3.10.18",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2"
+  },
+  "unit_tests_passed": 17,
+  "grid_configurations_checked": 540,
+  "grid_failures": [],
+  "learning_summary_matches_archive_except_runtime": true,
+  "learning_card_records_and_parameters_match_archive": true,
+  "learning_paired_csv_identical_to_archive": true,
+  "learning_selection": {
+    "total": 72,
+    "fitted": 55,
+    "failed": 17,
+    "different_candidate_values": 46,
+    "route_changes_successful_pairs": 0
+  },
+  "shared_input_and_h_checks_successful_pairs": 55,
+  "synthetic_lifecycle_matches_archive": true,
+  "synthetic_closure_scenarios_rechecked": 9,
+  "purpose": "Release verification of frozen experiments; no new experiment design or human evaluation."
+}

@@ -1,3 +1,18 @@
+# Current revised implementation
+
+The audited revision is in
+[`revisions/slo-evidence-1.2.0/`](revisions/slo-evidence-1.2.0/): software
+`slo-evidence/1.2.0` with measurement assessment `measurement-audit/20260930`.
+It includes corrected evidence assessment, scoped closure and rechecking,
+17 implementation tests, and the frozen learning-source interface experiment.
+Start with that directory's README for current-code reproduction.
+
+The original code and study artifacts below are retained for historical
+reproduction. The original submission snapshot is fixed at
+[`1786cc50679095be66081da904d46bf2f3b66e89`](https://github.com/Akeboxi/runtime-nfr-evidence-governance/tree/1786cc50679095be66081da904d46bf2f3b66e89).
+
+---
+
 # Runtime Quality-Requirement Candidate Evidence Governance
 
 Reproducibility snapshot for the manuscript:

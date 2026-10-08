@@ -1,0 +1,11 @@
+{
+  "legacy_current_function_route_mismatches": [],
+  "production_grid_mismatches": [],
+  "current_v12_counts": {
+    "A": 1054,
+    "B": 7614
+  },
+  "M4_unknown": 8668,
+  "context_facts_retained": 1082,
+  "scope": "Existing event-anchored candidate pool; not a new natural-flow or expert experiment."
+}

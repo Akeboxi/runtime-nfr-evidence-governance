@@ -1,0 +1,4750 @@
+[
+  {
+    "card_id": "acad-68b0154e865f638d",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "redis-cart",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-13T00:10:00",
+    "history_end": "2025-06-14T00:10:00",
+    "valid_samples": 1381,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0037735849056603774,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0009",
+      "topology_hash": "a72ca766b88227fd",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "f5d0349a-276",
+      "record_id": "record_0025",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-14T00:10:19",
+      "fault_family": "memory",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9590277777777778,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-d8f30eab1b727cce",
+    "raw_threshold": 0.0037735849056603774,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-f7d8b2dcb5c4f7d6",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-07T00:10:00",
+    "history_end": "2025-06-08T00:10:00",
+    "valid_samples": 1363,
+    "quantile_level": 0.95,
+    "quantile_value": 0.003508362026561731,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0004",
+      "topology_hash": "f8cc136bb69ddff2",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "36937f85-134",
+      "record_id": "record_0029",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-08T00:10:15",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9465277777777777,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-cf0744270266c057",
+    "raw_threshold": 0.003508362026561731,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-062d96f3bb2d19bf",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "redis-cart",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-07T12:10:00",
+    "history_end": "2025-06-08T12:10:00",
+    "valid_samples": 1439,
+    "quantile_level": 0.95,
+    "quantile_value": 0.003805194994391268,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0005",
+      "topology_hash": "bd2e0a5b022ea596",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "ad13b37a-146",
+      "record_id": "record_0000",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-08T12:10:52",
+      "fault_family": "memory",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.9993055555555556,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-ea5d38aeb1a4f085",
+    "raw_threshold": 0.003805194994391268,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-6043061ade4a41e3",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "adservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-18T15:10:00",
+    "history_end": "2025-06-19T15:10:00",
+    "valid_samples": 1406,
+    "quantile_level": 0.95,
+    "quantile_value": 0.01264493139027763,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0017",
+      "topology_hash": "2ea65fdb7fa9f5ce",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "a2047792-382",
+      "record_id": "record_0009",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-19T15:10:31",
+      "fault_family": "memory",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9763888888888889,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-16d94eeda2169062",
+    "raw_threshold": 0.01264493139027763,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-edd180389dd8241a",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "adservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-20T02:10:00",
+    "history_end": "2025-06-21T02:10:00",
+    "valid_samples": 1383,
+    "quantile_level": 0.95,
+    "quantile_value": 0.012900456873875117,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0018",
+      "topology_hash": "c07f61503b1b53c0",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "6e08f907-417",
+      "record_id": "record_0016",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-21T02:10:11",
+      "fault_family": "memory",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9604166666666667,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-549c90a4b332ff2f",
+    "raw_threshold": 0.012900456873875117,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-6a8ef3c20e5fcadc",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-06T21:10:00",
+    "history_end": "2025-06-07T21:10:00",
+    "valid_samples": 1351,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0035614368236803386,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0004",
+      "topology_hash": "f8cc136bb69ddff2",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "08e3187d-131",
+      "record_id": "record_0026",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-07T21:10:11",
+      "fault_family": "disk",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9381944444444444,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-b60f5bf8b56cac23",
+    "raw_threshold": 0.0035614368236803386,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-f5ceaffb4e446c98",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-07T06:10:00",
+    "history_end": "2025-06-08T06:10:00",
+    "valid_samples": 1379,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0023123489079974555,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0004",
+      "topology_hash": "f8cc136bb69ddff2",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "6f84e51d-140",
+      "record_id": "record_0035",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-08T06:10:26",
+      "fault_family": "memory",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9576388888888889,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-ebeea6a48ba64c85",
+    "raw_threshold": 0.0023123489079974555,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-08b06a60628e7cd4",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "checkoutservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-16T14:10:00",
+    "history_end": "2025-06-17T14:10:00",
+    "valid_samples": 1163,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0215673175745118,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0014",
+      "topology_hash": "53ae26de0952b6fc",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "3d284cf0-333",
+      "record_id": "record_0001",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-17T14:10:48",
+      "fault_family": "cpu",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.8076388888888889,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-93457958bae64e25",
+    "raw_threshold": 0.0215673175745118,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-805be34e9bfd924d",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-23T10:10:00",
+    "history_end": "2025-06-24T10:10:00",
+    "valid_samples": 1034,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0033372352285395753,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0023",
+      "topology_hash": "5efedd1d82a24629",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "6d1ad486-497",
+      "record_id": "record_0009",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-24T10:10:39",
+      "fault_family": "cpu",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.7180555555555556,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-ae6fff42d0dd21db",
+    "raw_threshold": 0.0033372352285395753,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "0_5_to_lt_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-59a98e77d47003a6",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "adservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-09T16:10:00",
+    "history_end": "2025-06-10T16:10:00",
+    "valid_samples": 1235,
+    "quantile_level": 0.95,
+    "quantile_value": 0.012463692946058088,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0008",
+      "topology_hash": "af4802b94fb92818",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "de1d442d-197",
+      "record_id": "record_0007",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-10T16:10:01",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.8576388888888888,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-301041feea03b87c",
+    "raw_threshold": 0.012463692946058088,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-e67e737df2294413",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-06T23:10:00",
+    "history_end": "2025-06-07T23:10:00",
+    "valid_samples": 1338,
+    "quantile_level": 0.95,
+    "quantile_value": 0.003559534249951076,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0004",
+      "topology_hash": "f8cc136bb69ddff2",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "fc44280d-133",
+      "record_id": "record_0028",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-07T23:10:13",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.9291666666666667,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-00acd429b7d6169b",
+    "raw_threshold": 0.003559534249951076,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-28b4c2116fef2880",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "frontend",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-18T17:10:00",
+    "history_end": "2025-06-19T17:10:00",
+    "valid_samples": 1381,
+    "quantile_level": 0.95,
+    "quantile_value": 0.1297539149888143,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0017",
+      "topology_hash": "2ea65fdb7fa9f5ce",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "a0e512ba-384",
+      "record_id": "record_0011",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-19T17:10:02",
+      "fault_family": "cpu",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9590277777777778,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-3411f453cae91aba",
+    "raw_threshold": 0.1297539149888143,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-195258dd5eecece4",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "shippingservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-08T07:10:00",
+    "history_end": "2025-06-09T07:10:00",
+    "valid_samples": 1423,
+    "quantile_level": 0.95,
+    "quantile_value": 1293.3219999999985,
+    "median": 1068.27,
+    "mad": 59.25999999999999,
+    "robust_scale": 87.85887599999998,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0006",
+      "topology_hash": "2053f2b0fe5dedf9",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "cebb47f5-165",
+      "record_id": "record_0013",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-09T07:10:38",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9881944444444445,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-52dae65f8ff925f1",
+    "raw_threshold": 1331.8466279999998,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 2.5615169490672587
+    }
+  },
+  {
+    "card_id": "acad-21fb45ed7b729e2d",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "currencyservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-09T02:10:00",
+    "history_end": "2025-06-10T02:10:00",
+    "valid_samples": 1405,
+    "quantile_level": 0.95,
+    "quantile_value": 1231.6760000000002,
+    "median": 1098.99,
+    "mad": 36.99000000000001,
+    "robust_scale": 54.84137400000001,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0006",
+      "topology_hash": "2053f2b0fe5dedf9",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "d3dd6ed7-183",
+      "record_id": "record_0031",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-10T02:10:32",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9756944444444444,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-529675a3e57b6f1e",
+    "raw_threshold": 1263.514122,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 2.4194506869940957
+    }
+  },
+  {
+    "card_id": "acad-34e3b3e835e03355",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "adservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-08T05:10:00",
+    "history_end": "2025-06-09T05:10:00",
+    "valid_samples": 1271,
+    "quantile_level": 0.95,
+    "quantile_value": 4218.555,
+    "median": 3579.92,
+    "mad": 278.9300000000003,
+    "robust_scale": 413.5416180000004,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0006",
+      "topology_hash": "2053f2b0fe5dedf9",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "43e1b3bf-163",
+      "record_id": "record_0011",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-09T05:10:35",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.8826388888888889,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-574bd3ef4a51bb5f",
+    "raw_threshold": 4820.544854000002,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 1.54430647896725
+    }
+  },
+  {
+    "card_id": "acad-9d1eb4baebb5a08a",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "checkoutservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-19T02:10:00",
+    "history_end": "2025-06-20T02:10:00",
+    "valid_samples": 1290,
+    "quantile_level": 0.95,
+    "quantile_value": 9485.0955,
+    "median": 7600.35,
+    "mad": 614.1499999999996,
+    "robust_scale": 910.5387899999994,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0017",
+      "topology_hash": "2ea65fdb7fa9f5ce",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "e1950aec-393",
+      "record_id": "record_0020",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-20T02:10:13",
+      "fault_family": "network",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.8958333333333334,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-f947a83fb6bd2b79",
+    "raw_threshold": 10331.966369999998,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 2.069923347252455
+    }
+  },
+  {
+    "card_id": "acad-8b81f680f206438d",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "productcatalogservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-09T06:10:00",
+    "history_end": "2025-06-10T06:10:00",
+    "valid_samples": 1349,
+    "quantile_level": 0.95,
+    "quantile_value": 7589.198,
+    "median": 6879.78,
+    "mad": 395.10000000000036,
+    "robust_scale": 585.7752600000005,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0007",
+      "topology_hash": "499222f16170fc23",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "9b0d8a50-187",
+      "record_id": "record_0003",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-10T06:10:40",
+      "fault_family": "disk",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9368055555555556,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-6be6bb69029d0e7d",
+    "raw_threshold": 8637.105780000002,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 1.2110753875129516
+    }
+  },
+  {
+    "card_id": "acad-505ef36a81fc4b7f",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "productcatalogservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-06T17:10:00",
+    "history_end": "2025-06-07T17:10:00",
+    "valid_samples": 1347,
+    "quantile_level": 0.95,
+    "quantile_value": 7215.428,
+    "median": 6656.3,
+    "mad": 199.78999999999996,
+    "robust_scale": 296.2086539999999,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0004",
+      "topology_hash": "f8cc136bb69ddff2",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "8d818070-127",
+      "record_id": "record_0022",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-07T17:10:04",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.9354166666666667,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-5678290c5b1d9657",
+    "raw_threshold": 7544.925962,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 1.887615342933228
+    }
+  },
+  {
+    "card_id": "acad-92c8a230852663f0",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "adservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-06T21:10:00",
+    "history_end": "2025-06-07T21:10:00",
+    "valid_samples": 1345,
+    "quantile_level": 0.95,
+    "quantile_value": 5572.422,
+    "median": 3675.68,
+    "mad": 309.6600000000003,
+    "robust_scale": 459.1019160000004,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0004",
+      "topology_hash": "f8cc136bb69ddff2",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "08e3187d-131",
+      "record_id": "record_0026",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-07T21:10:11",
+      "fault_family": "disk",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9340277777777778,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-4e628736980e6c6d",
+    "raw_threshold": 5572.422,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 4.131418175131288
+    }
+  },
+  {
+    "card_id": "acad-4d06867f000d3cbd",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "currencyservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-09T13:10:00",
+    "history_end": "2025-06-10T13:10:00",
+    "valid_samples": 1425,
+    "quantile_level": 0.95,
+    "quantile_value": 1233.8539999999998,
+    "median": 1099.7,
+    "mad": 31.090000000000146,
+    "robust_scale": 46.094034000000214,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0008",
+      "topology_hash": "af4802b94fb92818",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "913e1ecf-194",
+      "record_id": "record_0004",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-10T13:10:57",
+      "fault_family": "disk",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9895833333333334,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-582acd137f63ffa2",
+    "raw_threshold": 1237.9821020000006,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 2.91044172874952
+    }
+  },
+  {
+    "card_id": "acad-a33eedcab9479ba0",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "shippingservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-13T12:10:00",
+    "history_end": "2025-06-14T12:10:00",
+    "valid_samples": 1374,
+    "quantile_level": 0.95,
+    "quantile_value": 1228.9969999999998,
+    "median": 1060.79,
+    "mad": 53.685,
+    "robust_scale": 79.593381,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0009",
+      "topology_hash": "a72ca766b88227fd",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "27914c5a-288",
+      "record_id": "record_0037",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-14T12:10:42",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9541666666666667,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-ad875778d9f8abc5",
+    "raw_threshold": 1299.570143,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 2.113328996540553
+    }
+  },
+  {
+    "card_id": "acad-b9c8515567ab705c",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "checkoutservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-13T15:10:00",
+    "history_end": "2025-06-14T15:10:00",
+    "valid_samples": 1329,
+    "quantile_level": 0.95,
+    "quantile_value": 8511.506,
+    "median": 6952.05,
+    "mad": 725.7399999999998,
+    "robust_scale": 1075.9821239999997,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0009",
+      "topology_hash": "a72ca766b88227fd",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "f370cf6d-291",
+      "record_id": "record_0040",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-14T15:10:48",
+      "fault_family": "cpu",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9229166666666667,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-07d1e2aec4aa02df",
+    "raw_threshold": 10179.996372,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 1.4493326285037795
+    }
+  },
+  {
+    "card_id": "acad-9b7cb251fa49b528",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "productcatalogservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-12T16:10:00",
+    "history_end": "2025-06-13T16:10:00",
+    "valid_samples": 1386,
+    "quantile_level": 0.95,
+    "quantile_value": 6970.2125,
+    "median": 6686.415,
+    "mad": 122.56999999999971,
+    "robust_scale": 181.72228199999955,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0009",
+      "topology_hash": "a72ca766b88227fd",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "25368410-268",
+      "record_id": "record_0017",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-13T16:10:02",
+      "fault_family": "cpu",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9625,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-91ac18d2ce4d220d",
+    "raw_threshold": 7231.581845999999,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 1.561709972363215
+    }
+  },
+  {
+    "card_id": "acad-5884c14d4740de1f",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "emailservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-16T06:10:00",
+    "history_end": "2025-06-17T06:10:00",
+    "valid_samples": 773,
+    "quantile_level": 0.95,
+    "quantile_value": 2316.122,
+    "median": 1694.03,
+    "mad": 128.98000000000002,
+    "robust_scale": 191.225748,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0012",
+      "topology_hash": "45c083f428611c14",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "55b23e04-325",
+      "record_id": "record_0002",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-17T06:10:38",
+      "fault_family": "network",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.5368055555555555,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-78668930f423c96d",
+    "raw_threshold": 2316.122,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "candidate_for_stakeholder_review",
+    "governance_flags": [],
+    "recommended_next_action": "continue_to_stakeholder_review_without_slo_approval",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "0_5_to_lt_0_75",
+      "latency_tail_ratio": 3.2531811563367494
+    }
+  },
+  {
+    "card_id": "acad-6607e535b5db6c26",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "frontend",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-16T03:10:00",
+    "history_end": "2025-06-17T03:10:00",
+    "valid_samples": 670,
+    "quantile_level": 0.95,
+    "quantile_value": 0.06569343065693431,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0011",
+      "topology_hash": "2f3875a6298b6afb",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "e539dea4-322",
+      "record_id": "record_0010",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-17T03:10:20",
+      "fault_family": "code",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.4652777777777778,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-20f8b948ec74aa75",
+    "raw_threshold": 0.06569343065693431,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-b32de217f46c9fad",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "emailservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-16T03:10:00",
+    "history_end": "2025-06-17T03:10:00",
+    "valid_samples": 612,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0011",
+      "topology_hash": "2f3875a6298b6afb",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "e539dea4-322",
+      "record_id": "record_0010",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-17T03:10:20",
+      "fault_family": "code",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.425,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-e90245eaa2b28246",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-717cb38be866b8f3",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "frontend",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-15T21:10:00",
+    "history_end": "2025-06-16T21:10:00",
+    "valid_samples": 310,
+    "quantile_level": 0.95,
+    "quantile_value": 0.06368240726947719,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0011",
+      "topology_hash": "2f3875a6298b6afb",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "3260fa48-316",
+      "record_id": "record_0004",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-16T21:10:11",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.2152777777777778,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-9ee4b7195db8b1e2",
+    "raw_threshold": 0.06368240726947719,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-2cca4255661be2f1",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "redis-cart",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-04T18:10:00",
+    "history_end": "2025-06-05T18:10:00",
+    "valid_samples": 130,
+    "quantile_level": 0.95,
+    "quantile_value": 0.003998374191080366,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0000",
+      "topology_hash": "b9011e182fed1aba",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "38ee3d45-82",
+      "record_id": "record_0002",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-05T18:10:05",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.09027777777777778,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-2364819ab6b9697d",
+    "raw_threshold": 0.003998374191080366,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-32ffe69d0f44c771",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "emailservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-25T18:10:00",
+    "history_end": "2025-06-26T18:10:00",
+    "valid_samples": 130,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0024",
+      "topology_hash": "6f7c2278f07a040a",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "ac8cf6cb-553",
+      "record_id": "record_0002",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-26T18:10:05",
+      "fault_family": "network",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.09027777777777778,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-c787888715f99b4b",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-b6cd3c0248942bb9",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "emailservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-22T16:10:00",
+    "history_end": "2025-06-23T16:10:00",
+    "valid_samples": 10,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0021",
+      "topology_hash": "5efedd1d82a24629",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "f625bd45-479",
+      "record_id": "record_0000",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-23T16:10:01",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.006944444444444444,
+      "confidence": "low",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-a2ca8e5626b7e3d3",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-0cd19d02c279d151",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "productcatalogservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-25T19:10:00",
+    "history_end": "2025-06-26T19:10:00",
+    "valid_samples": 190,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0024",
+      "topology_hash": "6f7c2278f07a040a",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "3d3f68e9-554",
+      "record_id": "record_0003",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-26T19:10:10",
+      "fault_family": "memory",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.13194444444444445,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-927c83932fc0eccd",
+    "raw_threshold": 3e-06,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "zero_error_baseline",
+      "threshold_from_robust_scale_floor"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-478735e710f2b531",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "currencyservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-22T23:10:00",
+    "history_end": "2025-06-23T23:10:00",
+    "valid_samples": 429,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0021",
+      "topology_hash": "5efedd1d82a24629",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "192019ef-486",
+      "record_id": "record_0007",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-23T23:10:09",
+      "fault_family": "cpu",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.29791666666666666,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-1b69270d7db724c9",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-6b337ccb49fbba11",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "checkoutservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-04T17:10:00",
+    "history_end": "2025-06-05T17:10:00",
+    "valid_samples": 70,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0000",
+      "topology_hash": "b9011e182fed1aba",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "74a44ae7-81",
+      "record_id": "record_0001",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-05T17:10:04",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.04861111111111111,
+      "confidence": "low",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-6d07c4138b10d182",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-749f232d64db6968",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "recommendationservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-05T00:10:00",
+    "history_end": "2025-06-06T00:10:00",
+    "valid_samples": 457,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0000",
+      "topology_hash": "b9011e182fed1aba",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "233e0282-88",
+      "record_id": "record_0007",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-06T00:10:14",
+      "fault_family": "cpu",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.3173611111111111,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-8adcaebb8d0737ba",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-0d1a0cb05fef7ab6",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "productcatalogservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-25T22:10:00",
+    "history_end": "2025-06-26T22:10:00",
+    "valid_samples": 355,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0024",
+      "topology_hash": "6f7c2278f07a040a",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "a9a3df0e-557",
+      "record_id": "record_0006",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-26T22:10:14",
+      "fault_family": "disk",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.2465277777777778,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-7dbf619c1c0da1ca",
+    "raw_threshold": 3e-06,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "zero_error_baseline",
+      "threshold_from_robust_scale_floor"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-4efe6c1d233e0a06",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "checkoutservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-23T05:10:00",
+    "history_end": "2025-06-24T05:10:00",
+    "valid_samples": 712,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0023",
+      "topology_hash": "5efedd1d82a24629",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "d3691ad9-492",
+      "record_id": "record_0004",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-24T05:10:17",
+      "fault_family": "cpu",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.49444444444444446,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-bd42cbe8617d7815",
+    "raw_threshold": 3e-06,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "zero_error_baseline",
+      "threshold_from_robust_scale_floor"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-87eb12374c2fbf49",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "productcatalogservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-25T20:10:00",
+    "history_end": "2025-06-26T20:10:00",
+    "valid_samples": 235,
+    "quantile_level": 0.95,
+    "quantile_value": 7196.827,
+    "median": 6903.57,
+    "mad": 101.76000000000022,
+    "robust_scale": 150.86937600000033,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0024",
+      "topology_hash": "6f7c2278f07a040a",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "1ae8a5c3-555",
+      "record_id": "record_0004",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-26T20:10:11",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.16319444444444445,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-350bd1c329d03c1d",
+    "raw_threshold": 7356.1781280000005,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 1.9437808240156031
+    }
+  },
+  {
+    "card_id": "acad-1b7c6d9dcf21e728",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "adservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-04T21:10:00",
+    "history_end": "2025-06-05T21:10:00",
+    "valid_samples": 310,
+    "quantile_level": 0.95,
+    "quantile_value": 5951.801,
+    "median": 4024.9300000000003,
+    "mad": 101.28500000000031,
+    "robust_scale": 150.16514100000046,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0000",
+      "topology_hash": "b9011e182fed1aba",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "8a7a8a00-85",
+      "record_id": "record_0005",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-05T21:10:10",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.2152777777777778,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-51bc25065c7b9016",
+    "raw_threshold": 5951.801,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 12.831679757154786
+    }
+  },
+  {
+    "card_id": "acad-de7e3708ace41b93",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "recommendationservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-04T21:10:00",
+    "history_end": "2025-06-05T21:10:00",
+    "valid_samples": 292,
+    "quantile_level": 0.95,
+    "quantile_value": 4148.741,
+    "median": 3917.5950000000003,
+    "mad": 92.34000000000015,
+    "robust_scale": 136.9032840000002,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0000",
+      "topology_hash": "b9011e182fed1aba",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "8a7a8a00-85",
+      "record_id": "record_0005",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-05T21:10:10",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.20277777777777778,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-45bdd4bf22b8021c",
+    "raw_threshold": 4328.304852000001,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 1.6883890089882678
+    }
+  },
+  {
+    "card_id": "acad-471cb78e9ecddc6f",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "shippingservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-22T23:10:00",
+    "history_end": "2025-06-23T23:10:00",
+    "valid_samples": 428,
+    "quantile_level": 0.95,
+    "quantile_value": 1334.0149999999999,
+    "median": 1128.71,
+    "mad": 50.815000000000055,
+    "robust_scale": 75.33831900000008,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0021",
+      "topology_hash": "5efedd1d82a24629",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "192019ef-486",
+      "record_id": "record_0007",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-23T23:10:09",
+      "fault_family": "cpu",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.2972222222222222,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-c5b360d1e37103a1",
+    "raw_threshold": 1354.7249570000004,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 2.7251072591624936
+    }
+  },
+  {
+    "card_id": "acad-c5d023b2f1a63f80",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "recommendationservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-15T16:10:00",
+    "history_end": "2025-06-16T16:10:00",
+    "valid_samples": 10,
+    "quantile_level": 0.95,
+    "quantile_value": 4174.4365,
+    "median": 3942.9449999999997,
+    "mad": 101.20000000000027,
+    "robust_scale": 150.0391200000004,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0010",
+      "topology_hash": "e23010531977ecef",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "50bce1c4-311",
+      "record_id": "record_0000",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-16T16:10:02",
+      "fault_family": "code",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.006944444444444444,
+      "confidence": "low",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-8178f8acfca15db0",
+    "raw_threshold": 4393.062360000001,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 1.5428742850531214
+    }
+  },
+  {
+    "card_id": "acad-4311dd9471984851",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "productcatalogservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-23T03:10:00",
+    "history_end": "2025-06-24T03:10:00",
+    "valid_samples": 651,
+    "quantile_level": 0.95,
+    "quantile_value": 7849.405000000001,
+    "median": 7365.75,
+    "mad": 109.56999999999971,
+    "robust_scale": 162.44848199999956,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0023",
+      "topology_hash": "5efedd1d82a24629",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "e7648f7d-490",
+      "record_id": "record_0002",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-24T03:10:14",
+      "fault_family": "memory",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.45208333333333334,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-10a20ebfb988fd78",
+    "raw_threshold": 7853.095445999998,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 2.9772823608164094
+    }
+  },
+  {
+    "card_id": "acad-3c6850f5e737e26e",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "currencyservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-26T03:10:00",
+    "history_end": "2025-06-27T03:10:00",
+    "valid_samples": 629,
+    "quantile_level": 0.95,
+    "quantile_value": 1608.2900000000006,
+    "median": 1168.48,
+    "mad": 49.23000000000002,
+    "robust_scale": 72.98839800000002,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0025",
+      "topology_hash": "db18487e40aa076e",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "7a54210f-562",
+      "record_id": "record_0003",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-27T03:10:21",
+      "fault_family": "disk",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.43680555555555556,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-3d2e0ad6f0396d9f",
+    "raw_threshold": 1608.2900000000006,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 6.025752202425385
+    }
+  },
+  {
+    "card_id": "acad-92768a25ab8e5cd1",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "frontend",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-22T17:10:00",
+    "history_end": "2025-06-23T17:10:00",
+    "valid_samples": 70,
+    "quantile_level": 0.95,
+    "quantile_value": 19227230.006,
+    "median": 12794.82,
+    "mad": 447.2499999999991,
+    "robust_scale": 663.0928499999986,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0021",
+      "topology_hash": "5efedd1d82a24629",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "6add78b2-480",
+      "record_id": "record_0001",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-23T17:10:02",
+      "fault_family": "cpu",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.04861111111111111,
+      "confidence": "low",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-a54c6264ac2e81f8",
+    "raw_threshold": 19227230.006,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 28976.990456163177
+    }
+  },
+  {
+    "card_id": "acad-dfbfbd6da606afbc",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-15T20:10:00",
+    "history_end": "2025-06-16T20:10:00",
+    "valid_samples": 207,
+    "quantile_level": 0.95,
+    "quantile_value": 3680.874999999999,
+    "median": 1660.31,
+    "mad": 111.44000000000005,
+    "robust_scale": 165.22094400000006,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0011",
+      "topology_hash": "2f3875a6298b6afb",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "a482d876-315",
+      "record_id": "record_0003",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-16T20:10:10",
+      "fault_family": "cpu",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.14375,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-4797c4b57b9c7300",
+    "raw_threshold": 3680.874999999999,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 12.229472554036482
+    }
+  },
+  {
+    "card_id": "acad-323ffbcbcaae0d22",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "emailservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-23T02:10:00",
+    "history_end": "2025-06-24T02:10:00",
+    "valid_samples": 604,
+    "quantile_level": 0.95,
+    "quantile_value": 2367.9885000000004,
+    "median": 1806.385,
+    "mad": 121.45000000000005,
+    "robust_scale": 180.06177000000005,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0023",
+      "topology_hash": "5efedd1d82a24629",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "a0d5329b-489",
+      "record_id": "record_0001",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-24T02:10:12",
+      "fault_family": "network",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.41944444444444445,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-eceb3a79fff2ffdb",
+    "raw_threshold": 2367.9885000000004,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 3.1189491250696926
+    }
+  },
+  {
+    "card_id": "acad-0769256f8dc797ef",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "paymentservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-15T18:10:00",
+    "history_end": "2025-06-16T18:10:00",
+    "valid_samples": 130,
+    "quantile_level": 0.95,
+    "quantile_value": 2313.488,
+    "median": 1423.825,
+    "mad": 179.69000000000005,
+    "robust_scale": 266.40839400000004,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0011",
+      "topology_hash": "2f3875a6298b6afb",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "009be6db-313",
+      "record_id": "record_0001",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-16T18:10:05",
+      "fault_family": "code",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.09027777777777778,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-27e5d81a60e625e2",
+    "raw_threshold": 2313.488,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 3.3394706024165277
+    }
+  },
+  {
+    "card_id": "acad-dea99c4b420745e6",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-26T03:10:00",
+    "history_end": "2025-06-27T03:10:00",
+    "valid_samples": 633,
+    "quantile_level": 0.95,
+    "quantile_value": 4228.899999999999,
+    "median": 1745.07,
+    "mad": 73.67999999999984,
+    "robust_scale": 109.23796799999975,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0025",
+      "topology_hash": "db18487e40aa076e",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "7a54210f-562",
+      "record_id": "record_0003",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-27T03:10:21",
+      "fault_family": "disk",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.4395833333333333,
+      "confidence": "medium",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-25aa28b2dcfae8d7",
+    "raw_threshold": 4228.899999999999,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "insufficient_evidence",
+    "governance_flags": [
+      "history_coverage_below_0_5",
+      "valid_samples_below_720",
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "collect_more_history_before_operationalization",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "lt_0_5",
+      "latency_tail_ratio": 22.737790215944006
+    }
+  },
+  {
+    "card_id": "acad-e62974562d5c491b",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "frontend",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-06T09:10:00",
+    "history_end": "2025-06-07T09:10:00",
+    "valid_samples": 1324,
+    "quantile_level": 0.95,
+    "quantile_value": 147266.88249999986,
+    "median": 11834.59,
+    "mad": 401.3650000000007,
+    "robust_scale": 595.0637490000009,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0004",
+      "topology_hash": "f8cc136bb69ddff2",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "f18b68cd-119",
+      "record_id": "record_0014",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-07T09:10:39",
+      "fault_family": "cpu",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9194444444444444,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-2b8d5f9b7c2d4fbd",
+    "raw_threshold": 147266.88249999986,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 227.59291374679194
+    }
+  },
+  {
+    "card_id": "acad-9e7ccfeb553a97f1",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-20T06:10:00",
+    "history_end": "2025-06-21T06:10:00",
+    "valid_samples": 1332,
+    "quantile_level": 0.95,
+    "quantile_value": 3707.465,
+    "median": 1573.52,
+    "mad": 104.76499999999999,
+    "robust_scale": 155.32458899999997,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0020",
+      "topology_hash": "4d5453e2db5eb5af",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "1003cbad-421",
+      "record_id": "record_0000",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-21T06:10:14",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.925,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-fd3f8a5f09399e51",
+    "raw_threshold": 3707.465,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 13.73861674921284
+    }
+  },
+  {
+    "card_id": "acad-f945ab711159ae41",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "redis-cart",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-17T03:10:00",
+    "history_end": "2025-06-18T03:10:00",
+    "valid_samples": 1439,
+    "quantile_level": 0.95,
+    "quantile_value": 1423.1709999999998,
+    "median": 205.82,
+    "mad": 24.090000000000003,
+    "robust_scale": 35.715834,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0014",
+      "topology_hash": "53ae26de0952b6fc",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "76937ba4-346",
+      "record_id": "record_0014",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-18T03:10:11",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.9993055555555556,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-d5038b2010328a37",
+    "raw_threshold": 1423.1709999999998,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 34.08435037524253
+    }
+  },
+  {
+    "card_id": "acad-ce7ad687b1677f76",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-17T04:10:00",
+    "history_end": "2025-06-18T04:10:00",
+    "valid_samples": 1369,
+    "quantile_level": 0.95,
+    "quantile_value": 3736.4759999999983,
+    "median": 1733.71,
+    "mad": 93.83999999999992,
+    "robust_scale": 139.12718399999986,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0014",
+      "topology_hash": "53ae26de0952b6fc",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "1d868f8e-347",
+      "record_id": "record_0015",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-18T04:10:12",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.9506944444444444,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-5c205ba828f2767e",
+    "raw_threshold": 3736.4759999999983,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 14.395216969244489
+    }
+  },
+  {
+    "card_id": "acad-226c7aa90f788313",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "redis-cart",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-17T13:10:00",
+    "history_end": "2025-06-18T13:10:00",
+    "valid_samples": 1439,
+    "quantile_level": 0.95,
+    "quantile_value": 1393.442999999999,
+    "median": 203.45,
+    "mad": 22.839999999999975,
+    "robust_scale": 33.86258399999996,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0014",
+      "topology_hash": "53ae26de0952b6fc",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "ac95d601-356",
+      "record_id": "record_0024",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-18T13:10:25",
+      "fault_family": "disk",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9993055555555556,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-450172686ccec2b1",
+    "raw_threshold": 1393.442999999999,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 35.141824971183546
+    }
+  },
+  {
+    "card_id": "acad-4271bc49fde4b03e",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "cartservice",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-10T03:10:00",
+    "history_end": "2025-06-11T03:10:00",
+    "valid_samples": 1369,
+    "quantile_level": 0.95,
+    "quantile_value": 3227.0419999999995,
+    "median": 1453.79,
+    "mad": 101.44000000000005,
+    "robust_scale": 150.39494400000007,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0008",
+      "topology_hash": "af4802b94fb92818",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "eaf978d7-208",
+      "record_id": "record_0018",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-11T03:10:31",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9506944444444444,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-10d3490294abdc1a",
+    "raw_threshold": 3227.0419999999995,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 11.790635727754244
+    }
+  },
+  {
+    "card_id": "acad-e928fdf8f8c1455a",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "frontend",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-10T03:10:00",
+    "history_end": "2025-06-11T03:10:00",
+    "valid_samples": 1341,
+    "quantile_level": 0.95,
+    "quantile_value": 37943.97,
+    "median": 12199.73,
+    "mad": 312.0699999999997,
+    "robust_scale": 462.67498199999955,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0008",
+      "topology_hash": "af4802b94fb92818",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "eaf978d7-208",
+      "record_id": "record_0018",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-11T03:10:31",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.93125,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-a082b68e8bd3102c",
+    "raw_threshold": 37943.97,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 55.64216999310334
+    }
+  },
+  {
+    "card_id": "acad-591a7bcea199c34e",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "redis-cart",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-05T06:03:00",
+    "history_end": "2025-06-06T06:03:00",
+    "valid_samples": 825,
+    "quantile_level": 0.95,
+    "quantile_value": 1047.984,
+    "median": 189.56,
+    "mad": 24.22999999999999,
+    "robust_scale": 35.923397999999985,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0001",
+      "topology_hash": "8cb8d52227475bb6",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "20622318-94",
+      "record_id": "record_0001",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-06T06:03:07",
+      "fault_family": "cpu",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.5729166666666666,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-2a127eeb7bddd3eb",
+    "raw_threshold": 1047.984,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "0_5_to_lt_0_75",
+      "latency_tail_ratio": 23.895957726493478
+    }
+  },
+  {
+    "card_id": "acad-78cc8a2fc9cb2c28",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "frontend",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-19T14:10:00",
+    "history_end": "2025-06-20T14:10:00",
+    "valid_samples": 1342,
+    "quantile_level": 0.95,
+    "quantile_value": 2251592.8630000004,
+    "median": 12029.865,
+    "mad": 343.7049999999999,
+    "robust_scale": 509.57703299999986,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0018",
+      "topology_hash": "c07f61503b1b53c0",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "bc7e1bf2-405",
+      "record_id": "record_0004",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-20T14:10:30",
+      "fault_family": "network",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9319444444444445,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-330c20bb180ecfe8",
+    "raw_threshold": 2251592.8630000004,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 4394.944930730426
+    }
+  },
+  {
+    "card_id": "acad-2261d5f767dc60a1",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "redis-cart",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-06T01:10:00",
+    "history_end": "2025-06-07T01:10:00",
+    "valid_samples": 1439,
+    "quantile_level": 0.95,
+    "quantile_value": 1047.3269999999993,
+    "median": 200.59,
+    "mad": 25.349999999999994,
+    "robust_scale": 37.58390999999999,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0004",
+      "topology_hash": "f8cc136bb69ddff2",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "a54c75dc-111",
+      "record_id": "record_0006",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-07T01:10:25",
+      "fault_family": "memory",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9993055555555556,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-41c8594579b04b7f",
+    "raw_threshold": 1047.3269999999993,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 22.529241901654178
+    }
+  },
+  {
+    "card_id": "acad-8ec61b43a0885a64",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "redis-cart",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-08T17:10:00",
+    "history_end": "2025-06-09T17:10:00",
+    "valid_samples": 1436,
+    "quantile_level": 0.95,
+    "quantile_value": 1000.5374999999999,
+    "median": 212.565,
+    "mad": 33.565,
+    "robust_scale": 49.76346899999999,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0006",
+      "topology_hash": "2053f2b0fe5dedf9",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "f78ef469-175",
+      "record_id": "record_0023",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-09T17:10:03",
+      "fault_family": "memory",
+      "target_type": "host"
+    },
+    "quality": {
+      "history_coverage": 0.9972222222222222,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-f0731627527de1d6",
+    "raw_threshold": 1000.5374999999999,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 15.834356322707325
+    }
+  },
+  {
+    "card_id": "acad-9f1cf7282cf3aa00",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "redis-cart",
+    "sli": "latency",
+    "sli_semantics": "minute-level mean request response time upper bound",
+    "unit": "ms",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "latency requires an observed request response",
+    "history_start": "2025-06-18T20:10:00",
+    "history_end": "2025-06-19T20:10:00",
+    "valid_samples": 1437,
+    "quantile_level": 0.95,
+    "quantile_value": 1405.6800000000003,
+    "median": 164.42,
+    "mad": 24.460000000000008,
+    "robust_scale": 36.26439600000001,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0017",
+      "topology_hash": "2ea65fdb7fa9f5ce",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "21950e63-387",
+      "record_id": "record_0014",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-19T20:10:06",
+      "fault_family": "disk",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9979166666666667,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-452800389d1d4f5a",
+    "raw_threshold": 1405.6800000000003,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "needs_context_review",
+    "governance_flags": [
+      "latency_tail_ratio_at_least_10"
+    ],
+    "recommended_next_action": "review_workload_mix_and_tail_distribution",
+    "review_round": 2,
+    "valid_observation_rule": "latency requires an observed request response; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": 34.22806214668513
+    }
+  },
+  {
+    "card_id": "acad-98a98d3024f37c2a",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "shippingservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-10T17:10:00",
+    "history_end": "2025-06-11T17:10:00",
+    "valid_samples": 1416,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0008",
+      "topology_hash": "af4802b94fb92818",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "ee77456a-222",
+      "record_id": "record_0032",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-11T17:10:04",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.9833333333333333,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-2f8178e741f4b459",
+    "raw_threshold": 3e-06,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline",
+      "threshold_from_robust_scale_floor"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-3ea90e5e762bd9f1",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "paymentservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-20T15:10:00",
+    "history_end": "2025-06-21T15:10:00",
+    "valid_samples": 1263,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0020",
+      "topology_hash": "4d5453e2db5eb5af",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "25ce9c41-430",
+      "record_id": "record_0009",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-21T15:10:32",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.8770833333333333,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-84ff8d251a177ae7",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-7c2d630eff1c8f33",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "shippingservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-18T10:10:00",
+    "history_end": "2025-06-19T10:10:00",
+    "valid_samples": 1402,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0017",
+      "topology_hash": "2ea65fdb7fa9f5ce",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "9ee6b9ce-377",
+      "record_id": "record_0004",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-19T10:10:24",
+      "fault_family": "disk",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9736111111111111,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-99a22210cf4966d0",
+    "raw_threshold": 3e-06,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline",
+      "threshold_from_robust_scale_floor"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-9232faf9a9c2e423",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "paymentservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-23T12:10:00",
+    "history_end": "2025-06-24T12:10:00",
+    "valid_samples": 1109,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0023",
+      "topology_hash": "5efedd1d82a24629",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "c4b46577-499",
+      "record_id": "record_0011",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-24T12:10:42",
+      "fault_family": "network",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.7701388888888889,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-44b8d65d8865d6d3",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-db15433db630e177",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "paymentservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-20T00:10:00",
+    "history_end": "2025-06-21T00:10:00",
+    "valid_samples": 1307,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0018",
+      "topology_hash": "c07f61503b1b53c0",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "67ca80f6-415",
+      "record_id": "record_0014",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-21T00:10:10",
+      "fault_family": "code",
+      "target_type": "service"
+    },
+    "quality": {
+      "history_coverage": 0.9076388888888889,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-b9c13f4387db6336",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-81180a0c5876d7b2",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "paymentservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-10T05:10:00",
+    "history_end": "2025-06-11T05:10:00",
+    "valid_samples": 1372,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0008",
+      "topology_hash": "af4802b94fb92818",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "6a9a1c00-210",
+      "record_id": "record_0020",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-11T05:10:35",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9527777777777777,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-13abac5db66af9fd",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-134a48a4dc15cee0",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "recommendationservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-12T19:10:00",
+    "history_end": "2025-06-13T19:10:00",
+    "valid_samples": 1346,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0009",
+      "topology_hash": "a72ca766b88227fd",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "864797d5-271",
+      "record_id": "record_0020",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-13T19:10:10",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9347222222222222,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-7ba93468f67c7c6c",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-df67281acef3a3ab",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "emailservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-06T23:10:00",
+    "history_end": "2025-06-07T23:10:00",
+    "valid_samples": 1305,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0004",
+      "topology_hash": "f8cc136bb69ddff2",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "fc44280d-133",
+      "record_id": "record_0028",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-07T23:10:13",
+      "fault_family": "network",
+      "target_type": "network"
+    },
+    "quality": {
+      "history_coverage": 0.90625,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-a5c58111dceab180",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-8bfd8bc279f1794f",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "checkoutservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-09T17:10:00",
+    "history_end": "2025-06-10T17:10:00",
+    "valid_samples": 1358,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0008",
+      "topology_hash": "af4802b94fb92818",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "4229b9c5-198",
+      "record_id": "record_0008",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-10T17:10:06",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9430555555555555,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-6f439f95594041e1",
+    "raw_threshold": 3e-06,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline",
+      "threshold_from_robust_scale_floor"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-b91296f978969cdb",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "recommendationservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-19T21:10:00",
+    "history_end": "2025-06-20T21:10:00",
+    "valid_samples": 1361,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0018",
+      "topology_hash": "c07f61503b1b53c0",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "be622d9e-412",
+      "record_id": "record_0011",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-20T21:10:08",
+      "fault_family": "memory",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9451388888888889,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-e5316ebc2839528f",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-f6658b1a97650ae9",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "recommendationservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-27T09:10:00",
+    "history_end": "2025-06-28T09:10:00",
+    "valid_samples": 1387,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0025",
+      "topology_hash": "db18487e40aa076e",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "8c1e905b-592",
+      "record_id": "record_0033",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-28T09:10:25",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9631944444444445,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-9b67ca073e90b7c0",
+    "raw_threshold": 0.0,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  },
+  {
+    "card_id": "acad-25bf8feb4bfff5f6",
+    "schema": "runtime-nfr-boundary-card/v2-academic",
+    "status": "candidate",
+    "subject_type": "application_service",
+    "subject_id": "checkoutservice",
+    "sli": "error_ratio",
+    "sli_semantics": "(error + timeout) / request upper bound",
+    "unit": "ratio",
+    "measurement_point": "application APM, one-minute aggregation",
+    "zero_traffic_rule": "minutes with request=0 are excluded from availability/error judgement",
+    "history_start": "2025-06-13T05:10:00",
+    "history_end": "2025-06-14T05:10:00",
+    "valid_samples": 1354,
+    "quantile_level": 0.95,
+    "quantile_value": 0.0,
+    "median": 0.0,
+    "mad": 0.0,
+    "robust_scale": 1e-06,
+    "persistence_minutes": 3,
+    "observation_context": {
+      "segment_id": "seg_0009",
+      "topology_hash": "a72ca766b88227fd",
+      "history_minutes_requested": 1440,
+      "workload_scope": "per-service historical request workload"
+    },
+    "evidence_provenance": {
+      "protocol": "runtime_nfr_v2",
+      "dataset_hash": "229cd3b93ed7d295f3843e2120fec25c4940996feac7f735deb7d9e9b4dcef42",
+      "event_id": "de83df2d-281",
+      "record_id": "record_0030",
+      "query_version": "runtime-nfr-boundary-card/v1",
+      "evidence_cutoff": "2025-06-14T05:10:28",
+      "fault_family": "process",
+      "target_type": "pod"
+    },
+    "quality": {
+      "history_coverage": 0.9402777777777778,
+      "confidence": "high",
+      "finite_threshold": true,
+      "candidate_only": true,
+      "requires_stakeholder_approval": true
+    },
+    "parent_card_id": "nfr-e6d1123fae991211",
+    "raw_threshold": 3e-06,
+    "measurement_resolution": {
+      "observed_source_resolution": "not_independently_established",
+      "robust_scale_floor": 1e-06,
+      "threshold_was_rounded_or_clipped": false
+    },
+    "evidence_status": "threshold_unresolved",
+    "governance_flags": [
+      "zero_error_baseline",
+      "threshold_from_robust_scale_floor"
+    ],
+    "recommended_next_action": "obtain_reference_target_measurement_resolution_or_stakeholder_input",
+    "review_round": 2,
+    "valid_observation_rule": "minutes with request=0 are excluded from availability/error judgement; use only finite minute-level observations within the historical window",
+    "reference_status": "no_external_reference_objective_supplied",
+    "applicability_context": {
+      "scope": "candidate per-service runtime NFR boundary",
+      "business_slo_approved": false,
+      "requires_stakeholder_confirmation": true,
+      "history_coverage_bucket": "ge_0_75",
+      "latency_tail_ratio": null
+    }
+  }
+]
